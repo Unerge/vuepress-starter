@@ -3,6 +3,7 @@ import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress'
 
 export default defineUserConfig({
+  base: '/vuepress-starter/', // 仓库名
   title: 'WentUrc', // 网站标题
   description: '持续学习大学课程', // 网站描述
   head: [ // 注入到当前HTMl页面 <head> 中的标签
