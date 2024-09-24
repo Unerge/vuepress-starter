@@ -1,10 +1,12 @@
 export const redirects = JSON.parse("{}")
 
 export const routes = Object.fromEntries([
-  ["/", { loader: () => import(/* webpackChunkName: "index.html" */"C:/Users/27493/Documents/GitHub/vuepress-starter/docs/.vuepress/.temp/pages/index.html.js"), meta: {"title":"Hello vuepress"} }],
-  ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"C:/Users/27493/Documents/GitHub/vuepress-starter/docs/.vuepress/.temp/pages/404.html.js"), meta: {"title":""} }],
+  ["/", { loader: () => import(/* webpackChunkName: "index.html" */"C:/Users/27493/Documents/GitHub/vuepress-starter/docs/.vuepress/.temp/pages/index.html.js"), meta: {"title":""} }],
+  ["/css/", { loader: () => import(/* webpackChunkName: "css_index.html" */"C:/Users/27493/Documents/GitHub/vuepress-starter/docs/.vuepress/.temp/pages/css/index.html.js"), meta: {"title":""} }],
+  ["/html/getting-started.html", { loader: () => import(/* webpackChunkName: "html_getting-started.html" */"C:/Users/27493/Documents/GitHub/vuepress-starter/docs/.vuepress/.temp/pages/html/getting-started.html.js"), meta: {"title":""} }],
   ["/html/", { loader: () => import(/* webpackChunkName: "html_index.html" */"C:/Users/27493/Documents/GitHub/vuepress-starter/docs/.vuepress/.temp/pages/html/index.html.js"), meta: {"title":""} }],
-  ["/HTML/", { loader: () => import(/* webpackChunkName: "HTML_index.html" */"C:/Users/27493/Documents/GitHub/vuepress-starter/docs/.vuepress/.temp/pages/HTML/index.html.js"), meta: {"title":""} }],
+  ["/JavaScript/", { loader: () => import(/* webpackChunkName: "JavaScript_index.html" */"C:/Users/27493/Documents/GitHub/vuepress-starter/docs/.vuepress/.temp/pages/JavaScript/index.html.js"), meta: {"title":""} }],
+  ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"C:/Users/27493/Documents/GitHub/vuepress-starter/docs/.vuepress/.temp/pages/404.html.js"), meta: {"title":""} }],
 ]);
 
 if (import.meta.webpackHot) {
