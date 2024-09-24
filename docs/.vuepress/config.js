@@ -15,33 +15,84 @@ export default defineUserConfig({
 
   theme: defaultTheme({
     navbar: [ //导航栏
-      { text: 'HTML笔记', link: '/html/' },
-      { text: 'CSS笔记', link: '/css/' },
-      { text: 'JS笔记', link: '/JavaScript/' }
+      { text: 'beta', link: '/beta/' },
+      { text: 'GPTstort', link: '/GPTstory/' },
+      { text: 'tech', link: '/tech/' },
+      { text: '房屋建筑学', link: '/房屋建筑学/' },
+      { text: '工程力学', link: '/工程力学/' },
+      { text: '管理学', link: '/管理学/' },
+      { text: '近代史', link: '/近代史/' },
+      { text: '经济学', link: '/经济学/' },
+      { text: '英语', link: '/英语/' }
     ],
 
     sidebar: {
-      '/html/': [
+      '/beta/': [
         {
-          text: 'HTML笔记',
+          text: 'beta',
           collapsible: true, // VuePress 2.x 中的 `collapsable` 替换为 `collapsible`
           children: [
-            '/html/',  // README.md 对应路径
+            '/beta/',  // README.md 对应路径
           ],
         },
       ],
-      '/css/': [
+      '/GPTstory/': [
         {
-          text: 'CSS笔记',
+          text: 'GPTstory',
           collapsible: true,
-          children: ['/css/'],  // 这里也可以根据需要增加其他子页面
+          children: [
+            '1.md',
+            '2.md',
+          ],  // 这里也可以根据需要增加其他子页面
         },
       ],
-      '/JavaScript/': [
+      '/tech/': [
         {
-          text: 'JS笔记',
+          text: 'tech',
           collapsible: true,
-          children: ['/JavaScript/'],  // 同样这里也可以增加其他子页面
+          children: ['1.md','2.md','3.md','4.md','5.md','6.md','7.md','8.md'],  // 同样这里也可以增加其他子页面
+        },
+      ],
+      '/工程力学/': [
+        {
+          text: '工程力学',
+          collapsible: true,
+          children: ['复习资料1.md','题目1的解答.md','题目解答2.md'],  // 同样这里也可以增加其他子页面
+        },
+      ],
+      '/房屋建筑学/': [
+        {
+          text: '房屋建筑学',
+          collapsible: true,
+          children: ['复习资料 01.md',],  // 同样这里也可以增加其他子页面
+        },
+      ],
+      '/管理学/': [
+        {
+          text: '管理学',
+          collapsible: true,
+          children: ['第一章.md',],  // 同样这里也可以增加其他子页面
+        },
+      ],
+      '/经济学/': [
+        {
+          text: '经济学',
+          collapsible: true,
+          children: ['经济学期末考-复习1.md','经济学期末考-复习2.md'],  // 同样这里也可以增加其他子页面
+        },
+      ],
+      '/英语/': [
+        {
+          text: '英语',
+          collapsible: true,
+          children: ['期末资料 .md',],  // 同样这里也可以增加其他子页面
+        },
+      ],
+      '/近代史/': [
+        {
+          text: '近代史',
+          collapsible: true,
+          children: ['期末资料 .md',],  // 同样这里也可以增加其他子页面
         },
       ],
     },
@@ -63,6 +114,15 @@ export default defineUserConfig({
       'vuepress-plugin-one-click-copy', // 注意插件名称已更新
       {
         copyMessage: '复制成功',
+      },
+    ],
+    [
+      'vuepress-plugin-mathjax',  // 插件名称
+      {
+        target: 'svg', // 使用 SVG 来渲染数学公式
+        macros: {
+          '*': '\\times',
+        },
       },
     ],
   ],
