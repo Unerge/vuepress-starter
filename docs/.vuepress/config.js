@@ -79,7 +79,7 @@ export default defineUserConfig({
         {
           text: '管理学',
           collapsible: true,
-          children: ['第一章.md',],  // 同样这里也可以增加其他子页面
+          children: ['第一章.md','绪论.md',],  // 同样这里也可以增加其他子页面
         },
       ],
       '/经济学/': [
