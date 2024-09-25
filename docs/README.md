@@ -4,7 +4,7 @@ heroImage: logo.jpg
 heroText: WentUrc
 tagline: 为什么昨晚的清醒与今日的倦意遥相呼应
 actionText: 快速学习
-actionLink: /vuepress-starter/beta/
+actionLink: /beta/
 features:
   - title: HTML
     details: 超文本标记语言
