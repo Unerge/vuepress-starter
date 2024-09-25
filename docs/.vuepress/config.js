@@ -15,6 +15,13 @@ export default defineUserConfig({
   },
 
   theme: defaultTheme({
+
+    repo: 'Unerge/vuepress-starter',
+    docsDir: 'docs',
+    docsBranch: 'docs', // 如果文档在其他分支，请设置此项，默认为 `main` 或 `master`
+    editLinks: true,
+    editLinkText: '在 GitHub 上编辑此页',
+
     navbar: [ //导航栏
       { text: 'beta', link: '/beta/' },
       { text: 'GPTstort', link: '/GPTstory/' },
