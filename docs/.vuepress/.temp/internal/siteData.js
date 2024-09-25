@@ -1,1 +1,1 @@
-export const siteData = JSON.parse("{\"base\":\"/vuepress-starter/\",\"lang\":\"en-US\",\"title\":\"WentUrc\",\"description\":\"持续学习大学课程\",\"head\":[[\"link\",{\"rel\":\"icon\",\"href\":\"/logo.jpg\"}]],\"locales\":{}}")
+export const siteData = JSON.parse("{\"base\":\"/vuepress-starter/\",\"lang\":\"en-US\",\"title\":\"WentUrc\",\"description\":\"持续学习大学课程\",\"head\":[[\"link\",{\"rel\":\"icon\",\"href\":\"/vuepress-starter/logo.jpg\"}]],\"locales\":{}}")
