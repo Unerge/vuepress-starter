@@ -24,17 +24,15 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 20
-          cache: 'pnpm'
+          cache: 'yarn'  # 使用 yarn 缓存
 
-      # Step 3: 安装 pnpm
-      - name: Install pnpm
-        run: |-
-          npm install -g pnpm
-          pnpm install
+      # Step 3: 安装依赖
+      - name: Install dependencies
+        run: yarn install
 
       # Step 4: 构建文档
       - name: Build VuePress
-        run: pnpm run docs:build
+        run: yarn docs:build
 
       # Step 5: 部署到 main 分支
       - name: Deploy to GitHub Pages
