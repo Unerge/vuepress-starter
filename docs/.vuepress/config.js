@@ -10,13 +10,10 @@ export default defineUserConfig({
   head: [ // 注入到当前HTMl页面 <head> 中的标签
     ['link', { rel: 'icon', href: '/vuepress-starter/logo.jpg' }], // 增加一个自定义的 favicon(网页标签的图标)
   ],
-
   markdown: {
     lineNumbers: true, // 代码块显示行号
   },
-
   theme: defaultTheme({
-
     repo: 'Unerge/vuepress-starter',
     docsDir: 'docs',
     docsBranch: 'docs', // 如果文档在其他分支，请设置此项，默认为 `main` 或 `master`
