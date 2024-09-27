@@ -22,7 +22,8 @@ export const routes = Object.fromEntries([
   ["/%E6%88%BF%E5%B1%8B%E5%BB%BA%E7%AD%91%E5%AD%A6/", { loader: () => import(/* webpackChunkName: "房屋建筑学_index.html" */"C:/Users/27493/Documents/GitHub/vuepress-starter/docs/.vuepress/.temp/pages/房屋建筑学/index.html.js"), meta: {"title":"存放房屋建筑学资料"} }],
   ["/%E6%88%BF%E5%B1%8B%E5%BB%BA%E7%AD%91%E5%AD%A6/%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99%2001.html", { loader: () => import(/* webpackChunkName: "房屋建筑学_复习资料 01.html" */"C:/Users/27493/Documents/GitHub/vuepress-starter/docs/.vuepress/.temp/pages/房屋建筑学/复习资料 01.html.js"), meta: {"title":"建筑三要素"} }],
   ["/%E7%AE%A1%E7%90%86%E5%AD%A6/", { loader: () => import(/* webpackChunkName: "管理学_index.html" */"C:/Users/27493/Documents/GitHub/vuepress-starter/docs/.vuepress/.temp/pages/管理学/index.html.js"), meta: {"title":"存放管理学复习资料的地方"} }],
-  ["/%E7%AE%A1%E7%90%86%E5%AD%A6/%E7%AC%AC%E4%B8%80%E7%AB%A0.html", { loader: () => import(/* webpackChunkName: "管理学_第一章.html" */"C:/Users/27493/Documents/GitHub/vuepress-starter/docs/.vuepress/.temp/pages/管理学/第一章.html.js"), meta: {"title":"第一章"} }],
+  ["/%E7%AE%A1%E7%90%86%E5%AD%A6/%E7%AC%AC%E4%B8%80%E7%AB%A0.html", { loader: () => import(/* webpackChunkName: "管理学_第一章.html" */"C:/Users/27493/Documents/GitHub/vuepress-starter/docs/.vuepress/.temp/pages/管理学/第一章.html.js"), meta: {"title":"第一章 管理导论"} }],
+  ["/%E7%AE%A1%E7%90%86%E5%AD%A6/%E7%BB%AA%E8%AE%BA.html", { loader: () => import(/* webpackChunkName: "管理学_绪论.html" */"C:/Users/27493/Documents/GitHub/vuepress-starter/docs/.vuepress/.temp/pages/管理学/绪论.html.js"), meta: {"title":"绪论"} }],
   ["/%E7%BB%8F%E6%B5%8E%E5%AD%A6/", { loader: () => import(/* webpackChunkName: "经济学_index.html" */"C:/Users/27493/Documents/GitHub/vuepress-starter/docs/.vuepress/.temp/pages/经济学/index.html.js"), meta: {"title":"经济学复习资料"} }],
   ["/%E7%BB%8F%E6%B5%8E%E5%AD%A6/%E7%BB%8F%E6%B5%8E%E5%AD%A6%E6%9C%9F%E6%9C%AB%E8%80%83-%E5%A4%8D%E4%B9%A01.html", { loader: () => import(/* webpackChunkName: "经济学_经济学期末考-复习1.html" */"C:/Users/27493/Documents/GitHub/vuepress-starter/docs/.vuepress/.temp/pages/经济学/经济学期末考-复习1.html.js"), meta: {"title":"①用支出运算GDP时的投资是什么"} }],
   ["/%E7%BB%8F%E6%B5%8E%E5%AD%A6/%E7%BB%8F%E6%B5%8E%E5%AD%A6%E6%9C%9F%E6%9C%AB%E8%80%83-%E5%A4%8D%E4%B9%A02.html", { loader: () => import(/* webpackChunkName: "经济学_经济学期末考-复习2.html" */"C:/Users/27493/Documents/GitHub/vuepress-starter/docs/.vuepress/.temp/pages/经济学/经济学期末考-复习2.html.js"), meta: {"title":"1. GDP的四个组成部分是什么?"} }],
@@ -32,3 +33,20 @@ export const routes = Object.fromEntries([
   ["/%E8%BF%91%E4%BB%A3%E5%8F%B2/%E6%9C%9F%E6%9C%AB%E8%B5%84%E6%96%99%20.html", { loader: () => import(/* webpackChunkName: "近代史_期末资料 .html" */"C:/Users/27493/Documents/GitHub/vuepress-starter/docs/.vuepress/.temp/pages/近代史/期末资料 .html.js"), meta: {"title":"第八~十章 “现代史”专题训练"} }],
   ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"C:/Users/27493/Documents/GitHub/vuepress-starter/docs/.vuepress/.temp/pages/404.html.js"), meta: {"title":""} }],
 ]);
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updateRoutes) {
+    __VUE_HMR_RUNTIME__.updateRoutes(routes)
+  }
+  if (__VUE_HMR_RUNTIME__.updateRedirects) {
+    __VUE_HMR_RUNTIME__.updateRedirects(redirects)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ routes, redirects }) => {
+    __VUE_HMR_RUNTIME__.updateRoutes(routes)
+    __VUE_HMR_RUNTIME__.updateRedirects(redirects)
+  })
+}
