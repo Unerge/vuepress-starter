@@ -105,14 +105,14 @@ export default defineUserConfig({
           children: ['期末资料 .md',],  // 同样这里也可以增加其他子页面
         },
       ],
-    },'/毛概/': [
+      '/毛概/': [
         {
           text: '毛概' ,
           collapsible: true,
           children: ['导论.md', '第一章.md', '第二章.md',]
-        }
-    ]
-
+        },
+      ],
+    },
     // 其他主题配置
     logo: '/img/logo1251.jpg',
     search: true,
