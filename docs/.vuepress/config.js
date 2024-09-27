@@ -32,7 +32,7 @@ export default defineUserConfig({
       { text: '管理学', link: '/管理学/' },
       { text: '近代史', link: '/近代史/' },
       { text: '经济学', link: '/经济学/' },
-      { text: '英语', link: '/英语/' }
+      { text: '英语', link: '/英语/' },
       { text: '毛概', link: '/毛概/'}
     ],
 
