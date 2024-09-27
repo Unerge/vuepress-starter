@@ -1,6 +1,7 @@
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress'
+import { searchPlugin } from '@vuepress/plugin-search'
 
 export default defineUserConfig({
   base: '/vuepress-starter/', // 仓库名
@@ -132,6 +133,20 @@ export default defineUserConfig({
           '*': '\\times',
         },
       },
+    ],
+    [
+      searchPlugin({
+        // 配置项
+        isSearchable: (page) => page.path !== '/',
+        locales: {
+          '/': {
+            placeholder: 'Search',
+          },
+          '/zh/': {
+            placeholder: '搜索',
+          },
+        },  
+      }),
     ],
   ],
 })
