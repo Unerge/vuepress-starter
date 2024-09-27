@@ -57,6 +57,13 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "",
+    "headers": [],
+    "path": "/learn/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "原神伤害公式",
     "headers": [
       {
@@ -450,7 +457,7 @@ export const SEARCH_INDEX = [
   {
     "title": "来自工程力学教材",
     "headers": [],
-    "path": "/%E5%B7%A5%E7%A8%8B%E5%8A%9B%E5%AD%A6/",
+    "path": "/learn/%E5%B7%A5%E7%A8%8B%E5%8A%9B%E5%AD%A6/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -544,7 +551,7 @@ export const SEARCH_INDEX = [
         ]
       }
     ],
-    "path": "/%E5%B7%A5%E7%A8%8B%E5%8A%9B%E5%AD%A6/%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%991.html",
+    "path": "/learn/%E5%B7%A5%E7%A8%8B%E5%8A%9B%E5%AD%A6/%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%991.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -559,7 +566,7 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/%E5%B7%A5%E7%A8%8B%E5%8A%9B%E5%AD%A6/%E9%A2%98%E7%9B%AE1%E7%9A%84%E8%A7%A3%E7%AD%94.html",
+    "path": "/learn/%E5%B7%A5%E7%A8%8B%E5%8A%9B%E5%AD%A6/%E9%A2%98%E7%9B%AE1%E7%9A%84%E8%A7%A3%E7%AD%94.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -581,14 +588,14 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/%E5%B7%A5%E7%A8%8B%E5%8A%9B%E5%AD%A6/%E9%A2%98%E7%9B%AE%E8%A7%A3%E7%AD%942.html",
+    "path": "/learn/%E5%B7%A5%E7%A8%8B%E5%8A%9B%E5%AD%A6/%E9%A2%98%E7%9B%AE%E8%A7%A3%E7%AD%942.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
     "title": "存放房屋建筑学资料",
     "headers": [],
-    "path": "/%E6%88%BF%E5%B1%8B%E5%BB%BA%E7%AD%91%E5%AD%A6/",
+    "path": "/learn/%E6%88%BF%E5%B1%8B%E5%BB%BA%E7%AD%91%E5%AD%A6/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -820,14 +827,226 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/%E6%88%BF%E5%B1%8B%E5%BB%BA%E7%AD%91%E5%AD%A6/%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99%2001.html",
+    "path": "/learn/%E6%88%BF%E5%B1%8B%E5%BB%BA%E7%AD%91%E5%AD%A6/%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99%2001.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "毛泽东思想和中国特色社会主义理论体系概论（2023年版）",
+    "headers": [],
+    "path": "/learn/%E6%AF%9B%E6%A6%82/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "导论 马克思主义中国化时代化的历史进程与理论成果",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、马克思主义中国化时代化的提出",
+        "slug": "一、马克思主义中国化时代化的提出",
+        "link": "#一、马克思主义中国化时代化的提出",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、马克思主义中国化时代化的内涵",
+        "slug": "二、马克思主义中国化时代化的内涵",
+        "link": "#二、马克思主义中国化时代化的内涵",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、马克思主义中国化时代化的历史进程",
+        "slug": "三、马克思主义中国化时代化的历史进程",
+        "link": "#三、马克思主义中国化时代化的历史进程",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、马克思主义中国化理论成果及其关系",
+        "slug": "四、马克思主义中国化理论成果及其关系",
+        "link": "#四、马克思主义中国化理论成果及其关系",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "五、学习本课程的要求和方法",
+        "slug": "五、学习本课程的要求和方法",
+        "link": "#五、学习本课程的要求和方法",
+        "children": []
+      }
+    ],
+    "path": "/learn/%E6%AF%9B%E6%A6%82/%E5%AF%BC%E8%AE%BA.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第一章 毛泽东思想及其历史地位",
+    "headers": [
+      {
+        "level": 2,
+        "title": "第一节 毛泽东思想的形成和发展",
+        "slug": "第一节-毛泽东思想的形成和发展",
+        "link": "#第一节-毛泽东思想的形成和发展",
+        "children": [
+          {
+            "level": 3,
+            "title": "一、毛泽东思想形成发展的历史条件",
+            "slug": "一、毛泽东思想形成发展的历史条件",
+            "link": "#一、毛泽东思想形成发展的历史条件",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "二、毛泽东思想形成发展的过程",
+            "slug": "二、毛泽东思想形成发展的过程",
+            "link": "#二、毛泽东思想形成发展的过程",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "第二节 毛泽东思想的主要内容和活的灵魂",
+        "slug": "第二节-毛泽东思想的主要内容和活的灵魂",
+        "link": "#第二节-毛泽东思想的主要内容和活的灵魂",
+        "children": [
+          {
+            "level": 3,
+            "title": "一、毛泽东思想的主要内容",
+            "slug": "一、毛泽东思想的主要内容",
+            "link": "#一、毛泽东思想的主要内容",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "二、毛泽东思想活的灵魂",
+            "slug": "二、毛泽东思想活的灵魂",
+            "link": "#二、毛泽东思想活的灵魂",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "第三节 毛泽东思想的历史地位",
+        "slug": "第三节-毛泽东思想的历史地位",
+        "link": "#第三节-毛泽东思想的历史地位",
+        "children": [
+          {
+            "level": 3,
+            "title": "一、马克思主义中国化时代化的第一个重大理论成果",
+            "slug": "一、马克思主义中国化时代化的第一个重大理论成果",
+            "link": "#一、马克思主义中国化时代化的第一个重大理论成果",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "二、中国革命和建设的科学指南",
+            "slug": "二、中国革命和建设的科学指南",
+            "link": "#二、中国革命和建设的科学指南",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "三、中国共产党和中国人民宝贵的精神财富",
+            "slug": "三、中国共产党和中国人民宝贵的精神财富",
+            "link": "#三、中国共产党和中国人民宝贵的精神财富",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/learn/%E6%AF%9B%E6%A6%82/%E7%AC%AC%E4%B8%80%E7%AB%A0.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第二章 新民主主义革命理论",
+    "headers": [
+      {
+        "level": 2,
+        "title": "第一节 新民主主义革命理论形成的依据",
+        "slug": "第一节-新民主主义革命理论形成的依据",
+        "link": "#第一节-新民主主义革命理论形成的依据",
+        "children": [
+          {
+            "level": 3,
+            "title": "一、近代中国国情和中国革命的时代特征",
+            "slug": "一、近代中国国情和中国革命的时代特征",
+            "link": "#一、近代中国国情和中国革命的时代特征",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "二、新民主主义革命理论的实践基础",
+            "slug": "二、新民主主义革命理论的实践基础",
+            "link": "#二、新民主主义革命理论的实践基础",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "第二节 新民主主义革命的总路线和基本纲领",
+        "slug": "第二节-新民主主义革命的总路线和基本纲领",
+        "link": "#第二节-新民主主义革命的总路线和基本纲领",
+        "children": [
+          {
+            "level": 3,
+            "title": "一、新民主主义革命的总路线",
+            "slug": "一、新民主主义革命的总路线",
+            "link": "#一、新民主主义革命的总路线",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "二、新民主主义的基本纲领",
+            "slug": "二、新民主主义的基本纲领",
+            "link": "#二、新民主主义的基本纲领",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "第三节 新民主主义革命的道路和基本经验",
+        "slug": "第三节-新民主主义革命的道路和基本经验",
+        "link": "#第三节-新民主主义革命的道路和基本经验",
+        "children": [
+          {
+            "level": 3,
+            "title": "一、新民主主义革命的道路",
+            "slug": "一、新民主主义革命的道路",
+            "link": "#一、新民主主义革命的道路",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "二、新民主主义革命的三大法宝",
+            "slug": "二、新民主主义革命的三大法宝",
+            "link": "#二、新民主主义革命的三大法宝",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "三、新民主主义革命的意义",
+            "slug": "三、新民主主义革命的意义",
+            "link": "#三、新民主主义革命的意义",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/learn/%E6%AF%9B%E6%A6%82/%E7%AC%AC%E4%BA%8C%E7%AB%A0.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
     "title": "存放管理学复习资料的地方",
     "headers": [],
-    "path": "/%E7%AE%A1%E7%90%86%E5%AD%A6/",
+    "path": "/learn/%E7%AE%A1%E7%90%86%E5%AD%A6/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -850,7 +1069,7 @@ export const SEARCH_INDEX = [
         ]
       }
     ],
-    "path": "/%E7%AE%A1%E7%90%86%E5%AD%A6/%E7%AC%AC%E4%B8%80%E7%AB%A0.html",
+    "path": "/learn/%E7%AE%A1%E7%90%86%E5%AD%A6/%E7%AC%AC%E4%B8%80%E7%AB%A0.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -879,14 +1098,14 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/%E7%AE%A1%E7%90%86%E5%AD%A6/%E7%BB%AA%E8%AE%BA.html",
+    "path": "/learn/%E7%AE%A1%E7%90%86%E5%AD%A6/%E7%BB%AA%E8%AE%BA.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
     "title": "经济学复习资料",
     "headers": [],
-    "path": "/%E7%BB%8F%E6%B5%8E%E5%AD%A6/",
+    "path": "/learn/%E7%BB%8F%E6%B5%8E%E5%AD%A6/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1125,7 +1344,7 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/%E7%BB%8F%E6%B5%8E%E5%AD%A6/%E7%BB%8F%E6%B5%8E%E5%AD%A6%E6%9C%9F%E6%9C%AB%E8%80%83-%E5%A4%8D%E4%B9%A01.html",
+    "path": "/learn/%E7%BB%8F%E6%B5%8E%E5%AD%A6/%E7%BB%8F%E6%B5%8E%E5%AD%A6%E6%9C%9F%E6%9C%AB%E8%80%83-%E5%A4%8D%E4%B9%A01.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1574,14 +1793,14 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/%E7%BB%8F%E6%B5%8E%E5%AD%A6/%E7%BB%8F%E6%B5%8E%E5%AD%A6%E6%9C%9F%E6%9C%AB%E8%80%83-%E5%A4%8D%E4%B9%A02.html",
+    "path": "/learn/%E7%BB%8F%E6%B5%8E%E5%AD%A6/%E7%BB%8F%E6%B5%8E%E5%AD%A6%E6%9C%9F%E6%9C%AB%E8%80%83-%E5%A4%8D%E4%B9%A02.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
     "title": "用于英语复习资料",
     "headers": [],
-    "path": "/%E8%8B%B1%E8%AF%AD/",
+    "path": "/learn/%E8%8B%B1%E8%AF%AD/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1610,14 +1829,14 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/%E8%8B%B1%E8%AF%AD/%E6%9C%9F%E6%9C%AB%E8%B5%84%E6%96%99%20.html",
+    "path": "/learn/%E8%8B%B1%E8%AF%AD/%E6%9C%9F%E6%9C%AB%E8%B5%84%E6%96%99%20.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
     "title": "近代史复习资料",
     "headers": [],
-    "path": "/%E8%BF%91%E4%BB%A3%E5%8F%B2/",
+    "path": "/learn/%E8%BF%91%E4%BB%A3%E5%8F%B2/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1660,7 +1879,7 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/%E8%BF%91%E4%BB%A3%E5%8F%B2/%E6%9C%9F%E6%9C%AB%E8%B5%84%E6%96%99%20.html",
+    "path": "/learn/%E8%BF%91%E4%BB%A3%E5%8F%B2/%E6%9C%9F%E6%9C%AB%E8%B5%84%E6%96%99%20.html",
     "pathLocale": "/",
     "extraFields": []
   },
