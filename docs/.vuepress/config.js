@@ -33,7 +33,7 @@ export default defineUserConfig({
       { text: '近代史', link: '/近代史/' },
       { text: '经济学', link: '/经济学/' },
       { text: '英语', link: '/英语/' },
-      { text: '毛概', link: '/毛概/'}
+      { text: '毛泽东概论', link: '/毛概/'}
     ],
 
     sidebar: {
@@ -107,7 +107,7 @@ export default defineUserConfig({
       ],
       '/毛概/': [
         {
-          text: '毛概' ,
+          text: '毛泽东概论' ,
           collapsible: true,
           children: ['导论.md', '第一章.md', '第二章.md',]
         },
