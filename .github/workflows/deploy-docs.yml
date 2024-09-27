@@ -1,10 +1,12 @@
 name: Deploy to GitHub Pages
 
+# 触发条件: 当 docs 分支有推送时运行
 on:
   push:
     branches:
       - docs  # 监听 docs 分支的推送
 
+# 权限配置
 permissions:
   contents: write  # 允许写入 main 分支
 
@@ -25,22 +27,22 @@ jobs:
         with:
           node-version: 20
           cache: 'yarn'  # 使用 yarn 缓存
-      
+
       # Step 3: 安装依赖
       - name: Install dependencies
         run: yarn install
-        
-      # Step 4: 构建文档
+
+      # Step 4: 构建 VuePress 文档
       - name: Build VuePress
         run: yarn docs:build
 
-      - name: 检查 GitHub Pages Deploy Action 安装
-        run: ls -la ${{ github.workspace }}/_actions/JamesIves/github-pages-deploy-action/v4/lib/
+      # Step 4.5: 添加 .nojekyll 文件，确保 GitHub Pages 正确渲染
+      - name: Create .nojekyll file
+        run: echo '' > docs/.vuepress/dist/.nojekyll
 
-      # Step 5: 部署到 main 分支
+      # Step 5: 部署到 main 分支的根目录
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: main  # 部署到 main 分支
+          branch: main  # 将文件部署到 main 分支
           folder: docs/.vuepress/dist  # 使用 dist 目录作为静态文件源
-          clean: true  # 清理 main 分支根目录中的文件
