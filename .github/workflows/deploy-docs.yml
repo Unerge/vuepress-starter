@@ -25,14 +25,17 @@ jobs:
         with:
           node-version: 20
           cache: 'yarn'  # 使用 yarn 缓存
-
+      
       # Step 3: 安装依赖
       - name: Install dependencies
         run: yarn install
-
+        
       # Step 4: 构建文档
       - name: Build VuePress
         run: yarn docs:build
+
+      - name: 检查 GitHub Pages Deploy Action 安装
+        run: ls -la ${{ github.workspace }}/_actions/JamesIves/github-pages-deploy-action/v4/lib/
 
       # Step 5: 部署到 main 分支
       - name: Deploy to GitHub Pages
