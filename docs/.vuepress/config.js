@@ -10,13 +10,10 @@ export default defineUserConfig({
   head: [ // 注入到当前HTMl页面 <head> 中的标签
     ['link', { rel: 'icon', href: '/vuepress-starter/logo.jpg' }], // 增加一个自定义的 favicon(网页标签的图标)
   ],
-
   markdown: {
     lineNumbers: true, // 代码块显示行号
   },
-
   theme: defaultTheme({
-
     repo: 'Unerge/vuepress-starter',
     docsDir: 'docs',
     docsBranch: 'docs', // 如果文档在其他分支，请设置此项，默认为 `main` 或 `master`
@@ -27,13 +24,7 @@ export default defineUserConfig({
       { text: 'beta', link: '/beta/' },
       { text: 'GPTstort', link: '/GPTstory/' },
       { text: 'tech', link: '/tech/' },
-      { text: '房屋建筑学', link: '/房屋建筑学/' },
-      { text: '工程力学', link: '/工程力学/' },
-      { text: '管理学', link: '/管理学/' },
-      { text: '近代史', link: '/近代史/' },
-      { text: '经济学', link: '/经济学/' },
-      { text: '英语', link: '/英语/' },
-      { text: '毛概', link: '/毛概/'}
+      { text: 'Learn', link: '/learn/' }
     ],
 
     sidebar: {
@@ -63,56 +54,50 @@ export default defineUserConfig({
           children: ['1.md','2.md','3.md','4.md','5.md','6.md','7.md','8.md'],  // 同样这里也可以增加其他子页面
         },
       ],
-      '/工程力学/': [
+      '/learn/': [
+        //Group1
         {
-          text: '工程力学',
-          collapsible: true,
-          children: ['复习资料1.md','题目1的解答.md','题目解答2.md'],  // 同样这里也可以增加其他子页面
+          title: 'Learn',
+          children: [
+                {
+                    text: '工程力学',
+                    collapsible: true,
+                    children: ['/learn/工程力学/复习资料1.md','/learn/工程力学/题目1的解答.md','/learn/工程力学/题目解答2.md'],  // 同样这里也可以增加其他子页面
+                },
+                {
+                    text: '管理学',
+                    collapsible: true,
+                    children: ['/learn/管理学/绪论.md','/learn/管理学/第一章.md',],  // 同样这里也可以增加其他子页面
+                },
+                {
+                    text: '经济学',
+                    collapsible: true,
+                    children: ['/learn/经济学/经济学期末考-复习1.md','/learn/经济学/经济学期末考-复习2.md'],  // 同样这里也可以增加其他子页面
+                },
+                {
+                    text: '英语',
+                    collapsible: true,
+                    children: ['/learn/英语/期末资料 .md',],  // 同样这里也可以增加其他子页面
+                },
+                {
+                    text: '近代史',
+                    collapsible: true,
+                    children: ['/learn/近代史/期末资料 .md',],  // 同样这里也可以增加其他子页面
+                },
+                {
+                    text: '毛泽东概论',
+                    collapsible: true,
+                    children: ['/learn/毛概/导论.md', '/learn/毛概/第一章.md', '/learn/毛概/第二章.md',]
+                },
+                {
+                    text: '房屋建筑学',
+                    collapsible: true,
+                    children: ['/learn/房屋建筑学/复习资料 01.md', ]
+                },
+            ],
         },
-      ],
-      '/房屋建筑学/': [
-        {
-          text: '房屋建筑学',
-          collapsible: true,
-          children: ['复习资料 01.md',],  // 同样这里也可以增加其他子页面
-        },
-      ],
-      '/管理学/': [
-        {
-          text: '管理学',
-          collapsible: true,
-          children: ['绪论.md','第一章.md',],  // 同样这里也可以增加其他子页面
-        },
-      ],
-      '/经济学/': [
-        {
-          text: '经济学',
-          collapsible: true,
-          children: ['经济学期末考-复习1.md','经济学期末考-复习2.md'],  // 同样这里也可以增加其他子页面
-        },
-      ],
-      '/英语/': [
-        {
-          text: '英语',
-          collapsible: true,
-          children: ['期末资料 .md',],  // 同样这里也可以增加其他子页面
-        },
-      ],
-      '/近代史/': [
-        {
-          text: '近代史',
-          collapsible: true,
-          children: ['期末资料 .md',],  // 同样这里也可以增加其他子页面
-        },
-      ],
-      '/毛概/': [
-        {
-          text: '毛概' ,
-          collapsible: true,
-          children: ['导论.md', '第一章.md', '第二章.md',]
-        },
-      ],
-    },
+    ],
+},
     // 其他主题配置
     logo: '/img/logo1251.jpg',
     search: true,
