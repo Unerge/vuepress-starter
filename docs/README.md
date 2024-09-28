@@ -7,7 +7,7 @@ tagline: 为什么昨晚的清醒与今日的倦意遥相呼应
 actions:
   - theme: brand
     text: 快速学习 ▶
-    link: /learn/
+    link: /learn/工程力学/
 features:
   - title: HTML
     details: 超文本标记语言
