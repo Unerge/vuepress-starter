@@ -57,8 +57,51 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "WentUrc Learn",
-    "headers": [],
+    "title": "前言",
+    "headers": [
+      {
+        "level": 3,
+        "title": "工程力学",
+        "slug": "工程力学",
+        "link": "#工程力学",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "房屋建筑学",
+        "slug": "房屋建筑学",
+        "link": "#房屋建筑学",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "毛泽东概论",
+        "slug": "毛泽东概论",
+        "link": "#毛泽东概论",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "经济学",
+        "slug": "经济学",
+        "link": "#经济学",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "英语",
+        "slug": "英语",
+        "link": "#英语",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "管理学",
+        "slug": "管理学",
+        "link": "#管理学",
+        "children": []
+      }
+    ],
     "path": "/learn/",
     "pathLocale": "/",
     "extraFields": []
@@ -854,102 +897,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "管理学",
-    "headers": [],
-    "path": "/learn/%E7%AE%A1%E7%90%86%E5%AD%A6/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第一章 管理导论",
-    "headers": [
-      {
-        "level": 2,
-        "title": "第一节 管理的内涵与本质",
-        "slug": "第一节-管理的内涵与本质",
-        "link": "#第一节-管理的内涵与本质",
-        "children": [
-          {
-            "level": 3,
-            "title": "一、组织与管理",
-            "slug": "一、组织与管理",
-            "link": "#一、组织与管理",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "二、管理的内涵",
-            "slug": "二、管理的内涵",
-            "link": "#二、管理的内涵",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/learn/%E7%AE%A1%E7%90%86%E5%AD%A6/%E7%AC%AC%E4%B8%80%E7%AB%A0.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第二章 管理理论的历史演变",
-    "headers": [
-      {
-        "level": 2,
-        "title": "第一节 古典管理理论",
-        "slug": "第一节-古典管理理论",
-        "link": "#第一节-古典管理理论",
-        "children": [
-          {
-            "level": 3,
-            "title": "一、科学管理研究",
-            "slug": "一、科学管理研究",
-            "link": "#一、科学管理研究",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "二、一般管理研究",
-            "slug": "二、一般管理研究",
-            "link": "#二、一般管理研究",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/learn/%E7%AE%A1%E7%90%86%E5%AD%A6/%E7%AC%AC%E4%BA%8C%E7%AB%A0.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "绪论",
-    "headers": [
-      {
-        "level": 3,
-        "title": "一. 管理学的基本原理",
-        "slug": "一-管理学的基本原理",
-        "link": "#一-管理学的基本原理",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "二. 管理学的产生与发展",
-        "slug": "二-管理学的产生与发展",
-        "link": "#二-管理学的产生与发展",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "三. 学习管理学的意义",
-        "slug": "三-学习管理学的意义",
-        "link": "#三-学习管理学的意义",
-        "children": []
-      }
-    ],
-    "path": "/learn/%E7%AE%A1%E7%90%86%E5%AD%A6/%E7%BB%AA%E8%AE%BA.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "毛泽东概论",
     "headers": [],
     "path": "/learn/%E6%AF%9B%E6%A6%82/",
@@ -1162,38 +1109,98 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "英语",
+    "title": "管理学",
     "headers": [],
-    "path": "/learn/%E8%8B%B1%E8%AF%AD/",
+    "path": "/learn/%E7%AE%A1%E7%90%86%E5%AD%A6/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "2023-2024年第二学期《大学英语AII》期末复习范围",
+    "title": "第一章 管理导论",
+    "headers": [
+      {
+        "level": 2,
+        "title": "第一节 管理的内涵与本质",
+        "slug": "第一节-管理的内涵与本质",
+        "link": "#第一节-管理的内涵与本质",
+        "children": [
+          {
+            "level": 3,
+            "title": "一、组织与管理",
+            "slug": "一、组织与管理",
+            "link": "#一、组织与管理",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "二、管理的内涵",
+            "slug": "二、管理的内涵",
+            "link": "#二、管理的内涵",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/learn/%E7%AE%A1%E7%90%86%E5%AD%A6/%E7%AC%AC%E4%B8%80%E7%AB%A0.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第二章 管理理论的历史演变",
+    "headers": [
+      {
+        "level": 2,
+        "title": "第一节 古典管理理论",
+        "slug": "第一节-古典管理理论",
+        "link": "#第一节-古典管理理论",
+        "children": [
+          {
+            "level": 3,
+            "title": "一、科学管理研究",
+            "slug": "一、科学管理研究",
+            "link": "#一、科学管理研究",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "二、一般管理研究",
+            "slug": "二、一般管理研究",
+            "link": "#二、一般管理研究",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/learn/%E7%AE%A1%E7%90%86%E5%AD%A6/%E7%AC%AC%E4%BA%8C%E7%AB%A0.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "绪论",
     "headers": [
       {
         "level": 3,
-        "title": "Part III Multiple Choices (1.5*20=30 points)",
-        "slug": "part-iii-multiple-choices-1-5-20-30-points",
-        "link": "#part-iii-multiple-choices-1-5-20-30-points",
+        "title": "一. 管理学的基本原理",
+        "slug": "一-管理学的基本原理",
+        "link": "#一-管理学的基本原理",
         "children": []
       },
       {
         "level": 3,
-        "title": "Part IV Reading Comprehension (20 points)",
-        "slug": "part-iv-reading-comprehension-20-points",
-        "link": "#part-iv-reading-comprehension-20-points",
+        "title": "二. 管理学的产生与发展",
+        "slug": "二-管理学的产生与发展",
+        "link": "#二-管理学的产生与发展",
         "children": []
       },
       {
         "level": 3,
-        "title": "Part V Translation (4*5=20 points)",
-        "slug": "part-v-translation-4-5-20-points",
-        "link": "#part-v-translation-4-5-20-points",
+        "title": "三. 学习管理学的意义",
+        "slug": "三-学习管理学的意义",
+        "link": "#三-学习管理学的意义",
         "children": []
       }
     ],
-    "path": "/learn/%E8%8B%B1%E8%AF%AD/%E6%9C%9F%E6%9C%AB%E8%B5%84%E6%96%99%20.html",
+    "path": "/learn/%E7%AE%A1%E7%90%86%E5%AD%A6/%E7%BB%AA%E8%AE%BA.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1889,6 +1896,42 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/learn/%E7%BB%8F%E6%B5%8E%E5%AD%A6/%E7%BB%8F%E6%B5%8E%E5%AD%A6%E6%9C%9F%E6%9C%AB%E8%80%83-%E5%A4%8D%E4%B9%A02.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "英语",
+    "headers": [],
+    "path": "/learn/%E8%8B%B1%E8%AF%AD/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "2023-2024年第二学期《大学英语AII》期末复习范围",
+    "headers": [
+      {
+        "level": 3,
+        "title": "Part III Multiple Choices (1.5*20=30 points)",
+        "slug": "part-iii-multiple-choices-1-5-20-30-points",
+        "link": "#part-iii-multiple-choices-1-5-20-30-points",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "Part IV Reading Comprehension (20 points)",
+        "slug": "part-iv-reading-comprehension-20-points",
+        "link": "#part-iv-reading-comprehension-20-points",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "Part V Translation (4*5=20 points)",
+        "slug": "part-v-translation-4-5-20-points",
+        "link": "#part-v-translation-4-5-20-points",
+        "children": []
+      }
+    ],
+    "path": "/learn/%E8%8B%B1%E8%AF%AD/%E6%9C%9F%E6%9C%AB%E8%B5%84%E6%96%99%20.html",
     "pathLocale": "/",
     "extraFields": []
   },
