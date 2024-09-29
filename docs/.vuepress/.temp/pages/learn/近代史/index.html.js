@@ -1,5 +1,5 @@
 import comp from "C:/Users/27493/Documents/GitHub/vuepress-starter/docs/.vuepress/.temp/pages/learn/近代史/index.html.vue"
-const data = JSON.parse("{\"path\":\"/learn/%E8%BF%91%E4%BB%A3%E5%8F%B2/\",\"title\":\"近代史复习资料\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[],\"git\":{\"updatedTime\":null,\"contributors\":[]},\"filePathRelative\":\"learn/近代史/README.md\"}")
+const data = JSON.parse("{\"path\":\"/learn/%E8%BF%91%E4%BB%A3%E5%8F%B2/\",\"title\":\"近代史\",\"lang\":\"en-US\",\"frontmatter\":{\"title\":\"近代史\"},\"headers\":[],\"git\":{\"updatedTime\":1727454228000,\"contributors\":[{\"name\":\"Larch4\",\"email\":\"114554982+Larch4@users.noreply.github.com\",\"commits\":1}]},\"filePathRelative\":\"learn/近代史/README.md\"}")
 export { comp, data }
 
 if (import.meta.webpackHot) {

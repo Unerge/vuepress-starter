@@ -1,6 +1,7 @@
 ---
 home: true
-heroImage: /img/logo414.png
+title: WentUrc Learn
+heroImage: /img/logo2465.png
 heroText: WentUrc Learn
 actions:
   - theme: brand
