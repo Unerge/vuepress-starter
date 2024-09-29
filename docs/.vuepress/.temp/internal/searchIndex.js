@@ -57,8 +57,51 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "",
-    "headers": [],
+    "title": "前言",
+    "headers": [
+      {
+        "level": 3,
+        "title": "工程力学",
+        "slug": "工程力学",
+        "link": "#工程力学",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "房屋建筑学",
+        "slug": "房屋建筑学",
+        "link": "#房屋建筑学",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "毛泽东概论",
+        "slug": "毛泽东概论",
+        "link": "#毛泽东概论",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "经济学",
+        "slug": "经济学",
+        "link": "#经济学",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "英语",
+        "slug": "英语",
+        "link": "#英语",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "管理学",
+        "slug": "管理学",
+        "link": "#管理学",
+        "children": []
+      }
+    ],
     "path": "/learn/",
     "pathLocale": "/",
     "extraFields": []
@@ -448,6 +491,28 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "",
+    "headers": [
+      {
+        "level": 3,
+        "title": "支持的评论服务",
+        "slug": "支持的评论服务",
+        "link": "#支持的评论服务",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "配置方法",
+        "slug": "配置方法",
+        "link": "#配置方法",
+        "children": []
+      }
+    ],
+    "path": "/tech/9.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "专门用于存放技术文档",
     "headers": [],
     "path": "/tech/",
@@ -455,7 +520,7 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "来自工程力学教材",
+    "title": "工程力学",
     "headers": [],
     "path": "/learn/%E5%B7%A5%E7%A8%8B%E5%8A%9B%E5%AD%A6/",
     "pathLocale": "/",
@@ -593,7 +658,7 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "存放房屋建筑学资料",
+    "title": "房屋建筑学",
     "headers": [],
     "path": "/learn/%E6%88%BF%E5%B1%8B%E5%BB%BA%E7%AD%91%E5%AD%A6/",
     "pathLocale": "/",
@@ -832,7 +897,7 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "毛泽东思想和中国特色社会主义理论体系概论（2023年版）",
+    "title": "毛泽东概论",
     "headers": [],
     "path": "/learn/%E6%AF%9B%E6%A6%82/",
     "pathLocale": "/",
@@ -1044,7 +1109,7 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "存放管理学复习资料的地方",
+    "title": "管理学",
     "headers": [],
     "path": "/learn/%E7%AE%A1%E7%90%86%E5%AD%A6/",
     "pathLocale": "/",
@@ -1061,15 +1126,52 @@ export const SEARCH_INDEX = [
         "children": [
           {
             "level": 3,
-            "title": "一. 组织与管理",
-            "slug": "一-组织与管理",
-            "link": "#一-组织与管理",
+            "title": "一、组织与管理",
+            "slug": "一、组织与管理",
+            "link": "#一、组织与管理",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "二、管理的内涵",
+            "slug": "二、管理的内涵",
+            "link": "#二、管理的内涵",
             "children": []
           }
         ]
       }
     ],
     "path": "/learn/%E7%AE%A1%E7%90%86%E5%AD%A6/%E7%AC%AC%E4%B8%80%E7%AB%A0.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第二章 管理理论的历史演变",
+    "headers": [
+      {
+        "level": 2,
+        "title": "第一节 古典管理理论",
+        "slug": "第一节-古典管理理论",
+        "link": "#第一节-古典管理理论",
+        "children": [
+          {
+            "level": 3,
+            "title": "一、科学管理研究",
+            "slug": "一、科学管理研究",
+            "link": "#一、科学管理研究",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "二、一般管理研究",
+            "slug": "二、一般管理研究",
+            "link": "#二、一般管理研究",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/learn/%E7%AE%A1%E7%90%86%E5%AD%A6/%E7%AC%AC%E4%BA%8C%E7%AB%A0.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1103,7 +1205,7 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "经济学复习资料",
+    "title": "经济学",
     "headers": [],
     "path": "/learn/%E7%BB%8F%E6%B5%8E%E5%AD%A6/",
     "pathLocale": "/",
@@ -1798,7 +1900,7 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "用于英语复习资料",
+    "title": "英语",
     "headers": [],
     "path": "/learn/%E8%8B%B1%E8%AF%AD/",
     "pathLocale": "/",
@@ -1834,7 +1936,7 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "近代史复习资料",
+    "title": "近代史",
     "headers": [],
     "path": "/learn/%E8%BF%91%E4%BB%A3%E5%8F%B2/",
     "pathLocale": "/",

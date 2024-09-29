@@ -24,7 +24,7 @@ export default defineUserConfig({
       { text: 'beta', link: '/beta/' },
       { text: 'GPTstort', link: '/GPTstory/' },
       { text: 'tech', link: '/tech/' },
-      { text: 'Learn', link: '/learn/' }
+      { text: 'WentUrc Learn', link: '/learn/' , children: ['/learn/' , '/learn/工程力学/' , '/learn/管理学/' , '/learn/经济学/' , '/learn/英语/' , '/learn/近代史/' , '/learn/毛概/' , '/learn/房屋建筑学/']}
     ],
 
     sidebar: {
