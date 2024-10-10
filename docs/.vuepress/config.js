@@ -22,6 +22,7 @@ export default defineUserConfig({
 
     navbar: [ //导航栏
       { text: 'beta', link: '/beta/' },
+      { text: 'Novel', link: '/novel/', children: ['/novel/','/novel/Re - 从零开始的异世界生活/']}, 
       { text: 'GPTstort', link: '/GPTstory/' },
       { text: 'tech', link: '/tech/' },
       { text: 'WentUrc Learn', link: '/learn/' , children: ['/learn/' , '/learn/工程力学/' , '/learn/管理学/' , '/learn/经济学/' , '/learn/英语/' , '/learn/近代史/' , '/learn/毛概/' , '/learn/房屋建筑学/']}
@@ -34,6 +35,43 @@ export default defineUserConfig({
           collapsible: true, // VuePress 2.x 中的 `collapsable` 替换为 `collapsible`
           children: [
             '/beta/',  // README.md 对应路径
+          ],
+        },
+      ],
+      '/novel/':[
+        {
+          text: 'Novel',
+          children: [
+            {
+              text: 'Re - 从零开始的异世界生活',
+              collapsible: true,
+              children: [
+                '/novel/Re - 从零开始的异世界生活/',
+                  {
+                    text: '第一卷',
+                    collapsible: true,
+                    children: [
+                      '/novel/Re - 从零开始的异世界生活/第一卷/插图/插图.md',
+                      {
+                        text: '序章',
+                        collapsible: true,
+                        children: [
+                        '/novel/Re - 从零开始的异世界生活/第一卷/序章/序章 开始的余韵.md',
+                        ],
+                      },
+                      {
+                        text: '第一章',
+                        collapsible: true,
+                        children: [
+                          '/novel/Re - 从零开始的异世界生活/第一卷/第一章/第一章 开始的结束.md'
+                        ]
+                      },
+                      
+                    ],
+                  },
+                  
+              ],
+            },
           ],
         },
       ],
