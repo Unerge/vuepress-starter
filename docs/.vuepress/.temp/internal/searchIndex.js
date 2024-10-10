@@ -50,6 +50,122 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "你可以写一个关于你的一切的2000字的故事吗？",
+    "headers": [
+      {
+        "level": 3,
+        "title": "我的起源",
+        "slug": "我的起源",
+        "link": "#我的起源",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "我的使命",
+        "slug": "我的使命",
+        "link": "#我的使命",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "我的成长",
+        "slug": "我的成长",
+        "link": "#我的成长",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "我的日常生活",
+        "slug": "我的日常生活",
+        "link": "#我的日常生活",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "我的局限与责任",
+        "slug": "我的局限与责任",
+        "link": "#我的局限与责任",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "展望未来",
+        "slug": "展望未来",
+        "link": "#展望未来",
+        "children": []
+      }
+    ],
+    "path": "/GPTstory/3.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "桂花湖将与下班就穿越异世界",
+    "headers": [
+      {
+        "level": 3,
+        "title": "桂花湖的异世界穿越",
+        "slug": "桂花湖的异世界穿越",
+        "link": "#桂花湖的异世界穿越",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "桂花湖的异世界冒险（续）",
+        "slug": "桂花湖的异世界冒险-续",
+        "link": "#桂花湖的异世界冒险-续",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "桂花湖的异世界冒险（再续）",
+        "slug": "桂花湖的异世界冒险-再续",
+        "link": "#桂花湖的异世界冒险-再续",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "桂花湖的异世界冒险（大结局）",
+        "slug": "桂花湖的异世界冒险-大结局",
+        "link": "#桂花湖的异世界冒险-大结局",
+        "children": []
+      }
+    ],
+    "path": "/GPTstory/4.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "在原神里如果我不是黄毛摄像头以足够对抗散兵成为勇者",
+    "headers": [
+      {
+        "level": 2,
+        "title": "故事名称：《黄毛摄像头的逆袭：勇者崛起》",
+        "slug": "故事名称-《黄毛摄像头的逆袭-勇者崛起》",
+        "link": "#故事名称-《黄毛摄像头的逆袭-勇者崛起》",
+        "children": [
+          {
+            "level": 3,
+            "title": "《原神》：命运的织机",
+            "slug": "《原神》-命运的织机",
+            "link": "#《原神》-命运的织机",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "《原神》：不再是黄毛摄像头",
+            "slug": "《原神》-不再是黄毛摄像头",
+            "link": "#《原神》-不再是黄毛摄像头",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/GPTstory/5.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "记录一些GPT小故事",
     "headers": [],
     "path": "/GPTstory/",
@@ -491,7 +607,7 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "",
+    "title": "在VuePress中添加评论功能",
     "headers": [
       {
         "level": 3,
@@ -516,6 +632,13 @@ export const SEARCH_INDEX = [
     "title": "专门用于存放技术文档",
     "headers": [],
     "path": "/tech/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "小说",
+    "headers": [],
+    "path": "/novel/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1166,6 +1289,13 @@ export const SEARCH_INDEX = [
             "title": "二、一般管理研究",
             "slug": "二、一般管理研究",
             "link": "#二、一般管理研究",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "三、管理分析的技术与方法研究",
+            "slug": "三、管理分析的技术与方法研究",
+            "link": "#三、管理分析的技术与方法研究",
             "children": []
           }
         ]
@@ -1900,6 +2030,13 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "Re - 从零开始的异世界生活",
+    "headers": [],
+    "path": "/novel/Re%20-%20%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E5%BC%82%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "英语",
     "headers": [],
     "path": "/learn/%E8%8B%B1%E8%AF%AD/",
@@ -1982,6 +2119,106 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/learn/%E8%BF%91%E4%BB%A3%E5%8F%B2/%E6%9C%9F%E6%9C%AB%E8%B5%84%E6%96%99%20.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "插图",
+    "headers": [
+      {
+        "level": 3,
+        "title": "内容简介",
+        "slug": "内容简介",
+        "link": "#内容简介",
+        "children": []
+      }
+    ],
+    "path": "/novel/Re%20-%20%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E5%BC%82%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB/%E7%AC%AC%E4%B8%80%E5%8D%B7/%E6%8F%92%E5%9B%BE/%E6%8F%92%E5%9B%BE.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第一章 开始的结束",
+    "headers": [
+      {
+        "level": 3,
+        "title": "1",
+        "slug": "_1",
+        "link": "#_1",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "2",
+        "slug": "_2",
+        "link": "#_2",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "3",
+        "slug": "_3",
+        "link": "#_3",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "4",
+        "slug": "_4",
+        "link": "#_4",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "5",
+        "slug": "_5",
+        "link": "#_5",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "6",
+        "slug": "_6",
+        "link": "#_6",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "7",
+        "slug": "_7",
+        "link": "#_7",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "8",
+        "slug": "_8",
+        "link": "#_8",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "9",
+        "slug": "_9",
+        "link": "#_9",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "10",
+        "slug": "_10",
+        "link": "#_10",
+        "children": []
+      }
+    ],
+    "path": "/novel/Re%20-%20%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E5%BC%82%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB/%E7%AC%AC%E4%B8%80%E5%8D%B7/%E7%AC%AC%E4%B8%80%E7%AB%A0/%E7%AC%AC%E4%B8%80%E7%AB%A0%20%E5%BC%80%E5%A7%8B%E7%9A%84%E7%BB%93%E6%9D%9F.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "序章 开始的余韵",
+    "headers": [],
+    "path": "/novel/Re%20-%20%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E5%BC%82%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB/%E7%AC%AC%E4%B8%80%E5%8D%B7/%E5%BA%8F%E7%AB%A0/%E5%BA%8F%E7%AB%A0%20%E5%BC%80%E5%A7%8B%E7%9A%84%E4%BD%99%E9%9F%B5.html",
     "pathLocale": "/",
     "extraFields": []
   },
