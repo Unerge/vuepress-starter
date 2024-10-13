@@ -1,41 +1,5 @@
 export const SEARCH_INDEX = [
   {
-    "title": "2024-06-11T14:41_欧拉公式",
-    "headers": [
-      {
-        "level": 3,
-        "title": "1. 泰勒级数展开法",
-        "slug": "_1-泰勒级数展开法",
-        "link": "#_1-泰勒级数展开法",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "2. 微分方程法",
-        "slug": "_2-微分方程法",
-        "link": "#_2-微分方程法",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "欧拉公式的几何解释",
-        "slug": "欧拉公式的几何解释",
-        "link": "#欧拉公式的几何解释",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "欧拉恒等式",
-        "slug": "欧拉恒等式",
-        "link": "#欧拉恒等式",
-        "children": []
-      }
-    ],
-    "path": "/beta/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "你可以写一个关于\"兔兔兔兔热狗好吧吃几节课，我就计划计划赶不上变化\"的故事吗？字数1000字。",
     "headers": [],
     "path": "/GPTstory/1.html",
@@ -173,6 +137,13 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "小说",
+    "headers": [],
+    "path": "/novel/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "前言",
     "headers": [
       {
@@ -223,9 +194,38 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "小说",
-    "headers": [],
-    "path": "/novel/",
+    "title": "2024-06-11T14:41_欧拉公式",
+    "headers": [
+      {
+        "level": 3,
+        "title": "1. 泰勒级数展开法",
+        "slug": "_1-泰勒级数展开法",
+        "link": "#_1-泰勒级数展开法",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "2. 微分方程法",
+        "slug": "_2-微分方程法",
+        "link": "#_2-微分方程法",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "欧拉公式的几何解释",
+        "slug": "欧拉公式的几何解释",
+        "link": "#欧拉公式的几何解释",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "欧拉恒等式",
+        "slug": "欧拉恒等式",
+        "link": "#欧拉恒等式",
+        "children": []
+      }
+    ],
+    "path": "/beta/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -643,6 +643,252 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "Re - 从零开始的异世界生活",
+    "headers": [],
+    "path": "/novel/Re%20-%20%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E5%BC%82%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "房屋建筑学",
+    "headers": [],
+    "path": "/learn/%E6%88%BF%E5%B1%8B%E5%BB%BA%E7%AD%91%E5%AD%A6/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "建筑三要素",
+    "headers": [
+      {
+        "level": 3,
+        "title": "建筑功能",
+        "slug": "建筑功能",
+        "link": "#建筑功能",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "建筑物质技术条件",
+        "slug": "建筑物质技术条件",
+        "link": "#建筑物质技术条件",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "建筑形象",
+        "slug": "建筑形象",
+        "link": "#建筑形象",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "1. 柱式的组成",
+        "slug": "_1-柱式的组成",
+        "link": "#_1-柱式的组成",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "2. 柱式的种类",
+        "slug": "_2-柱式的种类",
+        "link": "#_2-柱式的种类",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "按耐久性能划分",
+        "slug": "按耐久性能划分",
+        "link": "#按耐久性能划分",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "按耐久性能分级",
+        "slug": "按耐久性能分级",
+        "link": "#按耐久性能分级",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "按重要级分级",
+        "slug": "按重要级分级",
+        "link": "#按重要级分级",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "建筑层数的确定 (P117)",
+        "slug": "建筑层数的确定-p117",
+        "link": "#建筑层数的确定-p117",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "建筑总高度的确定 (P119)",
+        "slug": "建筑总高度的确定-p119",
+        "link": "#建筑总高度的确定-p119",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "优点",
+        "slug": "优点",
+        "link": "#优点",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "缺点",
+        "slug": "缺点",
+        "link": "#缺点",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "优点",
+        "slug": "优点-1",
+        "link": "#优点-1",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "缺点",
+        "slug": "缺点-1",
+        "link": "#缺点-1",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "天然地基",
+        "slug": "天然地基",
+        "link": "#天然地基",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "人工地基",
+        "slug": "人工地基",
+        "link": "#人工地基",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "基础的埋置深度",
+        "slug": "基础的埋置深度",
+        "link": "#基础的埋置深度",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "影响基础埋深的主要因素",
+        "slug": "影响基础埋深的主要因素",
+        "link": "#影响基础埋深的主要因素",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "无筋扩展基础 (刚性基础)",
+        "slug": "无筋扩展基础-刚性基础",
+        "link": "#无筋扩展基础-刚性基础",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "扩展基础 (柔性基础)",
+        "slug": "扩展基础-柔性基础",
+        "link": "#扩展基础-柔性基础",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "独立基础",
+        "slug": "独立基础",
+        "link": "#独立基础",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "条形基础",
+        "slug": "条形基础",
+        "link": "#条形基础",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "筏片基础",
+        "slug": "筏片基础",
+        "link": "#筏片基础",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "种类",
+        "slug": "种类",
+        "link": "#种类",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "砌筑方式",
+        "slug": "砌筑方式",
+        "link": "#砌筑方式",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "壁柱和门垛 (P162)",
+        "slug": "壁柱和门垛-p162",
+        "link": "#壁柱和门垛-p162",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "圈梁",
+        "slug": "圈梁",
+        "link": "#圈梁",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "构造柱",
+        "slug": "构造柱",
+        "link": "#构造柱",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "实心平板",
+        "slug": "实心平板",
+        "link": "#实心平板",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "槽形板",
+        "slug": "槽形板",
+        "link": "#槽形板",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "空心板",
+        "slug": "空心板",
+        "link": "#空心板",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "防水构造",
+        "slug": "防水构造",
+        "link": "#防水构造",
+        "children": []
+      }
+    ],
+    "path": "/learn/%E6%88%BF%E5%B1%8B%E5%BB%BA%E7%AD%91%E5%AD%A6/%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99%2001.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "工程力学",
     "headers": [],
     "path": "/learn/%E5%B7%A5%E7%A8%8B%E5%8A%9B%E5%AD%A6/",
@@ -989,441 +1235,6 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/learn/%E6%AF%9B%E6%A6%82/%E7%AC%AC%E4%BA%8C%E7%AB%A0.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "管理学",
-    "headers": [],
-    "path": "/learn/%E7%AE%A1%E7%90%86%E5%AD%A6/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第一章 管理导论",
-    "headers": [
-      {
-        "level": 2,
-        "title": "第一节 管理的内涵与本质",
-        "slug": "第一节-管理的内涵与本质",
-        "link": "#第一节-管理的内涵与本质",
-        "children": [
-          {
-            "level": 3,
-            "title": "一、组织与管理",
-            "slug": "一、组织与管理",
-            "link": "#一、组织与管理",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "二、管理的内涵",
-            "slug": "二、管理的内涵",
-            "link": "#二、管理的内涵",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/learn/%E7%AE%A1%E7%90%86%E5%AD%A6/%E7%AC%AC%E4%B8%80%E7%AB%A0.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第二章 管理理论的历史演变",
-    "headers": [
-      {
-        "level": 2,
-        "title": "第一节 古典管理理论",
-        "slug": "第一节-古典管理理论",
-        "link": "#第一节-古典管理理论",
-        "children": [
-          {
-            "level": 3,
-            "title": "一、科学管理研究",
-            "slug": "一、科学管理研究",
-            "link": "#一、科学管理研究",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "二、一般管理研究",
-            "slug": "二、一般管理研究",
-            "link": "#二、一般管理研究",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "三、管理分析的技术与方法研究",
-            "slug": "三、管理分析的技术与方法研究",
-            "link": "#三、管理分析的技术与方法研究",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/learn/%E7%AE%A1%E7%90%86%E5%AD%A6/%E7%AC%AC%E4%BA%8C%E7%AB%A0.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "绪论",
-    "headers": [
-      {
-        "level": 3,
-        "title": "一. 管理学的基本原理",
-        "slug": "一-管理学的基本原理",
-        "link": "#一-管理学的基本原理",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "二. 管理学的产生与发展",
-        "slug": "二-管理学的产生与发展",
-        "link": "#二-管理学的产生与发展",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "三. 学习管理学的意义",
-        "slug": "三-学习管理学的意义",
-        "link": "#三-学习管理学的意义",
-        "children": []
-      }
-    ],
-    "path": "/learn/%E7%AE%A1%E7%90%86%E5%AD%A6/%E7%BB%AA%E8%AE%BA.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "房屋建筑学",
-    "headers": [],
-    "path": "/learn/%E6%88%BF%E5%B1%8B%E5%BB%BA%E7%AD%91%E5%AD%A6/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "建筑三要素",
-    "headers": [
-      {
-        "level": 3,
-        "title": "建筑功能",
-        "slug": "建筑功能",
-        "link": "#建筑功能",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "建筑物质技术条件",
-        "slug": "建筑物质技术条件",
-        "link": "#建筑物质技术条件",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "建筑形象",
-        "slug": "建筑形象",
-        "link": "#建筑形象",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "1. 柱式的组成",
-        "slug": "_1-柱式的组成",
-        "link": "#_1-柱式的组成",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "2. 柱式的种类",
-        "slug": "_2-柱式的种类",
-        "link": "#_2-柱式的种类",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "按耐久性能划分",
-        "slug": "按耐久性能划分",
-        "link": "#按耐久性能划分",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "按耐久性能分级",
-        "slug": "按耐久性能分级",
-        "link": "#按耐久性能分级",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "按重要级分级",
-        "slug": "按重要级分级",
-        "link": "#按重要级分级",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "建筑层数的确定 (P117)",
-        "slug": "建筑层数的确定-p117",
-        "link": "#建筑层数的确定-p117",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "建筑总高度的确定 (P119)",
-        "slug": "建筑总高度的确定-p119",
-        "link": "#建筑总高度的确定-p119",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "优点",
-        "slug": "优点",
-        "link": "#优点",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "缺点",
-        "slug": "缺点",
-        "link": "#缺点",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "优点",
-        "slug": "优点-1",
-        "link": "#优点-1",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "缺点",
-        "slug": "缺点-1",
-        "link": "#缺点-1",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "天然地基",
-        "slug": "天然地基",
-        "link": "#天然地基",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "人工地基",
-        "slug": "人工地基",
-        "link": "#人工地基",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "基础的埋置深度",
-        "slug": "基础的埋置深度",
-        "link": "#基础的埋置深度",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "影响基础埋深的主要因素",
-        "slug": "影响基础埋深的主要因素",
-        "link": "#影响基础埋深的主要因素",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "无筋扩展基础 (刚性基础)",
-        "slug": "无筋扩展基础-刚性基础",
-        "link": "#无筋扩展基础-刚性基础",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "扩展基础 (柔性基础)",
-        "slug": "扩展基础-柔性基础",
-        "link": "#扩展基础-柔性基础",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "独立基础",
-        "slug": "独立基础",
-        "link": "#独立基础",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "条形基础",
-        "slug": "条形基础",
-        "link": "#条形基础",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "筏片基础",
-        "slug": "筏片基础",
-        "link": "#筏片基础",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "种类",
-        "slug": "种类",
-        "link": "#种类",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "砌筑方式",
-        "slug": "砌筑方式",
-        "link": "#砌筑方式",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "壁柱和门垛 (P162)",
-        "slug": "壁柱和门垛-p162",
-        "link": "#壁柱和门垛-p162",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "圈梁",
-        "slug": "圈梁",
-        "link": "#圈梁",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "构造柱",
-        "slug": "构造柱",
-        "link": "#构造柱",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "实心平板",
-        "slug": "实心平板",
-        "link": "#实心平板",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "槽形板",
-        "slug": "槽形板",
-        "link": "#槽形板",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "空心板",
-        "slug": "空心板",
-        "link": "#空心板",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "防水构造",
-        "slug": "防水构造",
-        "link": "#防水构造",
-        "children": []
-      }
-    ],
-    "path": "/learn/%E6%88%BF%E5%B1%8B%E5%BB%BA%E7%AD%91%E5%AD%A6/%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99%2001.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Re - 从零开始的异世界生活",
-    "headers": [],
-    "path": "/novel/Re%20-%20%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E5%BC%82%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "英语",
-    "headers": [],
-    "path": "/learn/%E8%8B%B1%E8%AF%AD/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "2023-2024年第二学期《大学英语AII》期末复习范围",
-    "headers": [
-      {
-        "level": 3,
-        "title": "Part III Multiple Choices (1.5*20=30 points)",
-        "slug": "part-iii-multiple-choices-1-5-20-30-points",
-        "link": "#part-iii-multiple-choices-1-5-20-30-points",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "Part IV Reading Comprehension (20 points)",
-        "slug": "part-iv-reading-comprehension-20-points",
-        "link": "#part-iv-reading-comprehension-20-points",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "Part V Translation (4*5=20 points)",
-        "slug": "part-v-translation-4-5-20-points",
-        "link": "#part-v-translation-4-5-20-points",
-        "children": []
-      }
-    ],
-    "path": "/learn/%E8%8B%B1%E8%AF%AD/%E6%9C%9F%E6%9C%AB%E8%B5%84%E6%96%99%20.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "近代史",
-    "headers": [],
-    "path": "/learn/%E8%BF%91%E4%BB%A3%E5%8F%B2/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第八~十章 “现代史”专题训练",
-    "headers": [
-      {
-        "level": 3,
-        "title": "一. 单选题（共46题，50.5分）",
-        "slug": "一-单选题-共46题-50-5分",
-        "link": "#一-单选题-共46题-50-5分",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "二. 多选题（共25题，27.5分）",
-        "slug": "二-多选题-共25题-27-5分",
-        "link": "#二-多选题-共25题-27-5分",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "三. 判断题（共20题，22分）",
-        "slug": "三-判断题-共20题-22分",
-        "link": "#三-判断题-共20题-22分",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "一. 单选题（共100题，65分）",
-        "slug": "一-单选题-共100题-65分",
-        "link": "#一-单选题-共100题-65分",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "二. 多选题（共50题，35分）",
-        "slug": "二-多选题-共50题-35分",
-        "link": "#二-多选题-共50题-35分",
-        "children": []
-      }
-    ],
-    "path": "/learn/%E8%BF%91%E4%BB%A3%E5%8F%B2/%E6%9C%9F%E6%9C%AB%E8%B5%84%E6%96%99%20.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -2123,6 +1934,195 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "管理学",
+    "headers": [],
+    "path": "/learn/%E7%AE%A1%E7%90%86%E5%AD%A6/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第一章 管理导论",
+    "headers": [
+      {
+        "level": 2,
+        "title": "第一节 管理的内涵与本质",
+        "slug": "第一节-管理的内涵与本质",
+        "link": "#第一节-管理的内涵与本质",
+        "children": [
+          {
+            "level": 3,
+            "title": "一、组织与管理",
+            "slug": "一、组织与管理",
+            "link": "#一、组织与管理",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "二、管理的内涵",
+            "slug": "二、管理的内涵",
+            "link": "#二、管理的内涵",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/learn/%E7%AE%A1%E7%90%86%E5%AD%A6/%E7%AC%AC%E4%B8%80%E7%AB%A0.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第二章 管理理论的历史演变",
+    "headers": [
+      {
+        "level": 2,
+        "title": "第一节 古典管理理论",
+        "slug": "第一节-古典管理理论",
+        "link": "#第一节-古典管理理论",
+        "children": [
+          {
+            "level": 3,
+            "title": "一、科学管理研究",
+            "slug": "一、科学管理研究",
+            "link": "#一、科学管理研究",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "二、一般管理研究",
+            "slug": "二、一般管理研究",
+            "link": "#二、一般管理研究",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "三、管理分析的技术与方法研究",
+            "slug": "三、管理分析的技术与方法研究",
+            "link": "#三、管理分析的技术与方法研究",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/learn/%E7%AE%A1%E7%90%86%E5%AD%A6/%E7%AC%AC%E4%BA%8C%E7%AB%A0.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "绪论",
+    "headers": [
+      {
+        "level": 3,
+        "title": "一. 管理学的基本原理",
+        "slug": "一-管理学的基本原理",
+        "link": "#一-管理学的基本原理",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "二. 管理学的产生与发展",
+        "slug": "二-管理学的产生与发展",
+        "link": "#二-管理学的产生与发展",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "三. 学习管理学的意义",
+        "slug": "三-学习管理学的意义",
+        "link": "#三-学习管理学的意义",
+        "children": []
+      }
+    ],
+    "path": "/learn/%E7%AE%A1%E7%90%86%E5%AD%A6/%E7%BB%AA%E8%AE%BA.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "英语",
+    "headers": [],
+    "path": "/learn/%E8%8B%B1%E8%AF%AD/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "2023-2024年第二学期《大学英语AII》期末复习范围",
+    "headers": [
+      {
+        "level": 3,
+        "title": "Part III Multiple Choices (1.5*20=30 points)",
+        "slug": "part-iii-multiple-choices-1-5-20-30-points",
+        "link": "#part-iii-multiple-choices-1-5-20-30-points",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "Part IV Reading Comprehension (20 points)",
+        "slug": "part-iv-reading-comprehension-20-points",
+        "link": "#part-iv-reading-comprehension-20-points",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "Part V Translation (4*5=20 points)",
+        "slug": "part-v-translation-4-5-20-points",
+        "link": "#part-v-translation-4-5-20-points",
+        "children": []
+      }
+    ],
+    "path": "/learn/%E8%8B%B1%E8%AF%AD/%E6%9C%9F%E6%9C%AB%E8%B5%84%E6%96%99%20.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "近代史",
+    "headers": [],
+    "path": "/learn/%E8%BF%91%E4%BB%A3%E5%8F%B2/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第八~十章 “现代史”专题训练",
+    "headers": [
+      {
+        "level": 3,
+        "title": "一. 单选题（共46题，50.5分）",
+        "slug": "一-单选题-共46题-50-5分",
+        "link": "#一-单选题-共46题-50-5分",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "二. 多选题（共25题，27.5分）",
+        "slug": "二-多选题-共25题-27-5分",
+        "link": "#二-多选题-共25题-27-5分",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "三. 判断题（共20题，22分）",
+        "slug": "三-判断题-共20题-22分",
+        "link": "#三-判断题-共20题-22分",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "一. 单选题（共100题，65分）",
+        "slug": "一-单选题-共100题-65分",
+        "link": "#一-单选题-共100题-65分",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "二. 多选题（共50题，35分）",
+        "slug": "二-多选题-共50题-35分",
+        "link": "#二-多选题-共50题-35分",
+        "children": []
+      }
+    ],
+    "path": "/learn/%E8%BF%91%E4%BB%A3%E5%8F%B2/%E6%9C%9F%E6%9C%AB%E8%B5%84%E6%96%99%20.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "序章 开始的余韵",
     "headers": [],
     "path": "/novel/Re%20-%20%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E5%BC%82%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB/%E7%AC%AC%E4%B8%80%E5%8D%B7/%E5%BA%8F%E7%AB%A0/%E5%BA%8F%E7%AB%A0%20%E5%BC%80%E5%A7%8B%E7%9A%84%E4%BD%99%E9%9F%B5.html",
@@ -2141,56 +2141,6 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/novel/Re%20-%20%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E5%BC%82%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB/%E7%AC%AC%E4%B8%80%E5%8D%B7/%E6%8F%92%E5%9B%BE/%E6%8F%92%E5%9B%BE.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第二章 太迟的抵抗",
-    "headers": [
-      {
-        "level": 3,
-        "title": "1",
-        "slug": "_1",
-        "link": "#_1",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "2",
-        "slug": "_2",
-        "link": "#_2",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "3",
-        "slug": "_3",
-        "link": "#_3",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "4",
-        "slug": "_4",
-        "link": "#_4",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "5",
-        "slug": "_5",
-        "link": "#_5",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "6",
-        "slug": "_6",
-        "link": "#_6",
-        "children": []
-      }
-    ],
-    "path": "/novel/Re%20-%20%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E5%BC%82%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB/%E7%AC%AC%E4%B8%80%E5%8D%B7/%E7%AC%AC%E4%BA%8C%E7%AB%A0/%E7%AC%AC%E4%BA%8C%E7%AB%A0%20%E5%A4%AA%E8%BF%9F%E7%9A%84%E6%8A%B5%E6%8A%97.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -2269,6 +2219,163 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/novel/Re%20-%20%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E5%BC%82%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB/%E7%AC%AC%E4%B8%80%E5%8D%B7/%E7%AC%AC%E4%B8%80%E7%AB%A0/%E7%AC%AC%E4%B8%80%E7%AB%A0%20%E5%BC%80%E5%A7%8B%E7%9A%84%E7%BB%93%E6%9D%9F.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第二章 太迟的抵抗",
+    "headers": [
+      {
+        "level": 3,
+        "title": "1",
+        "slug": "_1",
+        "link": "#_1",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "2",
+        "slug": "_2",
+        "link": "#_2",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "3",
+        "slug": "_3",
+        "link": "#_3",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "4",
+        "slug": "_4",
+        "link": "#_4",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "5",
+        "slug": "_5",
+        "link": "#_5",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "6",
+        "slug": "_6",
+        "link": "#_6",
+        "children": []
+      }
+    ],
+    "path": "/novel/Re%20-%20%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E5%BC%82%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB/%E7%AC%AC%E4%B8%80%E5%8D%B7/%E7%AC%AC%E4%BA%8C%E7%AB%A0/%E7%AC%AC%E4%BA%8C%E7%AB%A0%20%E5%A4%AA%E8%BF%9F%E7%9A%84%E6%8A%B5%E6%8A%97.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第三章 结束的开始",
+    "headers": [
+      {
+        "level": 3,
+        "title": "1",
+        "slug": "_1",
+        "link": "#_1",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "2",
+        "slug": "_2",
+        "link": "#_2",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "3",
+        "slug": "_3",
+        "link": "#_3",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "4",
+        "slug": "_4",
+        "link": "#_4",
+        "children": []
+      }
+    ],
+    "path": "/novel/Re%20-%20%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E5%BC%82%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB/%E7%AC%AC%E4%B8%80%E5%8D%B7/%E7%AC%AC%E4%B8%89%E7%AB%A0/%E7%AC%AC%E4%B8%89%E7%AB%A0%20%E7%BB%93%E6%9D%9F%E7%9A%84%E5%BC%80%E5%A7%8B.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第四章 第四次的正直",
+    "headers": [
+      {
+        "level": 3,
+        "title": "1",
+        "slug": "_1",
+        "link": "#_1",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "2",
+        "slug": "_2",
+        "link": "#_2",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "3",
+        "slug": "_3",
+        "link": "#_3",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "4",
+        "slug": "_4",
+        "link": "#_4",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "5",
+        "slug": "_5",
+        "link": "#_5",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "6",
+        "slug": "_6",
+        "link": "#_6",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "7",
+        "slug": "_7",
+        "link": "#_7",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "8",
+        "slug": "_8",
+        "link": "#_8",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "9",
+        "slug": "_9",
+        "link": "#_9",
+        "children": []
+      }
+    ],
+    "path": "/novel/Re%20-%20%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E5%BC%82%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB/%E7%AC%AC%E4%B8%80%E5%8D%B7/%E7%AC%AC%E5%9B%9B%E7%AB%A0/%E7%AC%AC%E5%9B%9B%E7%AB%A0%20%E7%AC%AC%E5%9B%9B%E6%AC%A1%E7%9A%84%E6%AD%A3%E7%9B%B4.html",
     "pathLocale": "/",
     "extraFields": []
   },

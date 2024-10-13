@@ -73,6 +73,20 @@ export default defineUserConfig({
                           '/novel/Re - 从零开始的异世界生活/第一卷/第二章/第二章 太迟的抵抗.md',
                         ]
                       },
+                      {
+                        text: '第三章',
+                        collapsible: true,
+                        children: [
+                          '/novel/Re - 从零开始的异世界生活/第一卷/第三章/第三章 结束的开始.md',
+                        ]
+                      },
+                      {
+                        text: '第四章',
+                        collapsible: true,
+                        children: [
+                          '/novel/Re - 从零开始的异世界生活/第一卷/第四章/第四章 第四次的正直.md',
+                        ]
+                      },
                     ],
                   },
                   
