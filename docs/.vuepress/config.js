@@ -87,6 +87,27 @@ export default defineUserConfig({
                           '/novel/Re - 从零开始的异世界生活/第一卷/第四章/第四章 第四次的正直.md',
                         ]
                       },
+                      {
+                        text: '第五章',
+                        collapsible: true,
+                        children: [
+                          '/novel/Re - 从零开始的异世界生活/第一卷/第五章/第五章 从零开始的异世界生活.md',
+                        ]
+                      },
+                      {
+                        text: '终章',
+                        collapsible: true,
+                        children: [
+                          '/novel/Re - 从零开始的异世界生活/第一卷/终章/终章 月亮都看在眼里.md',
+                        ]
+                      },
+                      {
+                        text: '后记',
+                        collapsible: true,
+                        children: [
+                          '/novel/Re - 从零开始的异世界生活/第一卷/后记/后记.md',
+                        ]
+                      }
                     ],
                   },
                   
@@ -138,7 +159,14 @@ export default defineUserConfig({
                 {
                     text: '英语',
                     collapsible: true,
-                    children: ['/learn/英语/期末资料 .md',],  // 同样这里也可以增加其他子页面
+                    children: ['/learn/英语/期末资料 .md',
+                      {
+                        text: '四级复习',
+                        collapsible: true,
+                        children: ['/learn/英语/CET-4/README.md','/learn/英语/CET-4/1.md']
+                      },
+
+                    ],  // 同样这里也可以增加其他子页面
                 },
                 {
                     text: '近代史',
