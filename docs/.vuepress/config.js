@@ -4,7 +4,6 @@ import { defineUserConfig } from 'vuepress'
 import { searchPlugin } from '@vuepress/plugin-search'
 
 export default defineUserConfig({
-  base: '/vuepress-starter/', // 仓库名
   title: 'WentUrc', // 网站标题
   description: '持续学习大学课程', // 网站描述
   head: [ // 注入到当前HTMl页面 <head> 中的标签
@@ -149,7 +148,7 @@ export default defineUserConfig({
                 {
                     text: '管理学',
                     collapsible: true,
-                    children: ['/learn/管理学/绪论.md','/learn/管理学/第一章.md', '/learn/管理学/第二章.md'],  // 同样这里也可以增加其他子页面
+                    children: ['/learn/管理学/绪论.md','/learn/管理学/第一章.md', '/learn/管理学/第二章.md', '/learn/管理学/复习资料.md'],  // 同样这里也可以增加其他子页面
                 },
                 {
                     text: '经济学',

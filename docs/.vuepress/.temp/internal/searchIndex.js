@@ -36,143 +36,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "你可以写一个关于\"兔兔兔兔热狗好吧吃几节课，我就计划计划赶不上变化\"的故事吗？字数1000字。",
-    "headers": [],
-    "path": "/GPTstory/1.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "你可以写一个关于\"他回复二技能重新设置大哥\"的故事吗？字数1000字。",
-    "headers": [],
-    "path": "/GPTstory/2.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "你可以写一个关于你的一切的2000字的故事吗？",
-    "headers": [
-      {
-        "level": 3,
-        "title": "我的起源",
-        "slug": "我的起源",
-        "link": "#我的起源",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "我的使命",
-        "slug": "我的使命",
-        "link": "#我的使命",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "我的成长",
-        "slug": "我的成长",
-        "link": "#我的成长",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "我的日常生活",
-        "slug": "我的日常生活",
-        "link": "#我的日常生活",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "我的局限与责任",
-        "slug": "我的局限与责任",
-        "link": "#我的局限与责任",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "展望未来",
-        "slug": "展望未来",
-        "link": "#展望未来",
-        "children": []
-      }
-    ],
-    "path": "/GPTstory/3.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "桂花湖将与下班就穿越异世界",
-    "headers": [
-      {
-        "level": 3,
-        "title": "桂花湖的异世界穿越",
-        "slug": "桂花湖的异世界穿越",
-        "link": "#桂花湖的异世界穿越",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "桂花湖的异世界冒险（续）",
-        "slug": "桂花湖的异世界冒险-续",
-        "link": "#桂花湖的异世界冒险-续",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "桂花湖的异世界冒险（再续）",
-        "slug": "桂花湖的异世界冒险-再续",
-        "link": "#桂花湖的异世界冒险-再续",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "桂花湖的异世界冒险（大结局）",
-        "slug": "桂花湖的异世界冒险-大结局",
-        "link": "#桂花湖的异世界冒险-大结局",
-        "children": []
-      }
-    ],
-    "path": "/GPTstory/4.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "在原神里如果我不是黄毛摄像头以足够对抗散兵成为勇者",
-    "headers": [
-      {
-        "level": 2,
-        "title": "故事名称：《黄毛摄像头的逆袭：勇者崛起》",
-        "slug": "故事名称-《黄毛摄像头的逆袭-勇者崛起》",
-        "link": "#故事名称-《黄毛摄像头的逆袭-勇者崛起》",
-        "children": [
-          {
-            "level": 3,
-            "title": "《原神》：命运的织机",
-            "slug": "《原神》-命运的织机",
-            "link": "#《原神》-命运的织机",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "《原神》：不再是黄毛摄像头",
-            "slug": "《原神》-不再是黄毛摄像头",
-            "link": "#《原神》-不再是黄毛摄像头",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/GPTstory/5.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "记录一些GPT小故事",
-    "headers": [],
-    "path": "/GPTstory/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "前言",
     "headers": [
       {
@@ -643,6 +506,143 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "你可以写一个关于\"兔兔兔兔热狗好吧吃几节课，我就计划计划赶不上变化\"的故事吗？字数1000字。",
+    "headers": [],
+    "path": "/GPTstory/1.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "你可以写一个关于\"他回复二技能重新设置大哥\"的故事吗？字数1000字。",
+    "headers": [],
+    "path": "/GPTstory/2.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "你可以写一个关于你的一切的2000字的故事吗？",
+    "headers": [
+      {
+        "level": 3,
+        "title": "我的起源",
+        "slug": "我的起源",
+        "link": "#我的起源",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "我的使命",
+        "slug": "我的使命",
+        "link": "#我的使命",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "我的成长",
+        "slug": "我的成长",
+        "link": "#我的成长",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "我的日常生活",
+        "slug": "我的日常生活",
+        "link": "#我的日常生活",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "我的局限与责任",
+        "slug": "我的局限与责任",
+        "link": "#我的局限与责任",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "展望未来",
+        "slug": "展望未来",
+        "link": "#展望未来",
+        "children": []
+      }
+    ],
+    "path": "/GPTstory/3.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "桂花湖将与下班就穿越异世界",
+    "headers": [
+      {
+        "level": 3,
+        "title": "桂花湖的异世界穿越",
+        "slug": "桂花湖的异世界穿越",
+        "link": "#桂花湖的异世界穿越",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "桂花湖的异世界冒险（续）",
+        "slug": "桂花湖的异世界冒险-续",
+        "link": "#桂花湖的异世界冒险-续",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "桂花湖的异世界冒险（再续）",
+        "slug": "桂花湖的异世界冒险-再续",
+        "link": "#桂花湖的异世界冒险-再续",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "桂花湖的异世界冒险（大结局）",
+        "slug": "桂花湖的异世界冒险-大结局",
+        "link": "#桂花湖的异世界冒险-大结局",
+        "children": []
+      }
+    ],
+    "path": "/GPTstory/4.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "在原神里如果我不是黄毛摄像头以足够对抗散兵成为勇者",
+    "headers": [
+      {
+        "level": 2,
+        "title": "故事名称：《黄毛摄像头的逆袭：勇者崛起》",
+        "slug": "故事名称-《黄毛摄像头的逆袭-勇者崛起》",
+        "link": "#故事名称-《黄毛摄像头的逆袭-勇者崛起》",
+        "children": [
+          {
+            "level": 3,
+            "title": "《原神》：命运的织机",
+            "slug": "《原神》-命运的织机",
+            "link": "#《原神》-命运的织机",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "《原神》：不再是黄毛摄像头",
+            "slug": "《原神》-不再是黄毛摄像头",
+            "link": "#《原神》-不再是黄毛摄像头",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/GPTstory/5.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "记录一些GPT小故事",
+    "headers": [],
+    "path": "/GPTstory/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "工程力学",
     "headers": [],
     "path": "/learn/%E5%B7%A5%E7%A8%8B%E5%8A%9B%E5%AD%A6/",
@@ -1020,109 +1020,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "管理学",
-    "headers": [],
-    "path": "/learn/%E7%AE%A1%E7%90%86%E5%AD%A6/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第一章 管理导论",
-    "headers": [
-      {
-        "level": 2,
-        "title": "第一节 管理的内涵与本质",
-        "slug": "第一节-管理的内涵与本质",
-        "link": "#第一节-管理的内涵与本质",
-        "children": [
-          {
-            "level": 3,
-            "title": "一、组织与管理",
-            "slug": "一、组织与管理",
-            "link": "#一、组织与管理",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "二、管理的内涵",
-            "slug": "二、管理的内涵",
-            "link": "#二、管理的内涵",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/learn/%E7%AE%A1%E7%90%86%E5%AD%A6/%E7%AC%AC%E4%B8%80%E7%AB%A0.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第二章 管理理论的历史演变",
-    "headers": [
-      {
-        "level": 2,
-        "title": "第一节 古典管理理论",
-        "slug": "第一节-古典管理理论",
-        "link": "#第一节-古典管理理论",
-        "children": [
-          {
-            "level": 3,
-            "title": "一、科学管理研究",
-            "slug": "一、科学管理研究",
-            "link": "#一、科学管理研究",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "二、一般管理研究",
-            "slug": "二、一般管理研究",
-            "link": "#二、一般管理研究",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "三、管理分析的技术与方法研究",
-            "slug": "三、管理分析的技术与方法研究",
-            "link": "#三、管理分析的技术与方法研究",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/learn/%E7%AE%A1%E7%90%86%E5%AD%A6/%E7%AC%AC%E4%BA%8C%E7%AB%A0.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "绪论",
-    "headers": [
-      {
-        "level": 3,
-        "title": "一. 管理学的基本原理",
-        "slug": "一-管理学的基本原理",
-        "link": "#一-管理学的基本原理",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "二. 管理学的产生与发展",
-        "slug": "二-管理学的产生与发展",
-        "link": "#二-管理学的产生与发展",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "三. 学习管理学的意义",
-        "slug": "三-学习管理学的意义",
-        "link": "#三-学习管理学的意义",
-        "children": []
-      }
-    ],
-    "path": "/learn/%E7%AE%A1%E7%90%86%E5%AD%A6/%E7%BB%AA%E8%AE%BA.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "毛泽东概论",
     "headers": [],
     "path": "/learn/%E6%AF%9B%E6%A6%82/",
@@ -1331,6 +1228,138 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/learn/%E6%AF%9B%E6%A6%82/%E7%AC%AC%E4%BA%8C%E7%AB%A0.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "管理学",
+    "headers": [],
+    "path": "/learn/%E7%AE%A1%E7%90%86%E5%AD%A6/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "复习资料",
+    "headers": [
+      {
+        "level": 2,
+        "title": "中国古代思想",
+        "slug": "中国古代思想",
+        "link": "#中国古代思想",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "西方工厂制度早期的管理思想",
+        "slug": "西方工厂制度早期的管理思想",
+        "link": "#西方工厂制度早期的管理思想",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "学习管理学的意义",
+        "slug": "学习管理学的意义",
+        "link": "#学习管理学的意义",
+        "children": []
+      }
+    ],
+    "path": "/learn/%E7%AE%A1%E7%90%86%E5%AD%A6/%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第一章 管理导论",
+    "headers": [
+      {
+        "level": 2,
+        "title": "第一节 管理的内涵与本质",
+        "slug": "第一节-管理的内涵与本质",
+        "link": "#第一节-管理的内涵与本质",
+        "children": [
+          {
+            "level": 3,
+            "title": "一、组织与管理",
+            "slug": "一、组织与管理",
+            "link": "#一、组织与管理",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "二、管理的内涵",
+            "slug": "二、管理的内涵",
+            "link": "#二、管理的内涵",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/learn/%E7%AE%A1%E7%90%86%E5%AD%A6/%E7%AC%AC%E4%B8%80%E7%AB%A0.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第二章 管理理论的历史演变",
+    "headers": [
+      {
+        "level": 2,
+        "title": "第一节 古典管理理论",
+        "slug": "第一节-古典管理理论",
+        "link": "#第一节-古典管理理论",
+        "children": [
+          {
+            "level": 3,
+            "title": "一、科学管理研究",
+            "slug": "一、科学管理研究",
+            "link": "#一、科学管理研究",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "二、一般管理研究",
+            "slug": "二、一般管理研究",
+            "link": "#二、一般管理研究",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "三、管理分析的技术与方法研究",
+            "slug": "三、管理分析的技术与方法研究",
+            "link": "#三、管理分析的技术与方法研究",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/learn/%E7%AE%A1%E7%90%86%E5%AD%A6/%E7%AC%AC%E4%BA%8C%E7%AB%A0.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "绪论",
+    "headers": [
+      {
+        "level": 3,
+        "title": "一. 管理学的基本原理",
+        "slug": "一-管理学的基本原理",
+        "link": "#一-管理学的基本原理",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "二. 管理学的产生与发展",
+        "slug": "二-管理学的产生与发展",
+        "link": "#二-管理学的产生与发展",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "三. 学习管理学的意义",
+        "slug": "三-学习管理学的意义",
+        "link": "#三-学习管理学的意义",
+        "children": []
+      }
+    ],
+    "path": "/learn/%E7%AE%A1%E7%90%86%E5%AD%A6/%E7%BB%AA%E8%AE%BA.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -2167,6 +2196,13 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "序章 开始的余韵",
+    "headers": [],
+    "path": "/novel/Re%20-%20%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E5%BC%82%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB/%E7%AC%AC%E4%B8%80%E5%8D%B7/%E5%BA%8F%E7%AB%A0/%E5%BA%8F%E7%AB%A0%20%E5%BC%80%E5%A7%8B%E7%9A%84%E4%BD%99%E9%9F%B5.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "插图",
     "headers": [
       {
@@ -2182,9 +2218,52 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "序章 开始的余韵",
-    "headers": [],
-    "path": "/novel/Re%20-%20%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E5%BC%82%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB/%E7%AC%AC%E4%B8%80%E5%8D%B7/%E5%BA%8F%E7%AB%A0/%E5%BA%8F%E7%AB%A0%20%E5%BC%80%E5%A7%8B%E7%9A%84%E4%BD%99%E9%9F%B5.html",
+    "title": "第二章 太迟的抵抗",
+    "headers": [
+      {
+        "level": 3,
+        "title": "1",
+        "slug": "_1",
+        "link": "#_1",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "2",
+        "slug": "_2",
+        "link": "#_2",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "3",
+        "slug": "_3",
+        "link": "#_3",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "4",
+        "slug": "_4",
+        "link": "#_4",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "5",
+        "slug": "_5",
+        "link": "#_5",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "6",
+        "slug": "_6",
+        "link": "#_6",
+        "children": []
+      }
+    ],
+    "path": "/novel/Re%20-%20%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E5%BC%82%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB/%E7%AC%AC%E4%B8%80%E5%8D%B7/%E7%AC%AC%E4%BA%8C%E7%AB%A0/%E7%AC%AC%E4%BA%8C%E7%AB%A0%20%E5%A4%AA%E8%BF%9F%E7%9A%84%E6%8A%B5%E6%8A%97.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -2267,92 +2346,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "第三章 结束的开始",
-    "headers": [
-      {
-        "level": 3,
-        "title": "1",
-        "slug": "_1",
-        "link": "#_1",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "2",
-        "slug": "_2",
-        "link": "#_2",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "3",
-        "slug": "_3",
-        "link": "#_3",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "4",
-        "slug": "_4",
-        "link": "#_4",
-        "children": []
-      }
-    ],
-    "path": "/novel/Re%20-%20%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E5%BC%82%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB/%E7%AC%AC%E4%B8%80%E5%8D%B7/%E7%AC%AC%E4%B8%89%E7%AB%A0/%E7%AC%AC%E4%B8%89%E7%AB%A0%20%E7%BB%93%E6%9D%9F%E7%9A%84%E5%BC%80%E5%A7%8B.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第二章 太迟的抵抗",
-    "headers": [
-      {
-        "level": 3,
-        "title": "1",
-        "slug": "_1",
-        "link": "#_1",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "2",
-        "slug": "_2",
-        "link": "#_2",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "3",
-        "slug": "_3",
-        "link": "#_3",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "4",
-        "slug": "_4",
-        "link": "#_4",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "5",
-        "slug": "_5",
-        "link": "#_5",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "6",
-        "slug": "_6",
-        "link": "#_6",
-        "children": []
-      }
-    ],
-    "path": "/novel/Re%20-%20%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E5%BC%82%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB/%E7%AC%AC%E4%B8%80%E5%8D%B7/%E7%AC%AC%E4%BA%8C%E7%AB%A0/%E7%AC%AC%E4%BA%8C%E7%AB%A0%20%E5%A4%AA%E8%BF%9F%E7%9A%84%E6%8A%B5%E6%8A%97.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "第五章 从零开始的异世界生活",
     "headers": [
       {
@@ -2406,6 +2399,21 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/novel/Re%20-%20%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E5%BC%82%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB/%E7%AC%AC%E4%B8%80%E5%8D%B7/%E7%AC%AC%E4%BA%94%E7%AB%A0/%E7%AC%AC%E4%BA%94%E7%AB%A0%20%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E5%BC%82%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "终章 月亮都看在眼里",
+    "headers": [
+      {
+        "level": 3,
+        "title": "1",
+        "slug": "_1",
+        "link": "#_1",
+        "children": []
+      }
+    ],
+    "path": "/novel/Re%20-%20%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E5%BC%82%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB/%E7%AC%AC%E4%B8%80%E5%8D%B7/%E7%BB%88%E7%AB%A0/%E7%BB%88%E7%AB%A0%20%E6%9C%88%E4%BA%AE%E9%83%BD%E7%9C%8B%E5%9C%A8%E7%9C%BC%E9%87%8C.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -2481,7 +2489,7 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "终章 月亮都看在眼里",
+    "title": "第三章 结束的开始",
     "headers": [
       {
         "level": 3,
@@ -2489,9 +2497,30 @@ export const SEARCH_INDEX = [
         "slug": "_1",
         "link": "#_1",
         "children": []
+      },
+      {
+        "level": 3,
+        "title": "2",
+        "slug": "_2",
+        "link": "#_2",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "3",
+        "slug": "_3",
+        "link": "#_3",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "4",
+        "slug": "_4",
+        "link": "#_4",
+        "children": []
       }
     ],
-    "path": "/novel/Re%20-%20%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E5%BC%82%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB/%E7%AC%AC%E4%B8%80%E5%8D%B7/%E7%BB%88%E7%AB%A0/%E7%BB%88%E7%AB%A0%20%E6%9C%88%E4%BA%AE%E9%83%BD%E7%9C%8B%E5%9C%A8%E7%9C%BC%E9%87%8C.html",
+    "path": "/novel/Re%20-%20%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E5%BC%82%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB/%E7%AC%AC%E4%B8%80%E5%8D%B7/%E7%AC%AC%E4%B8%89%E7%AB%A0/%E7%AC%AC%E4%B8%89%E7%AB%A0%20%E7%BB%93%E6%9D%9F%E7%9A%84%E5%BC%80%E5%A7%8B.html",
     "pathLocale": "/",
     "extraFields": []
   },
