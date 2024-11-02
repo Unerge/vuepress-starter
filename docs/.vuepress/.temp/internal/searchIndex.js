@@ -93,6 +93,143 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "你可以写一个关于\"兔兔兔兔热狗好吧吃几节课，我就计划计划赶不上变化\"的故事吗？字数1000字。",
+    "headers": [],
+    "path": "/GPTstory/1.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "你可以写一个关于\"他回复二技能重新设置大哥\"的故事吗？字数1000字。",
+    "headers": [],
+    "path": "/GPTstory/2.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "你可以写一个关于你的一切的2000字的故事吗？",
+    "headers": [
+      {
+        "level": 3,
+        "title": "我的起源",
+        "slug": "我的起源",
+        "link": "#我的起源",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "我的使命",
+        "slug": "我的使命",
+        "link": "#我的使命",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "我的成长",
+        "slug": "我的成长",
+        "link": "#我的成长",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "我的日常生活",
+        "slug": "我的日常生活",
+        "link": "#我的日常生活",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "我的局限与责任",
+        "slug": "我的局限与责任",
+        "link": "#我的局限与责任",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "展望未来",
+        "slug": "展望未来",
+        "link": "#展望未来",
+        "children": []
+      }
+    ],
+    "path": "/GPTstory/3.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "桂花湖将与下班就穿越异世界",
+    "headers": [
+      {
+        "level": 3,
+        "title": "桂花湖的异世界穿越",
+        "slug": "桂花湖的异世界穿越",
+        "link": "#桂花湖的异世界穿越",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "桂花湖的异世界冒险（续）",
+        "slug": "桂花湖的异世界冒险-续",
+        "link": "#桂花湖的异世界冒险-续",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "桂花湖的异世界冒险（再续）",
+        "slug": "桂花湖的异世界冒险-再续",
+        "link": "#桂花湖的异世界冒险-再续",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "桂花湖的异世界冒险（大结局）",
+        "slug": "桂花湖的异世界冒险-大结局",
+        "link": "#桂花湖的异世界冒险-大结局",
+        "children": []
+      }
+    ],
+    "path": "/GPTstory/4.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "在原神里如果我不是黄毛摄像头以足够对抗散兵成为勇者",
+    "headers": [
+      {
+        "level": 2,
+        "title": "故事名称：《黄毛摄像头的逆袭：勇者崛起》",
+        "slug": "故事名称-《黄毛摄像头的逆袭-勇者崛起》",
+        "link": "#故事名称-《黄毛摄像头的逆袭-勇者崛起》",
+        "children": [
+          {
+            "level": 3,
+            "title": "《原神》：命运的织机",
+            "slug": "《原神》-命运的织机",
+            "link": "#《原神》-命运的织机",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "《原神》：不再是黄毛摄像头",
+            "slug": "《原神》-不再是黄毛摄像头",
+            "link": "#《原神》-不再是黄毛摄像头",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/GPTstory/5.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "记录一些GPT小故事",
+    "headers": [],
+    "path": "/GPTstory/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "原神伤害公式",
     "headers": [
       {
@@ -506,143 +643,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "你可以写一个关于\"兔兔兔兔热狗好吧吃几节课，我就计划计划赶不上变化\"的故事吗？字数1000字。",
-    "headers": [],
-    "path": "/GPTstory/1.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "你可以写一个关于\"他回复二技能重新设置大哥\"的故事吗？字数1000字。",
-    "headers": [],
-    "path": "/GPTstory/2.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "你可以写一个关于你的一切的2000字的故事吗？",
-    "headers": [
-      {
-        "level": 3,
-        "title": "我的起源",
-        "slug": "我的起源",
-        "link": "#我的起源",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "我的使命",
-        "slug": "我的使命",
-        "link": "#我的使命",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "我的成长",
-        "slug": "我的成长",
-        "link": "#我的成长",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "我的日常生活",
-        "slug": "我的日常生活",
-        "link": "#我的日常生活",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "我的局限与责任",
-        "slug": "我的局限与责任",
-        "link": "#我的局限与责任",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "展望未来",
-        "slug": "展望未来",
-        "link": "#展望未来",
-        "children": []
-      }
-    ],
-    "path": "/GPTstory/3.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "桂花湖将与下班就穿越异世界",
-    "headers": [
-      {
-        "level": 3,
-        "title": "桂花湖的异世界穿越",
-        "slug": "桂花湖的异世界穿越",
-        "link": "#桂花湖的异世界穿越",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "桂花湖的异世界冒险（续）",
-        "slug": "桂花湖的异世界冒险-续",
-        "link": "#桂花湖的异世界冒险-续",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "桂花湖的异世界冒险（再续）",
-        "slug": "桂花湖的异世界冒险-再续",
-        "link": "#桂花湖的异世界冒险-再续",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "桂花湖的异世界冒险（大结局）",
-        "slug": "桂花湖的异世界冒险-大结局",
-        "link": "#桂花湖的异世界冒险-大结局",
-        "children": []
-      }
-    ],
-    "path": "/GPTstory/4.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "在原神里如果我不是黄毛摄像头以足够对抗散兵成为勇者",
-    "headers": [
-      {
-        "level": 2,
-        "title": "故事名称：《黄毛摄像头的逆袭：勇者崛起》",
-        "slug": "故事名称-《黄毛摄像头的逆袭-勇者崛起》",
-        "link": "#故事名称-《黄毛摄像头的逆袭-勇者崛起》",
-        "children": [
-          {
-            "level": 3,
-            "title": "《原神》：命运的织机",
-            "slug": "《原神》-命运的织机",
-            "link": "#《原神》-命运的织机",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "《原神》：不再是黄毛摄像头",
-            "slug": "《原神》-不再是黄毛摄像头",
-            "link": "#《原神》-不再是黄毛摄像头",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/GPTstory/5.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "记录一些GPT小故事",
-    "headers": [],
-    "path": "/GPTstory/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "工程力学",
     "headers": [],
     "path": "/learn/%E5%B7%A5%E7%A8%8B%E5%8A%9B%E5%AD%A6/",
@@ -777,6 +777,218 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/learn/%E5%B7%A5%E7%A8%8B%E5%8A%9B%E5%AD%A6/%E9%A2%98%E7%9B%AE%E8%A7%A3%E7%AD%942.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "毛泽东概论",
+    "headers": [],
+    "path": "/learn/%E6%AF%9B%E6%A6%82/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "导论 马克思主义中国化时代化的历史进程与理论成果",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、马克思主义中国化时代化的提出",
+        "slug": "一、马克思主义中国化时代化的提出",
+        "link": "#一、马克思主义中国化时代化的提出",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、马克思主义中国化时代化的内涵",
+        "slug": "二、马克思主义中国化时代化的内涵",
+        "link": "#二、马克思主义中国化时代化的内涵",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、马克思主义中国化时代化的历史进程",
+        "slug": "三、马克思主义中国化时代化的历史进程",
+        "link": "#三、马克思主义中国化时代化的历史进程",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、马克思主义中国化理论成果及其关系",
+        "slug": "四、马克思主义中国化理论成果及其关系",
+        "link": "#四、马克思主义中国化理论成果及其关系",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "五、学习本课程的要求和方法",
+        "slug": "五、学习本课程的要求和方法",
+        "link": "#五、学习本课程的要求和方法",
+        "children": []
+      }
+    ],
+    "path": "/learn/%E6%AF%9B%E6%A6%82/%E5%AF%BC%E8%AE%BA.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第一章 毛泽东思想及其历史地位",
+    "headers": [
+      {
+        "level": 2,
+        "title": "第一节 毛泽东思想的形成和发展",
+        "slug": "第一节-毛泽东思想的形成和发展",
+        "link": "#第一节-毛泽东思想的形成和发展",
+        "children": [
+          {
+            "level": 3,
+            "title": "一、毛泽东思想形成发展的历史条件",
+            "slug": "一、毛泽东思想形成发展的历史条件",
+            "link": "#一、毛泽东思想形成发展的历史条件",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "二、毛泽东思想形成发展的过程",
+            "slug": "二、毛泽东思想形成发展的过程",
+            "link": "#二、毛泽东思想形成发展的过程",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "第二节 毛泽东思想的主要内容和活的灵魂",
+        "slug": "第二节-毛泽东思想的主要内容和活的灵魂",
+        "link": "#第二节-毛泽东思想的主要内容和活的灵魂",
+        "children": [
+          {
+            "level": 3,
+            "title": "一、毛泽东思想的主要内容",
+            "slug": "一、毛泽东思想的主要内容",
+            "link": "#一、毛泽东思想的主要内容",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "二、毛泽东思想活的灵魂",
+            "slug": "二、毛泽东思想活的灵魂",
+            "link": "#二、毛泽东思想活的灵魂",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "第三节 毛泽东思想的历史地位",
+        "slug": "第三节-毛泽东思想的历史地位",
+        "link": "#第三节-毛泽东思想的历史地位",
+        "children": [
+          {
+            "level": 3,
+            "title": "一、马克思主义中国化时代化的第一个重大理论成果",
+            "slug": "一、马克思主义中国化时代化的第一个重大理论成果",
+            "link": "#一、马克思主义中国化时代化的第一个重大理论成果",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "二、中国革命和建设的科学指南",
+            "slug": "二、中国革命和建设的科学指南",
+            "link": "#二、中国革命和建设的科学指南",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "三、中国共产党和中国人民宝贵的精神财富",
+            "slug": "三、中国共产党和中国人民宝贵的精神财富",
+            "link": "#三、中国共产党和中国人民宝贵的精神财富",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/learn/%E6%AF%9B%E6%A6%82/%E7%AC%AC%E4%B8%80%E7%AB%A0.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第二章 新民主主义革命理论",
+    "headers": [
+      {
+        "level": 2,
+        "title": "第一节 新民主主义革命理论形成的依据",
+        "slug": "第一节-新民主主义革命理论形成的依据",
+        "link": "#第一节-新民主主义革命理论形成的依据",
+        "children": [
+          {
+            "level": 3,
+            "title": "一、近代中国国情和中国革命的时代特征",
+            "slug": "一、近代中国国情和中国革命的时代特征",
+            "link": "#一、近代中国国情和中国革命的时代特征",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "二、新民主主义革命理论的实践基础",
+            "slug": "二、新民主主义革命理论的实践基础",
+            "link": "#二、新民主主义革命理论的实践基础",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "第二节 新民主主义革命的总路线和基本纲领",
+        "slug": "第二节-新民主主义革命的总路线和基本纲领",
+        "link": "#第二节-新民主主义革命的总路线和基本纲领",
+        "children": [
+          {
+            "level": 3,
+            "title": "一、新民主主义革命的总路线",
+            "slug": "一、新民主主义革命的总路线",
+            "link": "#一、新民主主义革命的总路线",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "二、新民主主义的基本纲领",
+            "slug": "二、新民主主义的基本纲领",
+            "link": "#二、新民主主义的基本纲领",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "第三节 新民主主义革命的道路和基本经验",
+        "slug": "第三节-新民主主义革命的道路和基本经验",
+        "link": "#第三节-新民主主义革命的道路和基本经验",
+        "children": [
+          {
+            "level": 3,
+            "title": "一、新民主主义革命的道路",
+            "slug": "一、新民主主义革命的道路",
+            "link": "#一、新民主主义革命的道路",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "二、新民主主义革命的三大法宝",
+            "slug": "二、新民主主义革命的三大法宝",
+            "link": "#二、新民主主义革命的三大法宝",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "三、新民主主义革命的意义",
+            "slug": "三、新民主主义革命的意义",
+            "link": "#三、新民主主义革命的意义",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/learn/%E6%AF%9B%E6%A6%82/%E7%AC%AC%E4%BA%8C%E7%AB%A0.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1020,218 +1232,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "毛泽东概论",
-    "headers": [],
-    "path": "/learn/%E6%AF%9B%E6%A6%82/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "导论 马克思主义中国化时代化的历史进程与理论成果",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、马克思主义中国化时代化的提出",
-        "slug": "一、马克思主义中国化时代化的提出",
-        "link": "#一、马克思主义中国化时代化的提出",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、马克思主义中国化时代化的内涵",
-        "slug": "二、马克思主义中国化时代化的内涵",
-        "link": "#二、马克思主义中国化时代化的内涵",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、马克思主义中国化时代化的历史进程",
-        "slug": "三、马克思主义中国化时代化的历史进程",
-        "link": "#三、马克思主义中国化时代化的历史进程",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、马克思主义中国化理论成果及其关系",
-        "slug": "四、马克思主义中国化理论成果及其关系",
-        "link": "#四、马克思主义中国化理论成果及其关系",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "五、学习本课程的要求和方法",
-        "slug": "五、学习本课程的要求和方法",
-        "link": "#五、学习本课程的要求和方法",
-        "children": []
-      }
-    ],
-    "path": "/learn/%E6%AF%9B%E6%A6%82/%E5%AF%BC%E8%AE%BA.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第一章 毛泽东思想及其历史地位",
-    "headers": [
-      {
-        "level": 2,
-        "title": "第一节 毛泽东思想的形成和发展",
-        "slug": "第一节-毛泽东思想的形成和发展",
-        "link": "#第一节-毛泽东思想的形成和发展",
-        "children": [
-          {
-            "level": 3,
-            "title": "一、毛泽东思想形成发展的历史条件",
-            "slug": "一、毛泽东思想形成发展的历史条件",
-            "link": "#一、毛泽东思想形成发展的历史条件",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "二、毛泽东思想形成发展的过程",
-            "slug": "二、毛泽东思想形成发展的过程",
-            "link": "#二、毛泽东思想形成发展的过程",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "第二节 毛泽东思想的主要内容和活的灵魂",
-        "slug": "第二节-毛泽东思想的主要内容和活的灵魂",
-        "link": "#第二节-毛泽东思想的主要内容和活的灵魂",
-        "children": [
-          {
-            "level": 3,
-            "title": "一、毛泽东思想的主要内容",
-            "slug": "一、毛泽东思想的主要内容",
-            "link": "#一、毛泽东思想的主要内容",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "二、毛泽东思想活的灵魂",
-            "slug": "二、毛泽东思想活的灵魂",
-            "link": "#二、毛泽东思想活的灵魂",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "第三节 毛泽东思想的历史地位",
-        "slug": "第三节-毛泽东思想的历史地位",
-        "link": "#第三节-毛泽东思想的历史地位",
-        "children": [
-          {
-            "level": 3,
-            "title": "一、马克思主义中国化时代化的第一个重大理论成果",
-            "slug": "一、马克思主义中国化时代化的第一个重大理论成果",
-            "link": "#一、马克思主义中国化时代化的第一个重大理论成果",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "二、中国革命和建设的科学指南",
-            "slug": "二、中国革命和建设的科学指南",
-            "link": "#二、中国革命和建设的科学指南",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "三、中国共产党和中国人民宝贵的精神财富",
-            "slug": "三、中国共产党和中国人民宝贵的精神财富",
-            "link": "#三、中国共产党和中国人民宝贵的精神财富",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/learn/%E6%AF%9B%E6%A6%82/%E7%AC%AC%E4%B8%80%E7%AB%A0.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第二章 新民主主义革命理论",
-    "headers": [
-      {
-        "level": 2,
-        "title": "第一节 新民主主义革命理论形成的依据",
-        "slug": "第一节-新民主主义革命理论形成的依据",
-        "link": "#第一节-新民主主义革命理论形成的依据",
-        "children": [
-          {
-            "level": 3,
-            "title": "一、近代中国国情和中国革命的时代特征",
-            "slug": "一、近代中国国情和中国革命的时代特征",
-            "link": "#一、近代中国国情和中国革命的时代特征",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "二、新民主主义革命理论的实践基础",
-            "slug": "二、新民主主义革命理论的实践基础",
-            "link": "#二、新民主主义革命理论的实践基础",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "第二节 新民主主义革命的总路线和基本纲领",
-        "slug": "第二节-新民主主义革命的总路线和基本纲领",
-        "link": "#第二节-新民主主义革命的总路线和基本纲领",
-        "children": [
-          {
-            "level": 3,
-            "title": "一、新民主主义革命的总路线",
-            "slug": "一、新民主主义革命的总路线",
-            "link": "#一、新民主主义革命的总路线",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "二、新民主主义的基本纲领",
-            "slug": "二、新民主主义的基本纲领",
-            "link": "#二、新民主主义的基本纲领",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "第三节 新民主主义革命的道路和基本经验",
-        "slug": "第三节-新民主主义革命的道路和基本经验",
-        "link": "#第三节-新民主主义革命的道路和基本经验",
-        "children": [
-          {
-            "level": 3,
-            "title": "一、新民主主义革命的道路",
-            "slug": "一、新民主主义革命的道路",
-            "link": "#一、新民主主义革命的道路",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "二、新民主主义革命的三大法宝",
-            "slug": "二、新民主主义革命的三大法宝",
-            "link": "#二、新民主主义革命的三大法宝",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "三、新民主主义革命的意义",
-            "slug": "三、新民主主义革命的意义",
-            "link": "#三、新民主主义革命的意义",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/learn/%E6%AF%9B%E6%A6%82/%E7%AC%AC%E4%BA%8C%E7%AB%A0.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "管理学",
     "headers": [],
     "path": "/learn/%E7%AE%A1%E7%90%86%E5%AD%A6/",
@@ -1253,13 +1253,127 @@ export const SEARCH_INDEX = [
         "title": "西方工厂制度早期的管理思想",
         "slug": "西方工厂制度早期的管理思想",
         "link": "#西方工厂制度早期的管理思想",
-        "children": []
+        "children": [
+          {
+            "level": 3,
+            "title": "一国财富的多寡, 取决于两个因素:",
+            "slug": "一国财富的多寡-取决于两个因素",
+            "link": "#一国财富的多寡-取决于两个因素",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "为什么\"同样数量的劳动者因为有了劳动分工就能完成更多量的工作呢\"? 斯密认为, 原因有三个:",
+            "slug": "为什么-同样数量的劳动者因为有了劳动分工就能完成更多量的工作呢-斯密认为-原因有三个",
+            "link": "#为什么-同样数量的劳动者因为有了劳动分工就能完成更多量的工作呢-斯密认为-原因有三个",
+            "children": []
+          }
+        ]
       },
       {
         "level": 2,
         "title": "学习管理学的意义",
         "slug": "学习管理学的意义",
         "link": "#学习管理学的意义",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "组织的特征",
+        "slug": "组织的特征",
+        "link": "#组织的特征",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "管理工作内容",
+        "slug": "管理工作内容",
+        "link": "#管理工作内容",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "系统原理",
+        "slug": "系统原理",
+        "link": "#系统原理",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "管理的基本方法",
+        "slug": "管理的基本方法",
+        "link": "#管理的基本方法",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "管理要素",
+        "slug": "管理要素",
+        "link": "#管理要素",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "法理性权力",
+        "slug": "法理性权力",
+        "link": "#法理性权力",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "协作系统的三个基本要素",
+        "slug": "协作系统的三个基本要素",
+        "link": "#协作系统的三个基本要素",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "决策过程",
+        "slug": "决策过程",
+        "link": "#决策过程",
+        "children": [
+          {
+            "level": 3,
+            "title": "管理的实质是决策.",
+            "slug": "管理的实质是决策",
+            "link": "#管理的实质是决策",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "决策的准则",
+        "slug": "决策的准则",
+        "link": "#决策的准则",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "管理本质的协调研究",
+        "slug": "管理本质的协调研究",
+        "link": "#管理本质的协调研究",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "组织趋同的现象观察",
+        "slug": "组织趋同的现象观察",
+        "link": "#组织趋同的现象观察",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "合法性导致组织趋同的三个不同机制:",
+        "slug": "合法性导致组织趋同的三个不同机制",
+        "link": "#合法性导致组织趋同的三个不同机制",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "群体决策的优点",
+        "slug": "群体决策的优点",
+        "link": "#群体决策的优点",
         "children": []
       }
     ],
@@ -2189,20 +2303,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "后记",
-    "headers": [],
-    "path": "/novel/Re%20-%20%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E5%BC%82%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB/%E7%AC%AC%E4%B8%80%E5%8D%B7/%E5%90%8E%E8%AE%B0/%E5%90%8E%E8%AE%B0.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "序章 开始的余韵",
-    "headers": [],
-    "path": "/novel/Re%20-%20%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E5%BC%82%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB/%E7%AC%AC%E4%B8%80%E5%8D%B7/%E5%BA%8F%E7%AB%A0/%E5%BA%8F%E7%AB%A0%20%E5%BC%80%E5%A7%8B%E7%9A%84%E4%BD%99%E9%9F%B5.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "插图",
     "headers": [
       {
@@ -2218,52 +2318,9 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "第二章 太迟的抵抗",
-    "headers": [
-      {
-        "level": 3,
-        "title": "1",
-        "slug": "_1",
-        "link": "#_1",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "2",
-        "slug": "_2",
-        "link": "#_2",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "3",
-        "slug": "_3",
-        "link": "#_3",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "4",
-        "slug": "_4",
-        "link": "#_4",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "5",
-        "slug": "_5",
-        "link": "#_5",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "6",
-        "slug": "_6",
-        "link": "#_6",
-        "children": []
-      }
-    ],
-    "path": "/novel/Re%20-%20%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E5%BC%82%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB/%E7%AC%AC%E4%B8%80%E5%8D%B7/%E7%AC%AC%E4%BA%8C%E7%AB%A0/%E7%AC%AC%E4%BA%8C%E7%AB%A0%20%E5%A4%AA%E8%BF%9F%E7%9A%84%E6%8A%B5%E6%8A%97.html",
+    "title": "后记",
+    "headers": [],
+    "path": "/novel/Re%20-%20%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E5%BC%82%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB/%E7%AC%AC%E4%B8%80%E5%8D%B7/%E5%90%8E%E8%AE%B0/%E5%90%8E%E8%AE%B0.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -2346,6 +2403,99 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "第三章 结束的开始",
+    "headers": [
+      {
+        "level": 3,
+        "title": "1",
+        "slug": "_1",
+        "link": "#_1",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "2",
+        "slug": "_2",
+        "link": "#_2",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "3",
+        "slug": "_3",
+        "link": "#_3",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "4",
+        "slug": "_4",
+        "link": "#_4",
+        "children": []
+      }
+    ],
+    "path": "/novel/Re%20-%20%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E5%BC%82%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB/%E7%AC%AC%E4%B8%80%E5%8D%B7/%E7%AC%AC%E4%B8%89%E7%AB%A0/%E7%AC%AC%E4%B8%89%E7%AB%A0%20%E7%BB%93%E6%9D%9F%E7%9A%84%E5%BC%80%E5%A7%8B.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "序章 开始的余韵",
+    "headers": [],
+    "path": "/novel/Re%20-%20%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E5%BC%82%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB/%E7%AC%AC%E4%B8%80%E5%8D%B7/%E5%BA%8F%E7%AB%A0/%E5%BA%8F%E7%AB%A0%20%E5%BC%80%E5%A7%8B%E7%9A%84%E4%BD%99%E9%9F%B5.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第二章 太迟的抵抗",
+    "headers": [
+      {
+        "level": 3,
+        "title": "1",
+        "slug": "_1",
+        "link": "#_1",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "2",
+        "slug": "_2",
+        "link": "#_2",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "3",
+        "slug": "_3",
+        "link": "#_3",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "4",
+        "slug": "_4",
+        "link": "#_4",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "5",
+        "slug": "_5",
+        "link": "#_5",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "6",
+        "slug": "_6",
+        "link": "#_6",
+        "children": []
+      }
+    ],
+    "path": "/novel/Re%20-%20%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E5%BC%82%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB/%E7%AC%AC%E4%B8%80%E5%8D%B7/%E7%AC%AC%E4%BA%8C%E7%AB%A0/%E7%AC%AC%E4%BA%8C%E7%AB%A0%20%E5%A4%AA%E8%BF%9F%E7%9A%84%E6%8A%B5%E6%8A%97.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "第五章 从零开始的异世界生活",
     "headers": [
       {
@@ -2399,21 +2549,6 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/novel/Re%20-%20%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E5%BC%82%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB/%E7%AC%AC%E4%B8%80%E5%8D%B7/%E7%AC%AC%E4%BA%94%E7%AB%A0/%E7%AC%AC%E4%BA%94%E7%AB%A0%20%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E5%BC%82%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "终章 月亮都看在眼里",
-    "headers": [
-      {
-        "level": 3,
-        "title": "1",
-        "slug": "_1",
-        "link": "#_1",
-        "children": []
-      }
-    ],
-    "path": "/novel/Re%20-%20%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E5%BC%82%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB/%E7%AC%AC%E4%B8%80%E5%8D%B7/%E7%BB%88%E7%AB%A0/%E7%BB%88%E7%AB%A0%20%E6%9C%88%E4%BA%AE%E9%83%BD%E7%9C%8B%E5%9C%A8%E7%9C%BC%E9%87%8C.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -2489,7 +2624,7 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "第三章 结束的开始",
+    "title": "终章 月亮都看在眼里",
     "headers": [
       {
         "level": 3,
@@ -2497,30 +2632,9 @@ export const SEARCH_INDEX = [
         "slug": "_1",
         "link": "#_1",
         "children": []
-      },
-      {
-        "level": 3,
-        "title": "2",
-        "slug": "_2",
-        "link": "#_2",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "3",
-        "slug": "_3",
-        "link": "#_3",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "4",
-        "slug": "_4",
-        "link": "#_4",
-        "children": []
       }
     ],
-    "path": "/novel/Re%20-%20%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E5%BC%82%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB/%E7%AC%AC%E4%B8%80%E5%8D%B7/%E7%AC%AC%E4%B8%89%E7%AB%A0/%E7%AC%AC%E4%B8%89%E7%AB%A0%20%E7%BB%93%E6%9D%9F%E7%9A%84%E5%BC%80%E5%A7%8B.html",
+    "path": "/novel/Re%20-%20%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E5%BC%82%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB/%E7%AC%AC%E4%B8%80%E5%8D%B7/%E7%BB%88%E7%AB%A0/%E7%BB%88%E7%AB%A0%20%E6%9C%88%E4%BA%AE%E9%83%BD%E7%9C%8B%E5%9C%A8%E7%9C%BC%E9%87%8C.html",
     "pathLocale": "/",
     "extraFields": []
   },
