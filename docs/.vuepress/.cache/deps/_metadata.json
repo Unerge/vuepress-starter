@@ -1,40 +1,64 @@
 {
-  "hash": "445fe651",
-  "configHash": "560ae5d3",
-  "lockfileHash": "e121d995",
-  "browserHash": "9ea0d55a",
+  "hash": "fd0f652f",
+  "configHash": "00fd8025",
+  "lockfileHash": "09ad13e5",
+  "browserHash": "6673199e",
   "optimized": {
+    "mark.js/src/vanilla.js": {
+      "src": "../../../../node_modules/mark.js/src/vanilla.js",
+      "file": "mark__js_src_vanilla__js.js",
+      "fileHash": "f22185db",
+      "needsInterop": false
+    },
+    "@vueuse/integrations/useFocusTrap": {
+      "src": "../../../../node_modules/@vueuse/integrations/useFocusTrap.mjs",
+      "file": "@vueuse_integrations_useFocusTrap.js",
+      "fileHash": "43534d0a",
+      "needsInterop": false
+    },
+    "minisearch": {
+      "src": "../../../../node_modules/minisearch/dist/es/index.js",
+      "file": "minisearch.js",
+      "fileHash": "37f6efc4",
+      "needsInterop": false
+    },
+    "@vueuse/core": {
+      "src": "../../../../node_modules/@vueuse/core/index.mjs",
+      "file": "@vueuse_core.js",
+      "fileHash": "42774f12",
+      "needsInterop": false
+    },
     "@vue/devtools-api": {
-      "src": "../../../../node_modules/@vue/devtools-api/lib/esm/index.js",
+      "src": "../../../../node_modules/@vuepress/client/node_modules/@vue/devtools-api/dist/index.js",
       "file": "@vue_devtools-api.js",
-      "fileHash": "f56982ef",
+      "fileHash": "6d5021b9",
       "needsInterop": false
     },
     "@vuepress/shared": {
       "src": "../../../../node_modules/@vuepress/shared/dist/index.js",
       "file": "@vuepress_shared.js",
-      "fileHash": "9dfebd28",
+      "fileHash": "844e4dc9",
       "needsInterop": false
     },
     "vue": {
       "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "fe3a1570",
+      "fileHash": "7f39a5a8",
       "needsInterop": false
     },
     "vue-router": {
       "src": "../../../../node_modules/vue-router/dist/vue-router.esm-bundler.js",
       "file": "vue-router.js",
-      "fileHash": "54f11c05",
+      "fileHash": "a1e71638",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-I3F6YGOB": {
-      "file": "chunk-I3F6YGOB.js"
+    "chunk-NXOVCRW3": {
+      "file": "chunk-NXOVCRW3.js"
     },
-    "chunk-NTV4DQBC": {
-      "file": "chunk-NTV4DQBC.js"
+    "chunk-L2JNJ22P": {
+      "file": "chunk-L2JNJ22P.js"
     }
   }
 }

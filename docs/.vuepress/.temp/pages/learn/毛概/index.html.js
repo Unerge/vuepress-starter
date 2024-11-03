@@ -1,5 +1,5 @@
 import comp from "C:/Users/27493/Documents/GitHub/vuepress-starter/docs/.vuepress/.temp/pages/learn/毛概/index.html.vue"
-const data = JSON.parse("{\"path\":\"/learn/%E6%AF%9B%E6%A6%82/\",\"title\":\"毛泽东概论\",\"lang\":\"en-US\",\"frontmatter\":{\"title\":\"毛泽东概论\"},\"headers\":[],\"git\":{\"updatedTime\":1727612250000,\"contributors\":[{\"name\":\"Larch4\",\"email\":\"114554982+Larch4@users.noreply.github.com\",\"commits\":2}]},\"filePathRelative\":\"learn/毛概/README.md\"}")
+const data = JSON.parse("{\"path\":\"/learn/%E6%AF%9B%E6%A6%82/\",\"title\":\"毛泽东概论\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"毛泽东概论\"},\"headers\":[],\"readingTime\":{\"minutes\":0.16,\"words\":49},\"filePathRelative\":\"learn/毛概/README.md\",\"categoryList\":[{\"id\":\"339d8d\",\"sort\":10002,\"name\":\"learn\"},{\"id\":\"916ffe\",\"sort\":10006,\"name\":\"毛概\"}],\"bulletin\":false}")
 export { comp, data }
 
 if (import.meta.webpackHot) {

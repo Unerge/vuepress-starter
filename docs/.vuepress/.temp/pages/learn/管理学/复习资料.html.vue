@@ -13,7 +13,7 @@
 <p class="hint-container-title">提示</p>
 <p>该复习资料涵盖全书, 但仍然有遗漏之处. 具体内容以书本为准.</p>
 </div>
-<h2 id="中国古代思想" tabindex="-1"><a class="header-anchor" href="#中国古代思想"><span>中国古代思想</span></a></h2>
+<h2 id="中国古代思想-p3" tabindex="-1"><a class="header-anchor" href="#中国古代思想-p3"><span>中国古代思想(P3)</span></a></h2>
 <details id="my-details">
 <summary>展开/收缩</summary>
 <ul>
@@ -23,7 +23,7 @@
 <li>依法治国思想</li>
 </ul>
 </details>
-<h2 id="西方工厂制度早期的管理思想" tabindex="-1"><a class="header-anchor" href="#西方工厂制度早期的管理思想"><span>西方工厂制度早期的管理思想</span></a></h2>
+<h2 id="西方工厂制度早期的管理思想-p7" tabindex="-1"><a class="header-anchor" href="#西方工厂制度早期的管理思想-p7"><span>西方工厂制度早期的管理思想(P7)</span></a></h2>
 <details id="my-details">
 <summary>展开/收缩</summary>
 <ol>
@@ -48,7 +48,7 @@
 <li>第三, 分工使劳动简化, 使工具专门化, 从而有利于创作新工具和改进设备. 而新机械的发明和利用,又使得劳动进一步简化和减少, 从而使一个人能够完成许多人的工作.</li>
 </ul>
 </details>
-<h2 id="学习管理学的意义" tabindex="-1"><a class="header-anchor" href="#学习管理学的意义"><span>学习管理学的意义</span></a></h2>
+<h2 id="学习管理学的意义-p10" tabindex="-1"><a class="header-anchor" href="#学习管理学的意义-p10"><span>学习管理学的意义(P10)</span></a></h2>
 <details id="my-details">
 <summary>展开/收缩</summary>
 <ol>
@@ -63,7 +63,7 @@
 </li>
 </ol>
 </details>
-<h2 id="组织的特征" tabindex="-1"><a class="header-anchor" href="#组织的特征"><span>组织的特征</span></a></h2>
+<h2 id="组织的特征-p20" tabindex="-1"><a class="header-anchor" href="#组织的特征-p20"><span>组织的特征(P20)</span></a></h2>
 <details id="my-details">
 <summary>展开/收缩</summary>
 <p>   <strong>第一</strong> , 组织是由两个或两个以上的成员构成的.</p>
@@ -71,13 +71,13 @@
 <p>   <strong>第三</strong> , 组织具有特殊的活动.</p>
 <p>   <strong>第四</strong> , 任何组织在一定程度上都是独立的存在, 因此与外部社会有着相对明确的界限.</p>
 </details>
-<h2 id="管理工作内容" tabindex="-1"><a class="header-anchor" href="#管理工作内容"><span>管理工作内容</span></a></h2>
+<h2 id="管理工作内容-p23" tabindex="-1"><a class="header-anchor" href="#管理工作内容-p23"><span>管理工作内容(P23)</span></a></h2>
 <details id="my-details">
 <summary>展开/收缩</summary>
 <p>   <strong>决策  组织  领导  控制  创新</strong></p>
 <p>   <strong>决策</strong> 是组织在未来众多的行动可能中选择一个比较合理的方案。为选择正确的行动方向、确定合理的行动目标，管理者首先要研究组织活动的 <strong>内外部背景</strong> 。</p>
 </details>
-<h2 id="系统原理" tabindex="-1"><a class="header-anchor" href="#系统原理"><span>系统原理</span></a></h2>
+<h2 id="系统原理-p29" tabindex="-1"><a class="header-anchor" href="#系统原理-p29"><span>系统原理(P29)</span></a></h2>
 <details id="my-details">
 <summary>展开/收缩</summary>
 <p>  系统可以分为不同类型, 从系统形成方式来看, 可分为 <strong>自然系统</strong> 与 <strong>人造系统</strong>.</p>
@@ -88,7 +88,7 @@
 <li>与外部的互动性</li>
 </ul>
 </details>
-<h2 id="管理的基本方法" tabindex="-1"><a class="header-anchor" href="#管理的基本方法"><span>管理的基本方法</span></a></h2>
+<h2 id="管理的基本方法-p31" tabindex="-1"><a class="header-anchor" href="#管理的基本方法-p31"><span>管理的基本方法(P31)</span></a></h2>
 <details id="my-details">
 <summary>展开/收缩</summary>
 <ul>
@@ -96,7 +96,7 @@
 <li>直觉判断</li>
 </ul>
 </details>
-<h2 id="管理要素" tabindex="-1"><a class="header-anchor" href="#管理要素"><span>管理要素</span></a></h2>
+<h2 id="管理要素-p51" tabindex="-1"><a class="header-anchor" href="#管理要素-p51"><span>管理要素(P51)</span></a></h2>
 <details id="my-details">
 <summary>展开/收缩</summary>
 <ol>
@@ -107,7 +107,7 @@
 <li>控制</li>
 </ol>
 </details>
-<h2 id="法理性权力" tabindex="-1"><a class="header-anchor" href="#法理性权力"><span>法理性权力</span></a></h2>
+<h2 id="法理性权力-p53" tabindex="-1"><a class="header-anchor" href="#法理性权力-p53"><span>法理性权力(P53)</span></a></h2>
 <details id="my-details">
 <summary>展开/收缩</summary>
 <ol>
@@ -125,7 +125,7 @@
 </li>
 </ol>
 </details>
-<h2 id="协作系统的三个基本要素" tabindex="-1"><a class="header-anchor" href="#协作系统的三个基本要素"><span>协作系统的三个基本要素</span></a></h2>
+<h2 id="协作系统的三个基本要素-p55" tabindex="-1"><a class="header-anchor" href="#协作系统的三个基本要素-p55"><span>协作系统的三个基本要素(P55)</span></a></h2>
 <details id="my-details">
 <summary>展开/收缩</summary>
 <ol>
@@ -134,7 +134,7 @@
 <li>信息的沟通</li>
 </ol>
 </details>
-<h2 id="决策过程" tabindex="-1"><a class="header-anchor" href="#决策过程"><span>决策过程</span></a></h2>
+<h2 id="决策过程-p58" tabindex="-1"><a class="header-anchor" href="#决策过程-p58"><span>决策过程(P58)</span></a></h2>
 <details id="my-details">
 <summary>展开/收缩</summary>
 <h3 id="管理的实质是决策" tabindex="-1"><a class="header-anchor" href="#管理的实质是决策"><span>管理的实质是决策.</span></a></h3>
@@ -145,7 +145,7 @@
 <li>审查活动</li>
 </ol>
 </details>
-<h2 id="决策的准则" tabindex="-1"><a class="header-anchor" href="#决策的准则"><span>决策的准则</span></a></h2>
+<h2 id="决策的准则-p58" tabindex="-1"><a class="header-anchor" href="#决策的准则-p58"><span>决策的准则(P58)</span></a></h2>
 <details id="my-details">
 <summary>展开/收缩</summary>
 <table>
@@ -173,7 +173,7 @@
 <p>   <strong>二</strong> 是决策者具有无限的估算能力;</p>
 <p>   <strong>三</strong> 是决策者的脑中对各种可能的结果有一个 &quot;完全而一贯的优先顺序&quot; 。</p>
 </details>
-<h2 id="管理本质的协调研究" tabindex="-1"><a class="header-anchor" href="#管理本质的协调研究"><span>管理本质的协调研究</span></a></h2>
+<h2 id="管理本质的协调研究-p59" tabindex="-1"><a class="header-anchor" href="#管理本质的协调研究-p59"><span>管理本质的协调研究(P59)</span></a></h2>
 <details id="my-details">
 <summary>展开/收缩</summary>
 <blockquote>
@@ -188,29 +188,581 @@
 <li>规范标准化</li>
 </ol>
 </details>
-<h2 id="组织趋同的现象观察" tabindex="-1"><a class="header-anchor" href="#组织趋同的现象观察"><span>组织趋同的现象观察</span></a></h2>
+<h2 id="组织趋同的现象观察-p63" tabindex="-1"><a class="header-anchor" href="#组织趋同的现象观察-p63"><span>组织趋同的现象观察(P63)</span></a></h2>
 <details id="my-details">
 <summary>展开/收缩</summary>
 <p><strong>制度化</strong> 是指外部的制度环境(价值判断、文化观念、社会期待等)渗入组织内部并影响内部组织行为的过程.</p>
 </details>
-<h2 id="合法性导致组织趋同的三个不同机制" tabindex="-1"><a class="header-anchor" href="#合法性导致组织趋同的三个不同机制"><span>合法性导致组织趋同的三个不同机制:</span></a></h2>
+<h2 id="合法性导致组织趋同的三个不同机制-p65" tabindex="-1"><a class="header-anchor" href="#合法性导致组织趋同的三个不同机制-p65"><span>合法性导致组织趋同的三个不同机制(P65):</span></a></h2>
 <details id="my-details">
 <summary>展开/收缩</summary>
 <ol>
-<li>强迫性</li>
-<li>魔方机制</li>
+<li>强迫性机制</li>
+<li>模仿机制</li>
 <li>社会规范机制</li>
 </ol>
 </details>
-<h2 id="群体决策的优点" tabindex="-1"><a class="header-anchor" href="#群体决策的优点"><span>群体决策的优点</span></a></h2>
+<h2 id="群体决策的优点-p75" tabindex="-1"><a class="header-anchor" href="#群体决策的优点-p75"><span>群体决策的优点(P75)</span></a></h2>
 <details id="my-details">
 <summary>展开/收缩</summary>
 <ol>
 <li>有利于集中不同领域专家的智慧, 应付日益复杂的决策问题. 通过这些专家的广泛参与,专家可以对决策问题提出建设性意见, 有利于在决策方案得以贯彻实施之前, 发现存在的问题, 提高决策的针对性.</li>
 <li>能够利用更多的知识优势, 借助更多的信息, 形成更多的可行性方案.</li>
-<li>具有不同背景、经验的不同</li>
+<li>具有不同背景、经验的不同成员在选择收集的信息、要解决问题的类型和解决问题的思路上往往都有很大差异, 他们的广泛参与有利于提高决策时考虑问题的全面性.</li>
+<li>容易得到普遍的认同, 有助于决策的顺利实施. 由于决策群体的成员具有广泛的代表性, 因而有利于得到与决策实施有关的部门或人员的理解和接受, 在实施中也容易得到各部门的相互支持与配合.</li>
+<li>有利于使人们勇于承担风险.</li>
 </ol>
-</details></div></template>
+</details>
+<h2 id="决策的特征-p76" tabindex="-1"><a class="header-anchor" href="#决策的特征-p76"><span>决策的特征(P76)</span></a></h2>
+<details id="my-details">
+<summary>展开/收缩</summary>
+<ol>
+<li>目标性</li>
+<li>可行性</li>
+<li>动态性</li>
+<li>整体性</li>
+<li>创造性</li>
+</ol>
+</details>
+<h2 id="决策的影响因素-p80" tabindex="-1"><a class="header-anchor" href="#决策的影响因素-p80"><span>决策的影响因素(P80)</span></a></h2>
+<details id="my-details">
+<summary>展开/收缩</summary>
+<ol>
+<li>环境</li>
+<li>组织的历史</li>
+<li>决策者的特点</li>
+<li>组织文化</li>
+</ol>
+</details>
+<h2 id="环境分类-p84" tabindex="-1"><a class="header-anchor" href="#环境分类-p84"><span>环境分类(P84)</span></a></h2>
+<details id="my-details">
+<summary>展开/收缩</summary>
+<p><strong>一般</strong> 或 <strong>宏观环境</strong> 、<strong>具体</strong> 或 <strong>微观环境</strong> 以及 <strong>组织内部环境</strong> .</p>
+<h6 id="结构" tabindex="-1"><a class="header-anchor" href="#结构"><span>结构 :</span></a></h6>
+<p><code v-pre>一般或宏观环境</code> &gt; <code v-pre>具体或微观环境</code> &gt; <code v-pre>组织内部环境</code></p>
+</details>
+<h2 id="pest分析方法-p87" tabindex="-1"><a class="header-anchor" href="#pest分析方法-p87"><span>PEST分析方法(P87)</span></a></h2>
+<details id="my-details">
+<summary>展开/收缩</summary>
+<p><code v-pre>P</code> : 政治与法律环境</p>
+<p><code v-pre>E</code> : 经济环境</p>
+<p><code v-pre>S</code> : 社会与文化环境</p>
+<p><code v-pre>T</code> : 技术环境</p>
+</details>
+<h2 id="脚本法-p90" tabindex="-1"><a class="header-anchor" href="#脚本法-p90"><span>脚本法(P90)</span></a></h2>
+<details id="my-details">
+<summary>展开/收缩</summary>
+<p>  <strong>脚本法</strong> 原意就是 <strong>情景分析</strong>.</p>
+<p>  <strong>情景</strong> 一词有电影脚本、 梗概、剧情、情节或情况等意思, 既可以应用于环境预测, 也可以应用于决策方案的形成. 在环境分析中, 一种或一组情况也可被称为一个脚本; 在组织各项决策中, 一个脚本就是一个决策方案. 显然, 方案脚本以环境脚本为基础, 即先形成环境脚本, 再根据环境脚本形成决策的方案脚本.</p>
+</details>
+<h2 id="行为决策代表性模型-p94" tabindex="-1"><a class="header-anchor" href="#行为决策代表性模型-p94"><span>行为决策代表性模型(P94)</span></a></h2>
+<details id="my-details">
+<summary>展开/收缩</summary>
+<ol>
+<li>DHS模型</li>
+<li>HS模型</li>
+<li>BHS模型</li>
+</ol>
+</details>
+<h2 id="价值理性与工具理性的对立-p95" tabindex="-1"><a class="header-anchor" href="#价值理性与工具理性的对立-p95"><span>价值理性与工具理性的对立(P95)</span></a></h2>
+<details id="my-details">
+<summary>展开/收缩</summary>
+<p>  人们行为可以解释为 <strong>&quot;目的理性&quot;</strong> 、<strong>&quot;价值理性&quot;</strong> 、<strong>&quot;情感理性&quot;</strong> 三种.</p>
+</details>
+<h2 id="德尔菲法-p98" tabindex="-1"><a class="header-anchor" href="#德尔菲法-p98"><span>德尔菲法(P98)</span></a></h2>
+<details id="my-details">
+<summary>展开/收缩</summary>
+<p>  <strong>德尔菲法</strong> 依靠专家背靠背地发表意见, 各抒己见, 管理小组对专家们的意见进行统计处理和信息反馈, 经过几轮循环, 使分散的意见逐步统一, 最后达到较高的预测精度. 该法的 <strong>不足之处</strong> 是时间较长, 费用较高.</p>
+</details>
+<h2 id="计划的作用-p106" tabindex="-1"><a class="header-anchor" href="#计划的作用-p106"><span>计划的作用(P106)</span></a></h2>
+<details id="my-details">
+<summary>展开/收缩</summary>
+<ol>
+<li>计划是管理者进行的抓手</li>
+<li>计划是管理者实施控制的标准</li>
+<li>计划是降低未来不确定性的手段</li>
+<li>计划是提高效率与效益的工具</li>
+<li>计划是激励人员士气的依据</li>
+</ol>
+</details>
+<h2 id="目标管理的含义-p110" tabindex="-1"><a class="header-anchor" href="#目标管理的含义-p110"><span>目标管理的含义(P110)</span></a></h2>
+<details id="my-details">
+<summary>展开/收缩</summary>
+<ol>
+<li>
+<p>目标管理的基本观点</p>
+</li>
+<li>
+<p>目标管理的特点</p>
+<p>(1) 实行参与管理</p>
+<p>(2) 重视工作成果而不是工作行为本身</p>
+<p>(3) 强调组织成员的自我控制</p>
+<p>(4) 建立系统的目标体系</p>
+</li>
+</ol>
+</details>
+<h2 id="成果评价-p114" tabindex="-1"><a class="header-anchor" href="#成果评价-p114"><span>成果评价(P114)</span></a></h2>
+<details id="my-details">
+<summary>展开/收缩</summary>
+<ol>
+<li>评价工作</li>
+<li>实施奖惩</li>
+<li>总结经验教训</li>
+</ol>
+</details>
+<h2 id="pdca循环-p115" tabindex="-1"><a class="header-anchor" href="#pdca循环-p115"><span>PDCA循环(P115)</span></a></h2>
+<details id="my-details">
+<summary>展开/收缩</summary>
+<p>  <strong>PDCA</strong> 分别代表 :</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">1</th>
+<th style="text-align:left">2</th>
+<th style="text-align:left">3</th>
+<th style="text-align:left">4</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">计划(P)</td>
+<td style="text-align:left">实施(D)</td>
+<td style="text-align:left">检查(C)</td>
+<td style="text-align:left">改进(A)</td>
+</tr>
+<tr>
+<td style="text-align:left"> 四种基本阶段</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+</tbody>
+</table>
+</details>
+<h2 id="pdca循环的实施步骤-p115" tabindex="-1"><a class="header-anchor" href="#pdca循环的实施步骤-p115"><span>PDCA循环的实施步骤(P115)</span></a></h2>
+<details id="my-details">
+<summary>展开/收缩</summary>
+<p>  第一步, 分析现状</p>
+<p>  第二步, 分析产生问题的各种原因或影响因素</p>
+<p>  第三步, 找出问题所在</p>
+<p>  第四步, 针对问题的主要因素制定措施, 提出行动计划</p>
+<p>  第五步, 实施行动计划</p>
+<p>  第六步, 评估结果</p>
+<p>  第七步, 标准化和进一步推广</p>
+<p>  第八步, 提出这一循环尚未解决的问题, 把它们转到下一个PDCA循环</p>
+</details>
+<h2 id="预算的方法-p117" tabindex="-1"><a class="header-anchor" href="#预算的方法-p117"><span>预算的方法(P117)</span></a></h2>
+<details id="my-details">
+<summary>展开/收缩</summary>
+<p>  <strong>零基预算法</strong> 是广为运用的典型预算方法之一.</p>
+</details>
+<h2 id="决策追踪与调整的特征-p119" tabindex="-1"><a class="header-anchor" href="#决策追踪与调整的特征-p119"><span>决策追踪与调整的特征(P119)</span></a></h2>
+<details id="my-details">
+<summary>展开/收缩</summary>
+<ol>
+<li>回溯分析</li>
+<li>非零起点</li>
+<li>双重优化</li>
+</ol>
+</details>
+<h2 id="决策追踪与调整的原则-p119" tabindex="-1"><a class="header-anchor" href="#决策追踪与调整的原则-p119"><span>决策追踪与调整的原则(P119)</span></a></h2>
+<details id="my-details">
+<summary>展开/收缩</summary>
+<ol>
+<li>科学性与全面性相结合的原则</li>
+<li>相对性与系统性相结合的原则</li>
+<li>指挥与授权相结合的原则</li>
+</ol>
+</details>
+<h2 id="组织设计的影响因素-p128" tabindex="-1"><a class="header-anchor" href="#组织设计的影响因素-p128"><span>组织设计的影响因素(P128)</span></a></h2>
+<details id="my-details">
+<summary>展开/收缩</summary>
+<p>  包括 <strong>环境</strong> 、<strong>战略</strong> 、<strong>技术</strong> 、<strong>规模</strong> 以及组织发展阶段五种.</p>
+</details>
+<h2 id="组织结构含义的概念-p135" tabindex="-1"><a class="header-anchor" href="#组织结构含义的概念-p135"><span>组织结构含义的概念(P135)</span></a></h2>
+<details id="my-details">
+<summary>展开/收缩</summary>
+<p>  <strong>组织结构</strong> 是组织中正式确定的, 使工作任务得以分解、组合和协调的框架体系.</p>
+</details>
+<h2 id="组织结构的形式-p139" tabindex="-1"><a class="header-anchor" href="#组织结构的形式-p139"><span>组织结构的形式(P139)</span></a></h2>
+<details id="my-details">
+<summary>展开/收缩</summary>
+<ol>
+<li>直线型组织</li>
+<li>职能制组织</li>
+</ol>
+</details>
+<h2 id="组织结构的演变趋势-p145" tabindex="-1"><a class="header-anchor" href="#组织结构的演变趋势-p145"><span>组织结构的演变趋势(P145)</span></a></h2>
+<details id="my-details">
+<summary>展开/收缩</summary>
+<p>  企业在不断对组织结构进行动态调整, <strong>扁平化</strong> 、<strong>柔性化</strong> 、<strong>无边界化</strong> 、<strong>虚拟化</strong> 成为组织结构演进的大趋势.</p>
+</details>
+<h2 id="非正式组织与正式组织的区别-p149" tabindex="-1"><a class="header-anchor" href="#非正式组织与正式组织的区别-p149"><span>非正式组织与正式组织的区别(P149)</span></a></h2>
+<details id="my-details">
+<summary>展开/收缩</summary>
+<p>  一方面, 非正式组织在正式组织之间或依附于正式组织成立;
+  另一方面, 非正式组织对正式组织的活动产生影响, 二者有可能相互补充, 也可能引发对立、导致冲突.</p>
+<h6 id="区别" tabindex="-1"><a class="header-anchor" href="#区别"><span>区别 :</span></a></h6>
+<ol>
+<li>目标不同</li>
+<li>行为逻辑不同</li>
+<li>结合紧密程度不同</li>
+<li>权威来源不同</li>
+</ol>
+</details>
+<h2 id="管理幅度设计-p153" tabindex="-1"><a class="header-anchor" href="#管理幅度设计-p153"><span>管理幅度设计(P153)</span></a></h2>
+<details id="my-details">
+<summary>展开/收缩</summary>
+<ol>
+<li>
+<p>管理幅度与管理层级的关系</p>
+<p>当组织规模一定时, 管理幅度与组织层级呈现出反比例关系.</p>
+</li>
+<li>
+<p>集权与分权</p>
+<p>集权是指决策权集中在组织高层的一种权利系统. 与之对应, 分权是指决策权分散在组织各部门的权力系统.</p>
+</li>
+<li>
+<p>影响分权程度的因素</p>
+<ul>
+<li>组织规模</li>
+<li>政策的统一性</li>
+<li>成员的自我管理能力</li>
+<li>组织的可控性</li>
+<li>组织的发展阶段</li>
+</ul>
+</li>
+</ol>
+</details>
+<h2 id="授权的原则-p155" tabindex="-1"><a class="header-anchor" href="#授权的原则-p155"><span>授权的原则(P155)</span></a></h2>
+<details id="my-details">
+<summary>展开/收缩</summary>
+<ol>
+<li>目的性原则</li>
+<li>信任原则</li>
+<li>权责一致原则</li>
+</ol>
+</details>
+<h2 id="直线与参谋的区别-p156" tabindex="-1"><a class="header-anchor" href="#直线与参谋的区别-p156"><span>直线与参谋的区别(P156)</span></a></h2>
+<details id="my-details">
+<summary>展开/收缩</summary>
+<ol>
+<li>职权性质不同</li>
+<li>设置方式不同</li>
+<li>在决策中的角色不同</li>
+<li>考核标准和待遇不同</li>
+<li>所承担的责任不同</li>
+</ol>
+</details>
+<h2 id="外部招聘的程序-p167" tabindex="-1"><a class="header-anchor" href="#外部招聘的程序-p167"><span>外部招聘的程序(P167)</span></a></h2>
+<details id="my-details">
+<summary>展开/收缩</summary>
+<ol>
+<li>准备筹划阶段</li>
+<li>宣传报名阶段</li>
+<li>全面考评阶段</li>
+</ol>
+</details>
+<h2 id="组织文化-p179" tabindex="-1"><a class="header-anchor" href="#组织文化-p179"><span>组织文化(P179)</span></a></h2>
+<details id="my-details">
+<summary>展开/收缩</summary>
+<p>  指的是一个组织在长期实践活动中形成的具体本组织特征的文化形象, 是组织中的全体成员共同接受和共同遵循的价值观念和行为准则.</p>
+</details>
+<h2 id="组织文化的功能-p186" tabindex="-1"><a class="header-anchor" href="#组织文化的功能-p186"><span>组织文化的功能(P186)</span></a></h2>
+<details id="my-details">
+<summary>展开/收缩</summary>
+<ol>
+<li>导向功能</li>
+<li>凝聚功能</li>
+<li>激励和约束</li>
+<li>辐射功能</li>
+<li>调适功能</li>
+</ol>
+</details>
+<h2 id="领导的三要素-p198" tabindex="-1"><a class="header-anchor" href="#领导的三要素-p198"><span>领导的三要素(P198)</span></a></h2>
+<details id="my-details">
+<summary>展开/收缩</summary>
+<h6 id="包括" tabindex="-1"><a class="header-anchor" href="#包括"><span>包括 :</span></a></h6>
+<p>  <strong>领导者</strong> <strong>被领导者</strong> <strong>情境</strong></p>
+<h6 id="公式" tabindex="-1"><a class="header-anchor" href="#公式"><span>公式 :</span></a></h6>
+<p>   $ 领导 = f (领导者, 被领导者, 情境) $</p>
+</details>
+<h2 id="管理方格理论-p204" tabindex="-1"><a class="header-anchor" href="#管理方格理论-p204"><span>管理方格理论(P204)</span></a></h2>
+<details id="my-details">
+<summary>展开/收缩</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">高</th>
+<th style="text-align:center">!</th>
+<th style="text-align:center">!</th>
+<th style="text-align:center">!</th>
+<th style="text-align:center">!</th>
+<th style="text-align:center">!</th>
+<th style="text-align:center">!</th>
+<th style="text-align:center">!</th>
+<th style="text-align:center">!</th>
+<th style="text-align:center">!</th>
+<th style="text-align:center">!</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">9</td>
+<td style="text-align:center">乡村俱乐部管理</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">团队型管理</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">8</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">7</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">6</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">5</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">中间型管理</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">4</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">3</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">2</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">1</td>
+<td style="text-align:center">贫乏型管理</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">任务型管理</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">低</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">2</td>
+<td style="text-align:center">3</td>
+<td style="text-align:center">4</td>
+<td style="text-align:center">5</td>
+<td style="text-align:center">6</td>
+<td style="text-align:center">7</td>
+<td style="text-align:center">8</td>
+<td style="text-align:center">9</td>
+<td style="text-align:center">高</td>
+</tr>
+</tbody>
+</table>
+</details>
+<h2 id="动机行为过程-p220" tabindex="-1"><a class="header-anchor" href="#动机行为过程-p220"><span>动机行为过程(P220)</span></a></h2>
+<details id="my-details">
+<summary>展开/收缩</summary>
+<p>  <strong>刺激</strong> &gt; <strong>需要</strong> &gt; <strong>行动</strong> &gt; <strong>目标</strong> &gt; <strong>满足</strong> &gt; <strong>受挫</strong></p>
+</details>
+<h2 id="动机行为特点-p220" tabindex="-1"><a class="header-anchor" href="#动机行为特点-p220"><span>动机行为特点(P220)</span></a></h2>
+<details id="my-details">
+<summary>展开/收缩</summary>
+<ol>
+<li>自发性</li>
+<li>目的性</li>
+<li>持续性</li>
+<li>可塑性</li>
+<li>因果性</li>
+</ol>
+</details>
+<h2 id="人性假设及其发展-p221" tabindex="-1"><a class="header-anchor" href="#人性假设及其发展-p221"><span>人性假设及其发展 (P221)</span></a></h2>
+<details id="my-details">
+<summary>展开/收缩</summary>
+<ol>
+<li>经济人假设(X假设)</li>
+</ol>
+<blockquote>
+<p>经济人假设认为, 人是以追求个人利益最大化为目的并积极从事经济活动的主体, 具有以下四个特点:</p>
+<p>  第一, 人是必然自利的, 且不是孤立的. 追逐个人利益的动机是人行为的驱动力; 人不能孤立地生存, 只有在经济生活中与他人交往, 才能谋求私人利益.</p>
+<p>  第二, 人总是凭借所处环境判断自身的利益, 努力使用各种手段, 追求自身利益最大化.</p>
+<p>  第三, 人唯一目的是追求私人利益, 但最终会增加社会的公共利益.但是这需要有良好健全的法制和规则作为保证.</p>
+<p>  第四, 人追逐私利的手段和内容会随着社会发展而发生变化, 但其自身的本性不变.</p>
+</blockquote>
+<ol start="2">
+<li>自我实现人假设(Y假设)</li>
+<li>社会人假设</li>
+<li>复杂人假设(超Y假设)</li>
+</ol>
+</details>
+<h2 id="马斯洛理论-p226" tabindex="-1"><a class="header-anchor" href="#马斯洛理论-p226"><span>马斯洛理论(P226)</span></a></h2>
+<details id="my-details">
+<summary>展开/收缩</summary>
+<ol>
+<li>生理需求</li>
+<li>安全需求</li>
+<li>社交需求</li>
+<li>尊重需求</li>
+<li>自我实现需要</li>
+</ol>
+</details>
+<h2 id="成果激励-p236" tabindex="-1"><a class="header-anchor" href="#成果激励-p236"><span>成果激励(P236)</span></a></h2>
+<details id="my-details">
+<summary>展开/收缩</summary>
+<p>  <strong>物质激励</strong> 和 <strong>精神激励</strong></p>
+<h4 id="物质激励" tabindex="-1"><a class="header-anchor" href="#物质激励"><span>物质激励</span></a></h4>
+<ol>
+<li>工资</li>
+<li>福利</li>
+<li>员工持股计划</li>
+</ol>
+<h4 id="精神激励" tabindex="-1"><a class="header-anchor" href="#精神激励"><span>精神激励</span></a></h4>
+<ol>
+<li>情感激励</li>
+<li>荣誉激励</li>
+<li>信任激励</li>
+</ol>
+</details>
+<h2 id="冲突的概念-p249" tabindex="-1"><a class="header-anchor" href="#冲突的概念-p249"><span>冲突的概念(P249)</span></a></h2>
+<details id="my-details">
+<summary>展开/收缩</summary>
+<ol>
+<li>冲突是否存在不仅是客观性问题, 也是一个主观的知觉问题.</li>
+<li>冲突产生的必要条件是, 存在某种形式对立或不相容以及相互作用.</li>
+<li>冲突的主体可以是组织、群体或个人, 冲突的客体可以是利益、权力、资源、目标、方法、意见、价值观、感情、关系等.</li>
+<li>冲突是一个过程.</li>
+</ol>
+</details>
+<h2 id="冲突的策略-p255" tabindex="-1"><a class="header-anchor" href="#冲突的策略-p255"><span>冲突的策略(P255)</span></a></h2>
+<details id="my-details">
+<summary>展开/收缩</summary>
+<ol>
+<li>竞争策略</li>
+<li>合作策略</li>
+<li>回避策略</li>
+<li>迁就策略</li>
+<li>妥协策略</li>
+</ol>
+</details>
+<h2 id="控制内容分类-p269" tabindex="-1"><a class="header-anchor" href="#控制内容分类-p269"><span>控制内容分类(P269)</span></a></h2>
+<details id="my-details">
+<summary>展开/收缩</summary>
+<ol>
+<li>制度控制</li>
+<li>风险防范控制</li>
+<li>预算控制</li>
+<li>激励控制</li>
+<li>绩效考评控制</li>
+</ol>
+</details>
+<h2 id="三全一多-p287" tabindex="-1"><a class="header-anchor" href="#三全一多-p287"><span>&quot;三全一多&quot;(P287)</span></a></h2>
+<details id="my-details">
+<summary>展开/收缩</summary>
+<p>  即全过程的质量管理、全员的质量管理、全组织的质量管理和多方法的质量管理.</p>
+</details>
+<h2 id="控制风险策略-p314" tabindex="-1"><a class="header-anchor" href="#控制风险策略-p314"><span>控制风险策略(P314)</span></a></h2>
+<details id="my-details">
+<summary>展开/收缩</summary>
+<ol>
+<li>风险避免</li>
+<li>风险分担</li>
+<li>损失减低管理</li>
+<li>风险保留</li>
+</ol>
+</details>
+<h2 id="风险避免-p314" tabindex="-1"><a class="header-anchor" href="#风险避免-p314"><span>风险避免(P314)</span></a></h2>
+<details id="my-details">
+<summary>展开/收缩</summary>
+<ol>
+<li>完全拒绝承担风险</li>
+<li>试探承担部分风险</li>
+<li>中途放弃承担风险</li>
+</ol>
+</details>
+<hr>
+<h2 id="感谢您的阅读-您的支持对我很重要" tabindex="-1"><a class="header-anchor" href="#感谢您的阅读-您的支持对我很重要"><span>感谢您的阅读, 您的支持对我很重要.</span></a></h2>
+<p><img src="@source/learn/管理学/img/1.jpg" alt="图片"></p>
+</div></template>
 
 
 <script setup>
