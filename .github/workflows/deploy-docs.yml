@@ -29,7 +29,7 @@ jobs:
 
       # Step 3: 安装依赖
       - name: Install dependencies
-        run: npm install --legacy-peer-deps    
+        run: npm ci   
 
       # Step 4: 清除旧的 actions 缓存
       - name: Clear old actions cache
