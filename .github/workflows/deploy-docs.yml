@@ -13,35 +13,44 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v4
+      # Step 1: 检出代码
+      - name: Checkout repository
+        uses: actions/checkout@v3
         with:
-          fetch-depth: 0
+          fetch-depth: 0  # 获取完整的历史记录
 
-      - name: Install pnpm
-        uses: pnpm/action-setup@v4
-
+      # Step 2: 设置 Node.js 环境
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v3
         with:
           node-version: 20
-          cache: pnpm
+          cache: 'yarn'  # 使用 yarn 缓存
 
-      - name: Install deps
-        run: pnpm install --frozen-lockfile
+      # Step 2.5: 升级 yarn 至最新版本
+      - name: Upgrade yarn
+        run: corepack enable && corepack prepare yarn@stable --activate
 
-      - name: Build Packages
-        run: pnpm build:package
+      # Step 3: 安装依赖
+      - name: Install dependencies
+        run: yarn install
 
-      - name: Docs build
-        env:
-          NODE_OPTIONS: --max_old_space_size=8192
-        run: pnpm docs:build
+      # Step 4: 清除旧的 actions 缓存
+      - name: Clear old actions cache
+        run: sudo rm -rf ${{ github.workspace }}/_actions/JamesIves/github-pages-deploy-action
 
-      - name: Deploy docs
-        uses: JamesIves/github-pages-deploy-action@v4
+      # Step 5: 构建 VuePress 文档
+      - name: Build VuePress
+        run: yarn docs:build
+
+      # Step 5.5: 添加 .nojekyll 文件，确保 GitHub Pages 正确渲染
+      - name: Create .nojekyll file
+        run: echo '' > docs/.vuepress/dist/.nojekyll
+
+      # Step 6: 部署到 main 分支的根目录
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4.4.3  # 确保使用特定版本
         with:
-          branch: main
-          folder: docs/.vuepress/dist
-          single-commit: true
+          branch: main  # 将文件部署到 main 分支
+          folder: docs/.vuepress/dist  # 使用 dist 目录作为静态文件源
+
