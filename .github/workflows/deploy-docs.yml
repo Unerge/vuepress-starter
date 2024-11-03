@@ -25,15 +25,11 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 20
-          cache: 'yarn'  # 使用 yarn 缓存
-
-      # Step 2.5: 升级 yarn 至最新版本
-      - name: Upgrade yarn
-        run: corepack enable && corepack prepare yarn@stable --activate
+          cache: 'npm'  # 使用 npm 缓存
 
       # Step 3: 安装依赖
       - name: Install dependencies
-        run: yarn install
+        run: npm install
 
       # Step 4: 清除旧的 actions 缓存
       - name: Clear old actions cache
@@ -41,7 +37,7 @@ jobs:
 
       # Step 5: 构建 VuePress 文档
       - name: Build VuePress
-        run: yarn docs:build
+        run: npm run docs:build
 
       # Step 5.5: 添加 .nojekyll 文件，确保 GitHub Pages 正确渲染
       - name: Create .nojekyll file
