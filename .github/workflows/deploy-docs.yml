@@ -35,9 +35,12 @@ jobs:
       - name: Clear old actions cache
         run: sudo rm -rf ${{ github.workspace }}/_actions/JamesIves/github-pages-deploy-action
 
-      # Step 5: 构建 VuePress 文档
+      - name: Grant execute permission for vuepress
+        run: chmod +x node_modules/.bin/vuepress
+      
       - name: Build VuePress
         run: npm run docs:build
+      
 
       # Step 5.5: 添加 .nojekyll 文件，确保 GitHub Pages 正确渲染
       - name: Create .nojekyll file
