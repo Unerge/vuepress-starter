@@ -36,63 +36,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "前言",
-    "headers": [
-      {
-        "level": 3,
-        "title": "工程力学",
-        "slug": "工程力学",
-        "link": "#工程力学",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "房屋建筑学",
-        "slug": "房屋建筑学",
-        "link": "#房屋建筑学",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "毛泽东概论",
-        "slug": "毛泽东概论",
-        "link": "#毛泽东概论",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "经济学",
-        "slug": "经济学",
-        "link": "#经济学",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "英语",
-        "slug": "英语",
-        "link": "#英语",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "管理学",
-        "slug": "管理学",
-        "link": "#管理学",
-        "children": []
-      }
-    ],
-    "path": "/learn/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "小说",
-    "headers": [],
-    "path": "/novel/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "你可以写一个关于\"兔兔兔兔热狗好吧吃几节课，我就计划计划赶不上变化\"的故事吗？字数1000字。",
     "headers": [],
     "path": "/GPTstory/1.html",
@@ -226,6 +169,20 @@ export const SEARCH_INDEX = [
     "title": "记录一些GPT小故事",
     "headers": [],
     "path": "/GPTstory/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/learn/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/novel/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -993,245 +950,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "房屋建筑学",
-    "headers": [],
-    "path": "/learn/%E6%88%BF%E5%B1%8B%E5%BB%BA%E7%AD%91%E5%AD%A6/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "建筑三要素",
-    "headers": [
-      {
-        "level": 3,
-        "title": "建筑功能",
-        "slug": "建筑功能",
-        "link": "#建筑功能",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "建筑物质技术条件",
-        "slug": "建筑物质技术条件",
-        "link": "#建筑物质技术条件",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "建筑形象",
-        "slug": "建筑形象",
-        "link": "#建筑形象",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "1. 柱式的组成",
-        "slug": "_1-柱式的组成",
-        "link": "#_1-柱式的组成",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "2. 柱式的种类",
-        "slug": "_2-柱式的种类",
-        "link": "#_2-柱式的种类",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "按耐久性能划分",
-        "slug": "按耐久性能划分",
-        "link": "#按耐久性能划分",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "按耐久性能分级",
-        "slug": "按耐久性能分级",
-        "link": "#按耐久性能分级",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "按重要级分级",
-        "slug": "按重要级分级",
-        "link": "#按重要级分级",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "建筑层数的确定 (P117)",
-        "slug": "建筑层数的确定-p117",
-        "link": "#建筑层数的确定-p117",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "建筑总高度的确定 (P119)",
-        "slug": "建筑总高度的确定-p119",
-        "link": "#建筑总高度的确定-p119",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "优点",
-        "slug": "优点",
-        "link": "#优点",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "缺点",
-        "slug": "缺点",
-        "link": "#缺点",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "优点",
-        "slug": "优点-1",
-        "link": "#优点-1",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "缺点",
-        "slug": "缺点-1",
-        "link": "#缺点-1",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "天然地基",
-        "slug": "天然地基",
-        "link": "#天然地基",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "人工地基",
-        "slug": "人工地基",
-        "link": "#人工地基",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "基础的埋置深度",
-        "slug": "基础的埋置深度",
-        "link": "#基础的埋置深度",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "影响基础埋深的主要因素",
-        "slug": "影响基础埋深的主要因素",
-        "link": "#影响基础埋深的主要因素",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "无筋扩展基础 (刚性基础)",
-        "slug": "无筋扩展基础-刚性基础",
-        "link": "#无筋扩展基础-刚性基础",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "扩展基础 (柔性基础)",
-        "slug": "扩展基础-柔性基础",
-        "link": "#扩展基础-柔性基础",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "独立基础",
-        "slug": "独立基础",
-        "link": "#独立基础",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "条形基础",
-        "slug": "条形基础",
-        "link": "#条形基础",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "筏片基础",
-        "slug": "筏片基础",
-        "link": "#筏片基础",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "种类",
-        "slug": "种类",
-        "link": "#种类",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "砌筑方式",
-        "slug": "砌筑方式",
-        "link": "#砌筑方式",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "壁柱和门垛 (P162)",
-        "slug": "壁柱和门垛-p162",
-        "link": "#壁柱和门垛-p162",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "圈梁",
-        "slug": "圈梁",
-        "link": "#圈梁",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "构造柱",
-        "slug": "构造柱",
-        "link": "#构造柱",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "实心平板",
-        "slug": "实心平板",
-        "link": "#实心平板",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "槽形板",
-        "slug": "槽形板",
-        "link": "#槽形板",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "空心板",
-        "slug": "空心板",
-        "link": "#空心板",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "防水构造",
-        "slug": "防水构造",
-        "link": "#防水构造",
-        "children": []
-      }
-    ],
-    "path": "/learn/%E6%88%BF%E5%B1%8B%E5%BB%BA%E7%AD%91%E5%AD%A6/%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99%2001.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "管理学",
     "headers": [],
     "path": "/learn/%E7%AE%A1%E7%90%86%E5%AD%A6/",
@@ -1243,16 +961,16 @@ export const SEARCH_INDEX = [
     "headers": [
       {
         "level": 2,
-        "title": "中国古代思想",
-        "slug": "中国古代思想",
-        "link": "#中国古代思想",
+        "title": "中国古代思想(P3)",
+        "slug": "中国古代思想-p3",
+        "link": "#中国古代思想-p3",
         "children": []
       },
       {
         "level": 2,
-        "title": "西方工厂制度早期的管理思想",
-        "slug": "西方工厂制度早期的管理思想",
-        "link": "#西方工厂制度早期的管理思想",
+        "title": "西方工厂制度早期的管理思想(P7)",
+        "slug": "西方工厂制度早期的管理思想-p7",
+        "link": "#西方工厂制度早期的管理思想-p7",
         "children": [
           {
             "level": 3,
@@ -1272,65 +990,65 @@ export const SEARCH_INDEX = [
       },
       {
         "level": 2,
-        "title": "学习管理学的意义",
-        "slug": "学习管理学的意义",
-        "link": "#学习管理学的意义",
+        "title": "学习管理学的意义(P10)",
+        "slug": "学习管理学的意义-p10",
+        "link": "#学习管理学的意义-p10",
         "children": []
       },
       {
         "level": 2,
-        "title": "组织的特征",
-        "slug": "组织的特征",
-        "link": "#组织的特征",
+        "title": "组织的特征(P20)",
+        "slug": "组织的特征-p20",
+        "link": "#组织的特征-p20",
         "children": []
       },
       {
         "level": 2,
-        "title": "管理工作内容",
-        "slug": "管理工作内容",
-        "link": "#管理工作内容",
+        "title": "管理工作内容(P23)",
+        "slug": "管理工作内容-p23",
+        "link": "#管理工作内容-p23",
         "children": []
       },
       {
         "level": 2,
-        "title": "系统原理",
-        "slug": "系统原理",
-        "link": "#系统原理",
+        "title": "系统原理(P29)",
+        "slug": "系统原理-p29",
+        "link": "#系统原理-p29",
         "children": []
       },
       {
         "level": 2,
-        "title": "管理的基本方法",
-        "slug": "管理的基本方法",
-        "link": "#管理的基本方法",
+        "title": "管理的基本方法(P31)",
+        "slug": "管理的基本方法-p31",
+        "link": "#管理的基本方法-p31",
         "children": []
       },
       {
         "level": 2,
-        "title": "管理要素",
-        "slug": "管理要素",
-        "link": "#管理要素",
+        "title": "管理要素(P51)",
+        "slug": "管理要素-p51",
+        "link": "#管理要素-p51",
         "children": []
       },
       {
         "level": 2,
-        "title": "法理性权力",
-        "slug": "法理性权力",
-        "link": "#法理性权力",
+        "title": "法理性权力(P53)",
+        "slug": "法理性权力-p53",
+        "link": "#法理性权力-p53",
         "children": []
       },
       {
         "level": 2,
-        "title": "协作系统的三个基本要素",
-        "slug": "协作系统的三个基本要素",
-        "link": "#协作系统的三个基本要素",
+        "title": "协作系统的三个基本要素(P55)",
+        "slug": "协作系统的三个基本要素-p55",
+        "link": "#协作系统的三个基本要素-p55",
         "children": []
       },
       {
         "level": 2,
-        "title": "决策过程",
-        "slug": "决策过程",
-        "link": "#决策过程",
+        "title": "决策过程(P58)",
+        "slug": "决策过程-p58",
+        "link": "#决策过程-p58",
         "children": [
           {
             "level": 3,
@@ -1343,37 +1061,324 @@ export const SEARCH_INDEX = [
       },
       {
         "level": 2,
-        "title": "决策的准则",
-        "slug": "决策的准则",
-        "link": "#决策的准则",
+        "title": "决策的准则(P58)",
+        "slug": "决策的准则-p58",
+        "link": "#决策的准则-p58",
         "children": []
       },
       {
         "level": 2,
-        "title": "管理本质的协调研究",
-        "slug": "管理本质的协调研究",
-        "link": "#管理本质的协调研究",
+        "title": "管理本质的协调研究(P59)",
+        "slug": "管理本质的协调研究-p59",
+        "link": "#管理本质的协调研究-p59",
         "children": []
       },
       {
         "level": 2,
-        "title": "组织趋同的现象观察",
-        "slug": "组织趋同的现象观察",
-        "link": "#组织趋同的现象观察",
+        "title": "组织趋同的现象观察(P63)",
+        "slug": "组织趋同的现象观察-p63",
+        "link": "#组织趋同的现象观察-p63",
         "children": []
       },
       {
         "level": 2,
-        "title": "合法性导致组织趋同的三个不同机制:",
-        "slug": "合法性导致组织趋同的三个不同机制",
-        "link": "#合法性导致组织趋同的三个不同机制",
+        "title": "合法性导致组织趋同的三个不同机制(P65):",
+        "slug": "合法性导致组织趋同的三个不同机制-p65",
+        "link": "#合法性导致组织趋同的三个不同机制-p65",
         "children": []
       },
       {
         "level": 2,
-        "title": "群体决策的优点",
-        "slug": "群体决策的优点",
-        "link": "#群体决策的优点",
+        "title": "群体决策的优点(P75)",
+        "slug": "群体决策的优点-p75",
+        "link": "#群体决策的优点-p75",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "决策的特征(P76)",
+        "slug": "决策的特征-p76",
+        "link": "#决策的特征-p76",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "决策的影响因素(P80)",
+        "slug": "决策的影响因素-p80",
+        "link": "#决策的影响因素-p80",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "环境分类(P84)",
+        "slug": "环境分类-p84",
+        "link": "#环境分类-p84",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "PEST分析方法(P87)",
+        "slug": "pest分析方法-p87",
+        "link": "#pest分析方法-p87",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "脚本法(P90)",
+        "slug": "脚本法-p90",
+        "link": "#脚本法-p90",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "行为决策代表性模型(P94)",
+        "slug": "行为决策代表性模型-p94",
+        "link": "#行为决策代表性模型-p94",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "价值理性与工具理性的对立(P95)",
+        "slug": "价值理性与工具理性的对立-p95",
+        "link": "#价值理性与工具理性的对立-p95",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "德尔菲法(P98)",
+        "slug": "德尔菲法-p98",
+        "link": "#德尔菲法-p98",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "计划的作用(P106)",
+        "slug": "计划的作用-p106",
+        "link": "#计划的作用-p106",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "目标管理的含义(P110)",
+        "slug": "目标管理的含义-p110",
+        "link": "#目标管理的含义-p110",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "成果评价(P114)",
+        "slug": "成果评价-p114",
+        "link": "#成果评价-p114",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "PDCA循环(P115)",
+        "slug": "pdca循环-p115",
+        "link": "#pdca循环-p115",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "PDCA循环的实施步骤(P115)",
+        "slug": "pdca循环的实施步骤-p115",
+        "link": "#pdca循环的实施步骤-p115",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "预算的方法(P117)",
+        "slug": "预算的方法-p117",
+        "link": "#预算的方法-p117",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "决策追踪与调整的特征(P119)",
+        "slug": "决策追踪与调整的特征-p119",
+        "link": "#决策追踪与调整的特征-p119",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "决策追踪与调整的原则(P119)",
+        "slug": "决策追踪与调整的原则-p119",
+        "link": "#决策追踪与调整的原则-p119",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "组织设计的影响因素(P128)",
+        "slug": "组织设计的影响因素-p128",
+        "link": "#组织设计的影响因素-p128",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "组织结构含义的概念(P135)",
+        "slug": "组织结构含义的概念-p135",
+        "link": "#组织结构含义的概念-p135",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "组织结构的形式(P139)",
+        "slug": "组织结构的形式-p139",
+        "link": "#组织结构的形式-p139",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "组织结构的演变趋势(P145)",
+        "slug": "组织结构的演变趋势-p145",
+        "link": "#组织结构的演变趋势-p145",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "非正式组织与正式组织的区别(P149)",
+        "slug": "非正式组织与正式组织的区别-p149",
+        "link": "#非正式组织与正式组织的区别-p149",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "管理幅度设计(P153)",
+        "slug": "管理幅度设计-p153",
+        "link": "#管理幅度设计-p153",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "授权的原则(P155)",
+        "slug": "授权的原则-p155",
+        "link": "#授权的原则-p155",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "直线与参谋的区别(P156)",
+        "slug": "直线与参谋的区别-p156",
+        "link": "#直线与参谋的区别-p156",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "外部招聘的程序(P167)",
+        "slug": "外部招聘的程序-p167",
+        "link": "#外部招聘的程序-p167",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "组织文化(P179)",
+        "slug": "组织文化-p179",
+        "link": "#组织文化-p179",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "组织文化的功能(P186)",
+        "slug": "组织文化的功能-p186",
+        "link": "#组织文化的功能-p186",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "领导的三要素(P198)",
+        "slug": "领导的三要素-p198",
+        "link": "#领导的三要素-p198",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "管理方格理论(P204)",
+        "slug": "管理方格理论-p204",
+        "link": "#管理方格理论-p204",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "动机行为过程(P220)",
+        "slug": "动机行为过程-p220",
+        "link": "#动机行为过程-p220",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "动机行为特点(P220)",
+        "slug": "动机行为特点-p220",
+        "link": "#动机行为特点-p220",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "人性假设及其发展 (P221)",
+        "slug": "人性假设及其发展-p221",
+        "link": "#人性假设及其发展-p221",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "马斯洛理论(P226)",
+        "slug": "马斯洛理论-p226",
+        "link": "#马斯洛理论-p226",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "成果激励(P236)",
+        "slug": "成果激励-p236",
+        "link": "#成果激励-p236",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "冲突的概念(P249)",
+        "slug": "冲突的概念-p249",
+        "link": "#冲突的概念-p249",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "冲突的策略(P255)",
+        "slug": "冲突的策略-p255",
+        "link": "#冲突的策略-p255",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "控制内容分类(P269)",
+        "slug": "控制内容分类-p269",
+        "link": "#控制内容分类-p269",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\"三全一多\"(P287)",
+        "slug": "三全一多-p287",
+        "link": "#三全一多-p287",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "控制风险策略(P314)",
+        "slug": "控制风险策略-p314",
+        "link": "#控制风险策略-p314",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "风险避免(P314)",
+        "slug": "风险避免-p314",
+        "link": "#风险避免-p314",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "感谢您的阅读, 您的支持对我很重要.",
+        "slug": "感谢您的阅读-您的支持对我很重要",
+        "link": "#感谢您的阅读-您的支持对我很重要",
         "children": []
       }
     ],
@@ -2173,13 +2178,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "Re - 从零开始的异世界生活",
-    "headers": [],
-    "path": "/novel/Re%20-%20%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E5%BC%82%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "英语",
     "headers": [],
     "path": "/learn/%E8%8B%B1%E8%AF%AD/",
@@ -2266,6 +2264,13 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "章节",
+    "headers": [],
+    "path": "/novel/Re%20-%20%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E5%BC%82%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "2024/10/9",
     "headers": [
       {
@@ -2299,6 +2304,13 @@ export const SEARCH_INDEX = [
     "title": "四级复习",
     "headers": [],
     "path": "/learn/%E8%8B%B1%E8%AF%AD/CET-4/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "序章 开始的余韵",
+    "headers": [],
+    "path": "/novel/Re%20-%20%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E5%BC%82%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB/%E7%AC%AC%E4%B8%80%E5%8D%B7/%E5%BA%8F%E7%AB%A0/%E5%BA%8F%E7%AB%A0%20%E5%BC%80%E5%A7%8B%E7%9A%84%E4%BD%99%E9%9F%B5.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -2435,13 +2447,6 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/novel/Re%20-%20%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E5%BC%82%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB/%E7%AC%AC%E4%B8%80%E5%8D%B7/%E7%AC%AC%E4%B8%89%E7%AB%A0/%E7%AC%AC%E4%B8%89%E7%AB%A0%20%E7%BB%93%E6%9D%9F%E7%9A%84%E5%BC%80%E5%A7%8B.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "序章 开始的余韵",
-    "headers": [],
-    "path": "/novel/Re%20-%20%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E5%BC%82%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB/%E7%AC%AC%E4%B8%80%E5%8D%B7/%E5%BA%8F%E7%AB%A0/%E5%BA%8F%E7%AB%A0%20%E5%BC%80%E5%A7%8B%E7%9A%84%E4%BD%99%E9%9F%B5.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -2642,6 +2647,34 @@ export const SEARCH_INDEX = [
     "title": "",
     "headers": [],
     "path": "/404.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "博客",
+    "headers": [],
+    "path": "/blog/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "标签",
+    "headers": [],
+    "path": "/blog/tags/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "归档",
+    "headers": [],
+    "path": "/blog/archives/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "分类",
+    "headers": [],
+    "path": "/blog/categories/",
     "pathLocale": "/",
     "extraFields": []
   }

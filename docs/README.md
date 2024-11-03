@@ -1,15 +1,28 @@
 ---
 home: true
-description: 为什么昨晚的清醒与今日的倦意遥相呼应
-heroImage: logo.jpg
-heroText: WentUrc
-tagline: 为什么昨晚的清醒与今日的倦意遥相呼应
-features:
-  - title: HTML
-    details: 超文本标记语言
-  - title: CSS
-    details: 层叠样式表
-  - title: JavaScript
-    details: JS脚本
-footer: 冰苷晶 © 2024
+config:
+  - 
+    type: banner
+    banner: '/img/154.jpg'
+    bannerMask:
+      dark: 0.5
+      light: 0.3
+    hero:
+      name: WentUrc Docs
+      tagline: 为什么昨晚的清醒与今日的倦意遥相呼应
+      text: 话说这个 text 必须要写吗
+      actions:
+        -
+          text: 快速开始
+          link: /learn/
+          theme: brand
+        -
+          text: Github
+          link: https://github.com/Unerge/vuepress-starter
+          theme: alt
+        -
+          text: WentUrc
+          link: https://wenturc.com
+          theme: alt
+
 ---

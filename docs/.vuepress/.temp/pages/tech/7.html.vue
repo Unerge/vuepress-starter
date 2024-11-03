@@ -7,14 +7,14 @@
 <ol>
 <li>
 <p>打开PowerShell并执行以下命令以启用嵌套虚拟化：</p>
-<div class="language-powershell line-numbers-mode" data-highlighter="prismjs" data-ext="powershell" data-title="powershell"><pre v-pre><code><span class="line"><span class="token function">Set-VMProcessor</span> <span class="token operator">-</span>VMName &lt;VMName> <span class="token operator">-</span>ExposeVirtualizationExtensions <span class="token boolean">$true</span></span>
-<span class="line"></span></code></pre>
+<div class="language-powershell line-numbers-mode" data-ext="powershell" data-title="powershell"><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#998418;--shiki-dark:#B8A965">Set-VMProcessor</span><span style="--shiki-light:#999999;--shiki-dark:#666666"> -</span><span style="--shiki-light:#393A34;--shiki-dark:#DBD7CAEE">VMName </span><span style="--shiki-light:#AB5959;--shiki-dark:#CB7676">&#x3C;</span><span style="--shiki-light:#393A34;--shiki-dark:#DBD7CAEE">VMName</span><span style="--shiki-light:#AB5959;--shiki-dark:#CB7676">></span><span style="--shiki-light:#999999;--shiki-dark:#666666"> -</span><span style="--shiki-light:#393A34;--shiki-dark:#DBD7CAEE">ExposeVirtualizationExtensions </span><span style="--shiki-light:#999999;--shiki-dark:#666666">$</span><span style="--shiki-light:#1E754F;--shiki-dark:#4D9375">true</span></span></code></pre>
+
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>将<code v-pre>&lt;VMName&gt;</code>替换为你虚拟机的名称。</p>
 </li>
 <li>
 <p>确保虚拟机的CPU兼容性设置已关闭：</p>
-<div class="language-powershell line-numbers-mode" data-highlighter="prismjs" data-ext="powershell" data-title="powershell"><pre v-pre><code><span class="line"><span class="token function">Set-VMProcessor</span> <span class="token operator">-</span>VMName &lt;VMName> <span class="token operator">-</span>CompatibilityForMigrationEnabled <span class="token boolean">$false</span></span>
-<span class="line"></span></code></pre>
+<div class="language-powershell line-numbers-mode" data-ext="powershell" data-title="powershell"><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#998418;--shiki-dark:#B8A965">Set-VMProcessor</span><span style="--shiki-light:#999999;--shiki-dark:#666666"> -</span><span style="--shiki-light:#393A34;--shiki-dark:#DBD7CAEE">VMName </span><span style="--shiki-light:#AB5959;--shiki-dark:#CB7676">&#x3C;</span><span style="--shiki-light:#393A34;--shiki-dark:#DBD7CAEE">VMName</span><span style="--shiki-light:#AB5959;--shiki-dark:#CB7676">></span><span style="--shiki-light:#999999;--shiki-dark:#666666"> -</span><span style="--shiki-light:#393A34;--shiki-dark:#DBD7CAEE">CompatibilityForMigrationEnabled </span><span style="--shiki-light:#999999;--shiki-dark:#666666">$</span><span style="--shiki-light:#1E754F;--shiki-dark:#4D9375">false</span></span></code></pre>
+
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div></li>
 </ol>
 <h3 id="_3-启用嵌套虚拟化的其他设置" tabindex="-1"><a class="header-anchor" href="#_3-启用嵌套虚拟化的其他设置"><span>3. 启用嵌套虚拟化的其他设置</span></a></h3>

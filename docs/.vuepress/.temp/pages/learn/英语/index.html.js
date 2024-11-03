@@ -1,5 +1,5 @@
 import comp from "C:/Users/27493/Documents/GitHub/vuepress-starter/docs/.vuepress/.temp/pages/learn/英语/index.html.vue"
-const data = JSON.parse("{\"path\":\"/learn/%E8%8B%B1%E8%AF%AD/\",\"title\":\"英语\",\"lang\":\"en-US\",\"frontmatter\":{\"title\":\"英语\"},\"headers\":[],\"git\":{\"updatedTime\":1727612250000,\"contributors\":[{\"name\":\"Larch4\",\"email\":\"114554982+Larch4@users.noreply.github.com\",\"commits\":2}]},\"filePathRelative\":\"learn/英语/README.md\"}")
+const data = JSON.parse("{\"path\":\"/learn/%E8%8B%B1%E8%AF%AD/\",\"title\":\"英语\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"英语\"},\"headers\":[],\"readingTime\":{\"minutes\":0.1,\"words\":31},\"filePathRelative\":\"learn/英语/README.md\",\"categoryList\":[{\"id\":\"339d8d\",\"sort\":10002,\"name\":\"learn\"},{\"id\":\"c44fc1\",\"sort\":10009,\"name\":\"英语\"}],\"bulletin\":false}")
 export { comp, data }
 
 if (import.meta.webpackHot) {

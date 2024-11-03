@@ -42,7 +42,7 @@
 <p><strong>约束反力</strong>永远为拉力，<strong>方向</strong>沿着柔索的中心线背离被约束的物体.</p>
 </blockquote>
 <blockquote>
-<p><strong>符号</strong>用 $F_T$ 表示.</p>
+<p><strong>符号</strong>用 <span v-pre class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>F</mi><mi>T</mi></msub></mrow><annotation encoding="application/x-tex">F_T</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.13889em;">F</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:-0.1389em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.13889em;">T</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> 表示.</p>
 </blockquote>
 <h3 id="_2-光滑接触表面约束" tabindex="-1"><a class="header-anchor" href="#_2-光滑接触表面约束"><span>2. 光滑接触表面约束</span></a></h3>
 <blockquote>
@@ -52,7 +52,7 @@
 <p><strong>约束反力</strong>永为压力，作用在接触面处，方向在接触面处的公法线指向被约束的物体（即受力物体）</p>
 </blockquote>
 <blockquote>
-<p><strong>符号</strong>用 $F_N$ 表示.</p>
+<p><strong>符号</strong>用 <span v-pre class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>F</mi><mi>N</mi></msub></mrow><annotation encoding="application/x-tex">F_N</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.13889em;">F</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:-0.1389em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.10903em;">N</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> 表示.</p>
 </blockquote>
 <h3 id="_3-圆柱铰链约束" tabindex="-1"><a class="header-anchor" href="#_3-圆柱铰链约束"><span>3. 圆柱铰链约束</span></a></h3>
 <blockquote>

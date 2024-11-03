@@ -1,40 +1,40 @@
 <template><div><h1 id="_2024-10-9" tabindex="-1"><a class="header-anchor" href="#_2024-10-9"><span>2024/10/9</span></a></h1>
 <h2 id="words" tabindex="-1"><a class="header-anchor" href="#words"><span>Words</span></a></h2>
-<div class="language-word line-numbers-mode" data-highlighter="prismjs" data-ext="word" data-title="word"><pre v-pre><code><span class="line"> admit</span>
-<span class="line"> argue</span>
-<span class="line"> remark</span>
-<span class="line"> fall out of</span>
-<span class="line"> increase</span>
-<span class="line"> expense</span>
-<span class="line"> concentrate</span>
-<span class="line"> interruption</span>
-<span class="line"> chemist</span>
-<span class="line"> brush aside</span>
-<span class="line"> put to the test</span>
-<span class="line"> brought under discussion</span>
-<span class="line"> taken into accout</span>
-<span class="line"> retire</span>
-<span class="line"> recover</span>
-<span class="line"> attempt</span>
-<span class="line"> pause</span>
-<span class="line"> promiss</span>
-<span class="line"> eventually</span>
-<span class="line"> casually</span>
-<span class="line"> secretly</span>
-<span class="line"> assess</span>
-<span class="line"> form</span>
-<span class="line"> prove</span>
-<span class="line"> slight</span>
-<span class="line"> curiosity</span>
-<span class="line"> disappointment</span>
-<span class="line"> persuade</span>
-<span class="line"> refuse</span>
-<span class="line"> secure</span>
-<span class="line"> repeat</span>
-<span class="line"> recite</span>
-<span class="line"> duty</span>
-<span class="line"> greet</span>
-<span class="line"></span></code></pre>
+<div class="language-word line-numbers-mode" data-ext="word" data-title="word"><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span> admit</span></span>
+<span class="line"><span> argue</span></span>
+<span class="line"><span> remark</span></span>
+<span class="line"><span> fall out of</span></span>
+<span class="line"><span> increase</span></span>
+<span class="line"><span> expense</span></span>
+<span class="line"><span> concentrate</span></span>
+<span class="line"><span> interruption</span></span>
+<span class="line"><span> chemist</span></span>
+<span class="line"><span> brush aside</span></span>
+<span class="line"><span> put to the test</span></span>
+<span class="line"><span> brought under discussion</span></span>
+<span class="line"><span> taken into accout</span></span>
+<span class="line"><span> retire</span></span>
+<span class="line"><span> recover</span></span>
+<span class="line"><span> attempt</span></span>
+<span class="line"><span> pause</span></span>
+<span class="line"><span> promiss</span></span>
+<span class="line"><span> eventually</span></span>
+<span class="line"><span> casually</span></span>
+<span class="line"><span> secretly</span></span>
+<span class="line"><span> assess</span></span>
+<span class="line"><span> form</span></span>
+<span class="line"><span> prove</span></span>
+<span class="line"><span> slight</span></span>
+<span class="line"><span> curiosity</span></span>
+<span class="line"><span> disappointment</span></span>
+<span class="line"><span> persuade</span></span>
+<span class="line"><span> refuse</span></span>
+<span class="line"><span> secure</span></span>
+<span class="line"><span> repeat</span></span>
+<span class="line"><span> recite</span></span>
+<span class="line"><span> duty</span></span>
+<span class="line"><span> greet</span></span></code></pre>
+
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="sentences" tabindex="-1"><a class="header-anchor" href="#sentences"><span>Sentences</span></a></h2>
 <h3 id="活动类作文" tabindex="-1"><a class="header-anchor" href="#活动类作文"><span>活动类作文</span></a></h3>
 <ul>

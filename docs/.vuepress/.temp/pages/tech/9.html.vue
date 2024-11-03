@@ -62,22 +62,22 @@
 <ol>
 <li><strong>安装插件</strong>：首先，你需要在项目中安装<code v-pre>vuepress-plugin-comment-plus</code>插件。可以通过npm或yarn来安装：</li>
 </ol>
-<div class="language-bash line-numbers-mode" data-highlighter="prismjs" data-ext="sh" data-title="sh"><pre v-pre><code><span class="line">   <span class="token function">npm</span> <span class="token function">install</span> vuepress-plugin-comment-plus <span class="token parameter variable">--save</span></span>
-<span class="line"></span></code></pre>
+<div class="language-bash line-numbers-mode" data-ext="bash" data-title="bash"><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#59873A;--shiki-dark:#80A665">   npm</span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D"> install</span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D"> vuepress-plugin-comment-plus</span><span style="--shiki-light:#A65E2B;--shiki-dark:#C99076"> --save</span></span></code></pre>
+
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>或者</p>
-<div class="language-bash line-numbers-mode" data-highlighter="prismjs" data-ext="sh" data-title="sh"><pre v-pre><code><span class="line">   <span class="token function">yarn</span> <span class="token function">add</span> vuepress-plugin-comment-plus</span>
-<span class="line"></span></code></pre>
+<div class="language-bash line-numbers-mode" data-ext="bash" data-title="bash"><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#59873A;--shiki-dark:#80A665">   yarn</span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D"> add</span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D"> vuepress-plugin-comment-plus</span></span></code></pre>
+
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><ol start="2">
 <li><strong>配置插件</strong>：在你的VuePress项目的根目录下的<code v-pre>config.js </code>文件中，添加并配置该插件。例如：</li>
 </ol>
-<div class="language-javascript line-numbers-mode" data-highlighter="prismjs" data-ext="js" data-title="js"><pre v-pre><code><span class="line">   module<span class="token punctuation">.</span>exports  <span class="token operator">=</span> <span class="token punctuation">{</span></span>
-<span class="line">     <span class="token literal-property property">plugins</span><span class="token operator">:</span> <span class="token punctuation">[</span></span>
-<span class="line">       <span class="token punctuation">[</span><span class="token string">'vuepress-plugin-comment-plus'</span><span class="token punctuation">,</span> <span class="token punctuation">{</span></span>
-<span class="line">         <span class="token comment">// 在这里添加你的插件选项</span></span>
-<span class="line">       <span class="token punctuation">}</span><span class="token punctuation">]</span></span>
-<span class="line">     <span class="token punctuation">]</span></span>
-<span class="line">   <span class="token punctuation">}</span><span class="token punctuation">;</span></span>
-<span class="line"></span></code></pre>
+<div class="language-javascript line-numbers-mode" data-ext="javascript" data-title="javascript"><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#998418;--shiki-dark:#B8A965">   module</span><span style="--shiki-light:#999999;--shiki-dark:#666666">.</span><span style="--shiki-light:#998418;--shiki-dark:#B8A965">exports</span><span style="--shiki-light:#999999;--shiki-dark:#666666">  =</span><span style="--shiki-light:#999999;--shiki-dark:#666666"> {</span></span>
+<span class="line"><span style="--shiki-light:#998418;--shiki-dark:#B8A965">     plugins</span><span style="--shiki-light:#999999;--shiki-dark:#666666">:</span><span style="--shiki-light:#999999;--shiki-dark:#666666"> [</span></span>
+<span class="line"><span style="--shiki-light:#999999;--shiki-dark:#666666">       [</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77">'</span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D">vuepress-plugin-comment-plus</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77">'</span><span style="--shiki-light:#999999;--shiki-dark:#666666">,</span><span style="--shiki-light:#999999;--shiki-dark:#666666"> {</span></span>
+<span class="line"><span style="--shiki-light:#A0ADA0;--shiki-dark:#758575DD">         // 在这里添加你的插件选项</span></span>
+<span class="line"><span style="--shiki-light:#999999;--shiki-dark:#666666">       }]</span></span>
+<span class="line"><span style="--shiki-light:#999999;--shiki-dark:#666666">     ]</span></span>
+<span class="line"><span style="--shiki-light:#999999;--shiki-dark:#666666">   };</span></span></code></pre>
+
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>根据插件的文档，你可能需要提供一些配置选项，比如API密钥、评论系统的类型等。</p>
 <ol start="3">
 <li>
@@ -97,15 +97,15 @@
 <p>在<code v-pre>.vuepress/config.js </code>文件中配置vssue插件。具体配置如下：</p>
 </li>
 </ol>
-<div class="language-javascript line-numbers-mode" data-highlighter="prismjs" data-ext="js" data-title="js"><pre v-pre><code><span class="line">   <span class="token literal-property property">plugins</span><span class="token operator">:</span> <span class="token punctuation">[</span></span>
-<span class="line">     <span class="token punctuation">[</span><span class="token string">'vuepress-plugin-vssue-global'</span><span class="token punctuation">,</span> <span class="token punctuation">{</span></span>
-<span class="line">       <span class="token literal-property property">platform</span><span class="token operator">:</span> <span class="token string">'github'</span><span class="token punctuation">,</span> <span class="token comment">// 选择你的平台，如github、gitlab等</span></span>
-<span class="line">       <span class="token literal-property property">owner</span><span class="token operator">:</span> <span class="token string">'你的用户名'</span><span class="token punctuation">,</span></span>
-<span class="line">       <span class="token literal-property property">repo</span><span class="token operator">:</span> <span class="token string">'你的仓库名'</span><span class="token punctuation">,</span></span>
-<span class="line">       <span class="token literal-property property">issueId</span><span class="token operator">:</span> <span class="token string">'你的issue id'</span></span>
-<span class="line">     <span class="token punctuation">}</span><span class="token punctuation">]</span></span>
-<span class="line">   <span class="token punctuation">]</span></span>
-<span class="line"></span></code></pre>
+<div class="language-javascript line-numbers-mode" data-ext="javascript" data-title="javascript"><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#59873A;--shiki-dark:#80A665">   plugins</span><span style="--shiki-light:#999999;--shiki-dark:#666666">:</span><span style="--shiki-light:#999999;--shiki-dark:#666666"> [</span></span>
+<span class="line"><span style="--shiki-light:#999999;--shiki-dark:#666666">     [</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77">'</span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D">vuepress-plugin-vssue-global</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77">'</span><span style="--shiki-light:#999999;--shiki-dark:#666666">,</span><span style="--shiki-light:#999999;--shiki-dark:#666666"> {</span></span>
+<span class="line"><span style="--shiki-light:#998418;--shiki-dark:#B8A965">       platform</span><span style="--shiki-light:#999999;--shiki-dark:#666666">:</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77"> '</span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D">github</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77">'</span><span style="--shiki-light:#999999;--shiki-dark:#666666">,</span><span style="--shiki-light:#A0ADA0;--shiki-dark:#758575DD"> // 选择你的平台，如github、gitlab等</span></span>
+<span class="line"><span style="--shiki-light:#998418;--shiki-dark:#B8A965">       owner</span><span style="--shiki-light:#999999;--shiki-dark:#666666">:</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77"> '</span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D">你的用户名</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77">'</span><span style="--shiki-light:#999999;--shiki-dark:#666666">,</span></span>
+<span class="line"><span style="--shiki-light:#998418;--shiki-dark:#B8A965">       repo</span><span style="--shiki-light:#999999;--shiki-dark:#666666">:</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77"> '</span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D">你的仓库名</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77">'</span><span style="--shiki-light:#999999;--shiki-dark:#666666">,</span></span>
+<span class="line"><span style="--shiki-light:#998418;--shiki-dark:#B8A965">       issueId</span><span style="--shiki-light:#999999;--shiki-dark:#666666">:</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77"> '</span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D">你的issue id</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77">'</span></span>
+<span class="line"><span style="--shiki-light:#999999;--shiki-dark:#666666">     }]</span></span>
+<span class="line"><span style="--shiki-light:#999999;--shiki-dark:#666666">   ]</span></span></code></pre>
+
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>这里的<code v-pre>platform</code>参数需要根据你使用的平台进行选择，如github、gitlab等。同时，你需要提供你的GitHub用户名、仓库名以及issue的id。</p>
 <ol start="3">
 <li>
@@ -115,10 +115,10 @@
 <p>在Markdown文件中直接使用Vssue组件。例如：</p>
 </li>
 </ol>
-<div class="language-html line-numbers-mode" data-highlighter="prismjs" data-ext="html" data-title="html"><pre v-pre><code><span class="line">   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">></span></span></span>
-<span class="line">     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Vssue</span> <span class="token attr-name">:issue-id</span> <span class="token attr-name">quote</span> <span class="token punctuation">/></span></span></span>
-<span class="line">   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">></span></span></span>
-<span class="line"></span></code></pre>
+<div class="language-html line-numbers-mode" data-ext="html" data-title="html"><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#999999;--shiki-dark:#666666">   &#x3C;</span><span style="--shiki-light:#1E754F;--shiki-dark:#4D9375">template</span><span style="--shiki-light:#999999;--shiki-dark:#666666">></span></span>
+<span class="line"><span style="--shiki-light:#999999;--shiki-dark:#666666">     &#x3C;</span><span style="--shiki-light:#B31D28;--shiki-dark:#FDAEB7">Vssue</span><span style="--shiki-light:#B07D48;--shiki-dark:#BD976A"> :issue-id</span><span style="--shiki-light:#B07D48;--shiki-dark:#BD976A"> quote</span><span style="--shiki-light:#999999;--shiki-dark:#666666"> /></span></span>
+<span class="line"><span style="--shiki-light:#999999;--shiki-dark:#666666">   &#x3C;/</span><span style="--shiki-light:#1E754F;--shiki-dark:#4D9375">template</span><span style="--shiki-light:#999999;--shiki-dark:#666666">></span></span></code></pre>
+
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>这样可以在你的VuePress Markdown文件中直接使用Vssue组件。</p>
 <ol start="5">
 <li>如果你对Vssue的样式进行了自定义，可以直接在VuePress中引入Vssue组件，而不需要使用@vssue/vuepress-plugin-vssue。但是，为了兼容SSR，建议将Vssue组件放置在<code v-pre>&lt;ClientOnly&gt;</code>组件中。</li>
@@ -135,63 +135,63 @@
 <h3 id="配置方法" tabindex="-1"><a class="header-anchor" href="#配置方法"><span>配置方法</span></a></h3>
 <h4 id="_1-安装插件" tabindex="-1"><a class="header-anchor" href="#_1-安装插件"><span>1. 安装插件</span></a></h4>
 <p>首先需要在 VuePress 项目中安装 <code v-pre>vuepress-plugin-comment</code> 插件。可以通过 npm 或 yarn 进行安装：</p>
-<div class="language-bash line-numbers-mode" data-highlighter="prismjs" data-ext="sh" data-title="sh"><pre v-pre><code><span class="line"><span class="token function">npm</span> <span class="token function">install</span> vuepress-plugin-comment <span class="token parameter variable">--save</span></span>
-<span class="line"><span class="token comment"># 或者使用 yarn</span></span>
-<span class="line"><span class="token function">yarn</span> <span class="token function">add</span> vuepress-plugin-comment</span>
-<span class="line"></span></code></pre>
+<div class="language-bash line-numbers-mode" data-ext="bash" data-title="bash"><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#59873A;--shiki-dark:#80A665">npm</span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D"> install</span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D"> vuepress-plugin-comment</span><span style="--shiki-light:#A65E2B;--shiki-dark:#C99076"> --save</span></span>
+<span class="line"><span style="--shiki-light:#A0ADA0;--shiki-dark:#758575DD"># 或者使用 yarn</span></span>
+<span class="line"><span style="--shiki-light:#59873A;--shiki-dark:#80A665">yarn</span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D"> add</span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D"> vuepress-plugin-comment</span></span></code></pre>
+
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4 id="_2-配置插件" tabindex="-1"><a class="header-anchor" href="#_2-配置插件"><span>2. 配置插件</span></a></h4>
 <p>在项目的 <code v-pre>config.js </code> 文件中添加插件配置：</p>
-<div class="language-javascript line-numbers-mode" data-highlighter="prismjs" data-ext="js" data-title="js"><pre v-pre><code><span class="line">module<span class="token punctuation">.</span>exports  <span class="token operator">=</span> <span class="token punctuation">{</span></span>
-<span class="line">  <span class="token literal-property property">plugins</span><span class="token operator">:</span> <span class="token punctuation">[</span></span>
-<span class="line">    <span class="token punctuation">[</span><span class="token string">'vuepress-plugin-comment'</span><span class="token punctuation">,</span> <span class="token punctuation">{</span></span>
-<span class="line">      <span class="token comment">// 选择评论服务提供商</span></span>
-<span class="line">      <span class="token literal-property property">comment</span><span class="token operator">:</span> <span class="token string">'valine'</span><span class="token punctuation">,</span> <span class="token comment">// 或者选择其他服务如 'giscus', 'twikoo', 'waline'</span></span>
-<span class="line">      <span class="token comment">// 配置选项，具体参数取决于所选的评论服务</span></span>
-<span class="line">      <span class="token literal-property property">options</span><span class="token operator">:</span> <span class="token punctuation">{</span></span>
-<span class="line">        <span class="token literal-property property">el</span><span class="token operator">:</span> <span class="token string">'#valine-vuepress-comment'</span><span class="token punctuation">,</span></span>
-<span class="line">        <span class="token literal-property property">appId</span><span class="token operator">:</span> <span class="token string">'your-app-id'</span><span class="token punctuation">,</span></span>
-<span class="line">        <span class="token literal-property property">appKey</span><span class="token operator">:</span> <span class="token string">'your-app-key'</span></span>
-<span class="line">        <span class="token comment">// 其他参数根据所选服务提供商的要求进行配置</span></span>
-<span class="line">      <span class="token punctuation">}</span></span>
-<span class="line">    <span class="token punctuation">}</span><span class="token punctuation">]</span></span>
-<span class="line">  <span class="token punctuation">]</span></span>
-<span class="line"><span class="token punctuation">}</span></span>
-<span class="line"></span></code></pre>
+<div class="language-javascript line-numbers-mode" data-ext="javascript" data-title="javascript"><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#998418;--shiki-dark:#B8A965">module</span><span style="--shiki-light:#999999;--shiki-dark:#666666">.</span><span style="--shiki-light:#998418;--shiki-dark:#B8A965">exports</span><span style="--shiki-light:#999999;--shiki-dark:#666666">  =</span><span style="--shiki-light:#999999;--shiki-dark:#666666"> {</span></span>
+<span class="line"><span style="--shiki-light:#998418;--shiki-dark:#B8A965">  plugins</span><span style="--shiki-light:#999999;--shiki-dark:#666666">:</span><span style="--shiki-light:#999999;--shiki-dark:#666666"> [</span></span>
+<span class="line"><span style="--shiki-light:#999999;--shiki-dark:#666666">    [</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77">'</span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D">vuepress-plugin-comment</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77">'</span><span style="--shiki-light:#999999;--shiki-dark:#666666">,</span><span style="--shiki-light:#999999;--shiki-dark:#666666"> {</span></span>
+<span class="line"><span style="--shiki-light:#A0ADA0;--shiki-dark:#758575DD">      // 选择评论服务提供商</span></span>
+<span class="line"><span style="--shiki-light:#998418;--shiki-dark:#B8A965">      comment</span><span style="--shiki-light:#999999;--shiki-dark:#666666">:</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77"> '</span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D">valine</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77">'</span><span style="--shiki-light:#999999;--shiki-dark:#666666">,</span><span style="--shiki-light:#A0ADA0;--shiki-dark:#758575DD"> // 或者选择其他服务如 'giscus', 'twikoo', 'waline'</span></span>
+<span class="line"><span style="--shiki-light:#A0ADA0;--shiki-dark:#758575DD">      // 配置选项，具体参数取决于所选的评论服务</span></span>
+<span class="line"><span style="--shiki-light:#998418;--shiki-dark:#B8A965">      options</span><span style="--shiki-light:#999999;--shiki-dark:#666666">:</span><span style="--shiki-light:#999999;--shiki-dark:#666666"> {</span></span>
+<span class="line"><span style="--shiki-light:#998418;--shiki-dark:#B8A965">        el</span><span style="--shiki-light:#999999;--shiki-dark:#666666">:</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77"> '</span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D">#valine-vuepress-comment</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77">'</span><span style="--shiki-light:#999999;--shiki-dark:#666666">,</span></span>
+<span class="line"><span style="--shiki-light:#998418;--shiki-dark:#B8A965">        appId</span><span style="--shiki-light:#999999;--shiki-dark:#666666">:</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77"> '</span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D">your-app-id</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77">'</span><span style="--shiki-light:#999999;--shiki-dark:#666666">,</span></span>
+<span class="line"><span style="--shiki-light:#998418;--shiki-dark:#B8A965">        appKey</span><span style="--shiki-light:#999999;--shiki-dark:#666666">:</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77"> '</span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D">your-app-key</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77">'</span></span>
+<span class="line"><span style="--shiki-light:#A0ADA0;--shiki-dark:#758575DD">        // 其他参数根据所选服务提供商的要求进行配置</span></span>
+<span class="line"><span style="--shiki-light:#999999;--shiki-dark:#666666">      }</span></span>
+<span class="line"><span style="--shiki-light:#999999;--shiki-dark:#666666">    }]</span></span>
+<span class="line"><span style="--shiki-light:#999999;--shiki-dark:#666666">  ]</span></span>
+<span class="line"><span style="--shiki-light:#999999;--shiki-dark:#666666">}</span></span></code></pre>
+
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>例如，如果选择使用 Valine，可以这样配置：</p>
-<div class="language-javascript line-numbers-mode" data-highlighter="prismjs" data-ext="js" data-title="js"><pre v-pre><code><span class="line">module<span class="token punctuation">.</span>exports  <span class="token operator">=</span> <span class="token punctuation">{</span></span>
-<span class="line">  <span class="token literal-property property">plugins</span><span class="token operator">:</span> <span class="token punctuation">[</span></span>
-<span class="line">    <span class="token punctuation">[</span><span class="token string">'vuepress-plugin-comment'</span><span class="token punctuation">,</span> <span class="token punctuation">{</span></span>
-<span class="line">      <span class="token literal-property property">comment</span><span class="token operator">:</span> <span class="token string">'valine'</span><span class="token punctuation">,</span></span>
-<span class="line">      <span class="token literal-property property">options</span><span class="token operator">:</span> <span class="token punctuation">{</span></span>
-<span class="line">        <span class="token literal-property property">el</span><span class="token operator">:</span> <span class="token string">'#valine-vuepress-comment'</span><span class="token punctuation">,</span></span>
-<span class="line">        <span class="token literal-property property">appId</span><span class="token operator">:</span> <span class="token string">'your-app-id'</span><span class="token punctuation">,</span></span>
-<span class="line">        <span class="token literal-property property">appKey</span><span class="token operator">:</span> <span class="token string">'your-app-key'</span></span>
-<span class="line">      <span class="token punctuation">}</span></span>
-<span class="line">    <span class="token punctuation">}</span><span class="token punctuation">]</span></span>
+<div class="language-javascript line-numbers-mode" data-ext="javascript" data-title="javascript"><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#998418;--shiki-dark:#B8A965">module</span><span style="--shiki-light:#999999;--shiki-dark:#666666">.</span><span style="--shiki-light:#998418;--shiki-dark:#B8A965">exports</span><span style="--shiki-light:#999999;--shiki-dark:#666666">  =</span><span style="--shiki-light:#999999;--shiki-dark:#666666"> {</span></span>
+<span class="line"><span style="--shiki-light:#998418;--shiki-dark:#B8A965">  plugins</span><span style="--shiki-light:#999999;--shiki-dark:#666666">:</span><span style="--shiki-light:#999999;--shiki-dark:#666666"> [</span></span>
+<span class="line"><span style="--shiki-light:#999999;--shiki-dark:#666666">    [</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77">'</span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D">vuepress-plugin-comment</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77">'</span><span style="--shiki-light:#999999;--shiki-dark:#666666">,</span><span style="--shiki-light:#999999;--shiki-dark:#666666"> {</span></span>
+<span class="line"><span style="--shiki-light:#998418;--shiki-dark:#B8A965">      comment</span><span style="--shiki-light:#999999;--shiki-dark:#666666">:</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77"> '</span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D">valine</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77">'</span><span style="--shiki-light:#999999;--shiki-dark:#666666">,</span></span>
+<span class="line"><span style="--shiki-light:#998418;--shiki-dark:#B8A965">      options</span><span style="--shiki-light:#999999;--shiki-dark:#666666">:</span><span style="--shiki-light:#999999;--shiki-dark:#666666"> {</span></span>
+<span class="line"><span style="--shiki-light:#998418;--shiki-dark:#B8A965">        el</span><span style="--shiki-light:#999999;--shiki-dark:#666666">:</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77"> '</span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D">#valine-vuepress-comment</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77">'</span><span style="--shiki-light:#999999;--shiki-dark:#666666">,</span></span>
+<span class="line"><span style="--shiki-light:#998418;--shiki-dark:#B8A965">        appId</span><span style="--shiki-light:#999999;--shiki-dark:#666666">:</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77"> '</span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D">your-app-id</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77">'</span><span style="--shiki-light:#999999;--shiki-dark:#666666">,</span></span>
+<span class="line"><span style="--shiki-light:#998418;--shiki-dark:#B8A965">        appKey</span><span style="--shiki-light:#999999;--shiki-dark:#666666">:</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77"> '</span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D">your-app-key</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77">'</span></span>
+<span class="line"><span style="--shiki-light:#999999;--shiki-dark:#666666">      }</span></span>
+<span class="line"><span style="--shiki-light:#999999;--shiki-dark:#666666">    }]</span></span>
 <span class="line"></span>
 <span class="line"></span>
-<span class="line">#### Valine插件在VuePress项目中的安装和使用指南。</span>
+<span class="line"><span style="--shiki-light:#393A34;--shiki-dark:#DBD7CAEE">#### </span><span style="--shiki-light:#B07D48;--shiki-dark:#BD976A">Valine</span><span style="--shiki-light:#393A34;--shiki-dark:#DBD7CAEE">插件在</span><span style="--shiki-light:#B07D48;--shiki-dark:#BD976A">VuePress</span><span style="--shiki-light:#393A34;--shiki-dark:#DBD7CAEE">项目中的安装和使用指南。</span></span>
 <span class="line"></span>
 <span class="line"></span>
-<span class="line">在VuePress项目中安装和使用Valine评论插件的步骤如下：</span>
+<span class="line"><span style="--shiki-light:#393A34;--shiki-dark:#DBD7CAEE">在</span><span style="--shiki-light:#B07D48;--shiki-dark:#BD976A">VuePress</span><span style="--shiki-light:#393A34;--shiki-dark:#DBD7CAEE">项目中安装和使用</span><span style="--shiki-light:#B07D48;--shiki-dark:#BD976A">Valine</span><span style="--shiki-light:#393A34;--shiki-dark:#DBD7CAEE">评论插件的步骤如下：</span></span>
 <span class="line"></span>
-<span class="line"><span class="token number">1.</span> <span class="token operator">**</span>安装Valine插件<span class="token operator">**</span>：</span>
-<span class="line">   <span class="token operator">-</span> 使用npm安装：<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">npm install --save vuepress-plugin-comment</span><span class="token template-punctuation string">`</span></span></span>
-<span class="line">   <span class="token operator">-</span> 或者使用yarn安装：<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">yarn add vuepress-plugin-comment -D</span><span class="token template-punctuation string">`</span></span></span>
+<span class="line"><span style="--shiki-light:#2F798A;--shiki-dark:#4C9A91">1.</span><span style="--shiki-light:#AB5959;--shiki-dark:#CB7676"> **</span><span style="--shiki-light:#393A34;--shiki-dark:#DBD7CAEE">安装</span><span style="--shiki-light:#B07D48;--shiki-dark:#BD976A">Valine</span><span style="--shiki-light:#393A34;--shiki-dark:#DBD7CAEE">插件</span><span style="--shiki-light:#AB5959;--shiki-dark:#CB7676">**</span><span style="--shiki-light:#393A34;--shiki-dark:#DBD7CAEE">：</span></span>
+<span class="line"><span style="--shiki-light:#AB5959;--shiki-dark:#CB7676">   -</span><span style="--shiki-light:#393A34;--shiki-dark:#DBD7CAEE"> 使用</span><span style="--shiki-light:#B07D48;--shiki-dark:#BD976A">npm</span><span style="--shiki-light:#393A34;--shiki-dark:#DBD7CAEE">安装：</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77">`</span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D">npm install --save vuepress-plugin-comment</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77">`</span></span>
+<span class="line"><span style="--shiki-light:#AB5959;--shiki-dark:#CB7676">   -</span><span style="--shiki-light:#393A34;--shiki-dark:#DBD7CAEE"> 或者使用</span><span style="--shiki-light:#B07D48;--shiki-dark:#BD976A">yarn</span><span style="--shiki-light:#393A34;--shiki-dark:#DBD7CAEE">安装：</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77">`</span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D">yarn add vuepress-plugin-comment -D</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77">`</span></span>
 <span class="line"></span>
-<span class="line"><span class="token number">2.</span> <span class="token operator">**</span>配置Valine插件<span class="token operator">**</span>：</span>
-<span class="line">   <span class="token operator">-</span> 在你的VuePress项目的<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">config.js </span><span class="token template-punctuation string">`</span></span>文件中引入插件。例如：</span>
-<span class="line"><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token template-punctuation string">`</span></span>`javascript</span>
-<span class="line">module<span class="token punctuation">.</span>exports  <span class="token operator">=</span> <span class="token punctuation">{</span></span>
-<span class="line"><span class="token literal-property property">plugins</span><span class="token operator">:</span> <span class="token punctuation">[</span></span>
-<span class="line"><span class="token punctuation">[</span><span class="token string">'vuepress-plugin-comment'</span><span class="token punctuation">,</span> <span class="token punctuation">{</span></span>
-<span class="line"><span class="token literal-property property">app_id</span><span class="token operator">:</span> <span class="token string">'your-app-id'</span><span class="token punctuation">,</span></span>
-<span class="line"><span class="token literal-property property">app_key</span><span class="token operator">:</span> <span class="token string">'your-app-key'</span><span class="token punctuation">,</span></span>
-<span class="line"><span class="token comment">// 其他配置项...</span></span>
-<span class="line"><span class="token punctuation">}</span><span class="token punctuation">]</span></span>
-<span class="line"><span class="token punctuation">]</span></span>
-<span class="line"><span class="token punctuation">}</span></span>
-<span class="line"></span></code></pre>
+<span class="line"><span style="--shiki-light:#2F798A;--shiki-dark:#4C9A91">2.</span><span style="--shiki-light:#AB5959;--shiki-dark:#CB7676"> **</span><span style="--shiki-light:#393A34;--shiki-dark:#DBD7CAEE">配置</span><span style="--shiki-light:#B07D48;--shiki-dark:#BD976A">Valine</span><span style="--shiki-light:#393A34;--shiki-dark:#DBD7CAEE">插件</span><span style="--shiki-light:#AB5959;--shiki-dark:#CB7676">**</span><span style="--shiki-light:#393A34;--shiki-dark:#DBD7CAEE">：</span></span>
+<span class="line"><span style="--shiki-light:#AB5959;--shiki-dark:#CB7676">   -</span><span style="--shiki-light:#393A34;--shiki-dark:#DBD7CAEE"> 在你的</span><span style="--shiki-light:#B07D48;--shiki-dark:#BD976A">VuePress</span><span style="--shiki-light:#393A34;--shiki-dark:#DBD7CAEE">项目的</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77">`</span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D">config.js </span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77">`</span><span style="--shiki-light:#393A34;--shiki-dark:#DBD7CAEE">文件中引入插件。例如：</span></span>
+<span class="line"><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77">```</span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D">javascript</span></span>
+<span class="line"><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D">module.exports  = {</span></span>
+<span class="line"><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D">plugins: [</span></span>
+<span class="line"><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D">['vuepress-plugin-comment', {</span></span>
+<span class="line"><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D">app_id: 'your-app-id',</span></span>
+<span class="line"><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D">app_key: 'your-app-key',</span></span>
+<span class="line"><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D">// 其他配置项...</span></span>
+<span class="line"><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D">}]</span></span>
+<span class="line"><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D">]</span></span>
+<span class="line"><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D">}</span></span></code></pre>
+
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul>
 <li>获取appId和appKey：前往LeanCloud官网注册账号，然后在应用设置中获取。</li>
 </ul>
@@ -219,23 +219,23 @@
 <h4 id="giscus插件如何在vuepress网站上实现-并管理其设置" tabindex="-1"><a class="header-anchor" href="#giscus插件如何在vuepress网站上实现-并管理其设置"><span>Giscus插件如何在VuePress网站上实现，并管理其设置？</span></a></h4>
 <p>要在VuePress网站上实现Giscus插件并管理其设置，可以按照以下步骤进行：</p>
 <p>首先，你需要在你的VuePress项目中安装Giscus插件。可以通过npm命令来安装：</p>
-<div class="language-bash line-numbers-mode" data-highlighter="prismjs" data-ext="sh" data-title="sh"><pre v-pre><code><span class="line">   <span class="token function">npm</span> <span class="token function">install</span> <span class="token parameter variable">--save</span> vuepress-plugin-comment</span>
-<span class="line"></span></code></pre>
+<div class="language-bash line-numbers-mode" data-ext="bash" data-title="bash"><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#59873A;--shiki-dark:#80A665">   npm</span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D"> install</span><span style="--shiki-light:#A65E2B;--shiki-dark:#C99076"> --save</span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D"> vuepress-plugin-comment</span></span></code></pre>
+
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>这个插件可以帮助你在VuePress网站上开启评论功能。</p>
 <p>安装完成后，你需要在VuePress的配置文件中添加Giscus插件。通常，这个配置文件是<code v-pre>config.js </code>或<code v-pre>config.ts </code>。在该文件中，你可以通过引入和配置插件来启用Giscus评论功能：</p>
-<div class="language-javascript line-numbers-mode" data-highlighter="prismjs" data-ext="js" data-title="js"><pre v-pre><code><span class="line">   module<span class="token punctuation">.</span>exports  <span class="token operator">=</span> <span class="token punctuation">{</span></span>
-<span class="line"><span class="token literal-property property">plugins</span><span class="token operator">:</span> <span class="token punctuation">[</span></span>
-<span class="line"><span class="token punctuation">[</span></span>
-<span class="line"><span class="token string">'vuepress-plugin-comment'</span><span class="token punctuation">,</span></span>
-<span class="line"><span class="token punctuation">{</span></span>
-<span class="line"><span class="token comment">// 配置选项</span></span>
-<span class="line"><span class="token literal-property property">id</span><span class="token operator">:</span> <span class="token string">'your-giscus-id'</span><span class="token punctuation">,</span> <span class="token comment">// 你的Giscus实例ID</span></span>
-<span class="line"><span class="token literal-property property">repo</span><span class="token operator">:</span> <span class="token string">'your-repo-name'</span><span class="token punctuation">,</span> <span class="token comment">// GitHub仓库名称</span></span>
-<span class="line"><span class="token literal-property property">category</span><span class="token operator">:</span> <span class="token string">'all'</span><span class="token punctuation">,</span> <span class="token comment">// 讨论分类</span></span>
-<span class="line"><span class="token literal-property property">映射</span><span class="token operator">:</span> <span class="token string">'id'</span><span class="token punctuation">,</span> <span class="token comment">// 映射字段</span></span>
-<span class="line"><span class="token literal-property property">mapping</span><span class="token operator">:</span> <span class="token string">'title'</span><span class="token punctuation">,</span> <span class="token comment">// 映射字段</span></span>
-<span class="line">granular Mapping<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span> <span class="token comment">// 是否启用细粒</span></span>
-<span class="line"></span></code></pre>
+<div class="language-javascript line-numbers-mode" data-ext="javascript" data-title="javascript"><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#998418;--shiki-dark:#B8A965">   module</span><span style="--shiki-light:#999999;--shiki-dark:#666666">.</span><span style="--shiki-light:#998418;--shiki-dark:#B8A965">exports</span><span style="--shiki-light:#999999;--shiki-dark:#666666">  =</span><span style="--shiki-light:#999999;--shiki-dark:#666666"> {</span></span>
+<span class="line"><span style="--shiki-light:#998418;--shiki-dark:#B8A965">plugins</span><span style="--shiki-light:#999999;--shiki-dark:#666666">:</span><span style="--shiki-light:#999999;--shiki-dark:#666666"> [</span></span>
+<span class="line"><span style="--shiki-light:#999999;--shiki-dark:#666666">[</span></span>
+<span class="line"><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77">'</span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D">vuepress-plugin-comment</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77">'</span><span style="--shiki-light:#999999;--shiki-dark:#666666">,</span></span>
+<span class="line"><span style="--shiki-light:#999999;--shiki-dark:#666666">{</span></span>
+<span class="line"><span style="--shiki-light:#A0ADA0;--shiki-dark:#758575DD">// 配置选项</span></span>
+<span class="line"><span style="--shiki-light:#998418;--shiki-dark:#B8A965">id</span><span style="--shiki-light:#999999;--shiki-dark:#666666">:</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77"> '</span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D">your-giscus-id</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77">'</span><span style="--shiki-light:#999999;--shiki-dark:#666666">,</span><span style="--shiki-light:#A0ADA0;--shiki-dark:#758575DD"> // 你的Giscus实例ID</span></span>
+<span class="line"><span style="--shiki-light:#998418;--shiki-dark:#B8A965">repo</span><span style="--shiki-light:#999999;--shiki-dark:#666666">:</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77"> '</span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D">your-repo-name</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77">'</span><span style="--shiki-light:#999999;--shiki-dark:#666666">,</span><span style="--shiki-light:#A0ADA0;--shiki-dark:#758575DD"> // GitHub仓库名称</span></span>
+<span class="line"><span style="--shiki-light:#998418;--shiki-dark:#B8A965">category</span><span style="--shiki-light:#999999;--shiki-dark:#666666">:</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77"> '</span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D">all</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77">'</span><span style="--shiki-light:#999999;--shiki-dark:#666666">,</span><span style="--shiki-light:#A0ADA0;--shiki-dark:#758575DD"> // 讨论分类</span></span>
+<span class="line"><span style="--shiki-light:#393A34;--shiki-dark:#DBD7CAEE">映射</span><span style="--shiki-light:#999999;--shiki-dark:#666666">:</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77"> '</span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D">id</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77">'</span><span style="--shiki-light:#999999;--shiki-dark:#666666">,</span><span style="--shiki-light:#A0ADA0;--shiki-dark:#758575DD"> // 映射字段</span></span>
+<span class="line"><span style="--shiki-light:#998418;--shiki-dark:#B8A965">mapping</span><span style="--shiki-light:#999999;--shiki-dark:#666666">:</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77"> '</span><span style="--shiki-light:#B56959;--shiki-dark:#C98A7D">title</span><span style="--shiki-light:#B5695977;--shiki-dark:#C98A7D77">'</span><span style="--shiki-light:#999999;--shiki-dark:#666666">,</span><span style="--shiki-light:#A0ADA0;--shiki-dark:#758575DD"> // 映射字段</span></span>
+<span class="line"><span style="--shiki-light:#393A34;--shiki-dark:#DBD7CAEE">granular </span><span style="--shiki-light:#998418;--shiki-dark:#B8A965">Mapping</span><span style="--shiki-light:#999999;--shiki-dark:#666666">:</span><span style="--shiki-light:#1E754F;--shiki-dark:#4D9375"> true</span><span style="--shiki-light:#999999;--shiki-dark:#666666">,</span><span style="--shiki-light:#A0ADA0;--shiki-dark:#758575DD"> // 是否启用细粒</span></span></code></pre>
+
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></div></template>
 
 
