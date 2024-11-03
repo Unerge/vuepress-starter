@@ -1,5 +1,5 @@
 import comp from "C:/Users/27493/Documents/GitHub/vuepress-starter/docs/.vuepress/.temp/pages/learn/英语/CET-4/index.html.vue"
-const data = JSON.parse("{\"path\":\"/learn/%E8%8B%B1%E8%AF%AD/CET-4/\",\"title\":\"四级复习\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"四级复习\"},\"headers\":[],\"readingTime\":{\"minutes\":0.1,\"words\":29},\"filePathRelative\":\"learn/英语/CET-4/README.md\",\"categoryList\":[{\"id\":\"339d8d\",\"sort\":10002,\"name\":\"learn\"},{\"id\":\"c44fc1\",\"sort\":10009,\"name\":\"英语\"},{\"id\":\"6a9995\",\"sort\":10012,\"name\":\"CET-4\"}],\"bulletin\":false}")
+const data = JSON.parse("{\"path\":\"/learn/%E8%8B%B1%E8%AF%AD/CET-4/\",\"title\":\"四级复习\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"四级复习\"},\"headers\":[],\"readingTime\":{\"minutes\":0.1,\"words\":29},\"filePathRelative\":\"learn/英语/CET-4/README.md\",\"categoryList\":[{\"id\":\"339d8d\",\"sort\":10000,\"name\":\"learn\"},{\"id\":\"c44fc1\",\"sort\":10008,\"name\":\"英语\"},{\"id\":\"6a9995\",\"sort\":10012,\"name\":\"CET-4\"}],\"bulletin\":false}")
 export { comp, data }
 
 if (import.meta.webpackHot) {
