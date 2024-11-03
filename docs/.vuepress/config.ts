@@ -1,7 +1,6 @@
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
-import { searchPlugin } from '@vuepress/plugin-search'
 
 export default defineUserConfig({
   base: '/',
@@ -179,21 +178,4 @@ export default defineUserConfig({
   }),
 
   bundler: viteBundler(),
-
-  plugins: [
-    [
-      searchPlugin({
-        // 配置项
-        isSearchable: (page) => page.path !== '/',
-        locales: {
-          '/': {
-            placeholder: 'Search',
-          },
-          '/zh/': {
-            placeholder: '搜索',
-          },
-        },  
-      }),
-    ],
-  ],
 })
