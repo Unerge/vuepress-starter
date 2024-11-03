@@ -1,5 +1,5 @@
 import comp from "C:/Users/27493/Documents/GitHub/vuepress-starter/docs/.vuepress/.temp/pages/GPTstory/index.html.vue"
-const data = JSON.parse("{\"path\":\"/GPTstory/\",\"title\":\"记录一些GPT小故事\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"headers\":[],\"readingTime\":{\"minutes\":0.03,\"words\":8},\"filePathRelative\":\"GPTstory/README.md\",\"categoryList\":[{\"id\":\"6ddae0\",\"sort\":10001,\"name\":\"GPTstory\"}],\"bulletin\":false}")
+const data = JSON.parse("{\"path\":\"/GPTstory/\",\"title\":\"记录一些GPT小故事\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"headers\":[],\"readingTime\":{\"minutes\":0.03,\"words\":8},\"filePathRelative\":\"GPTstory/README.md\",\"categoryList\":[{\"id\":\"6ddae0\",\"sort\":10000,\"name\":\"GPTstory\"}],\"bulletin\":false}")
 export { comp, data }
 
 if (import.meta.webpackHot) {
