@@ -1,6 +1,7 @@
 {
   "name": "vuepress-starter",
   "version": "1.0.0",
+  "packageManager": "yarn@1.22.22",
   "main": "index.js",
   "author": "Larch4 <114554982+Larch4@users.noreply.github.com>",
   "license": "MIT",
