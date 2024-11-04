@@ -5,22 +5,15 @@
 <li>
 <p><strong>已知条件</strong>：</p>
 <ul>
-<li>
-<p>梁 $$ABCD$$ 长度分别为 $$2 , m$$, $$3 , m$$, $$1 , m$$。</p>
+<li>梁 $$ABCD$$ 长度分别为 $$2 , m$$, $$3 , m$$, $$1 , m$$ 。</li>
+<li>在 $$AB$$ 段有均布载荷 $$q = 10 , kN/m$$ 。</li>
+<li>点 $$C$$ 处有向下的集中荷载 $$F_p = 20 , kN$$ 。</li>
+<li>其中 $$B$$ 和 $$D$$ 为简单支座。</li>
+</ul>
 </li>
 <li>
-<p v-pre class='katex-block'><span class="katex-error" title="ParseError: KaTeX parse error: Can&#x27;t use function &#x27;$&#x27; in math mode at position 4: 
-AB$̲$ 段有均布载荷 $$q = …" style="color:#cc0000">
-AB$$ 段有均布载荷 $$q = 10 \, kN/m$$。
-</span></p>
-</li>
-<li>
-<p v-pre class='katex-block'><span class="katex-error" title="ParseError: KaTeX parse error: Can&#x27;t use function &#x27;$&#x27; in math mode at position 3: 
-B$̲$ 和 $$D$$ 为简单支座…" style="color:#cc0000">
-B$$ 和 $$D$$ 为简单支座。
-
-</span></p>
-</li>
+<p><strong>计算支座反力</strong>：</p>
+<ul>
 <li>
 <p><strong>均布载荷产生的合力</strong>：</p>
 <p v-pre class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><msub><mi>F</mi><mi>q</mi></msub><mo>=</mo><mi>q</mi><mo>⋅</mo><msub><mi>L</mi><mrow><mi>A</mi><mi>B</mi></mrow></msub><mo>=</mo><mn>10</mn><mtext> </mtext><mi>k</mi><mi>N</mi><mi mathvariant="normal">/</mi><mi>m</mi><mo>×</mo><mn>2</mn><mtext> </mtext><mi>m</mi><mo>=</mo><mn>20</mn><mtext> </mtext><mi>k</mi><mi>N</mi></mrow><annotation encoding="application/x-tex">
