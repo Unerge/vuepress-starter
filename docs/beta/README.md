@@ -1,5 +1,7 @@
 ---
 tags: [beta]
+prev: false
+next: false
 created: '2024-06-11'
 title: '2024-06-11T14:41_欧拉公式'
 ---

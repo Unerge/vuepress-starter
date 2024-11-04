@@ -1,5 +1,9 @@
 ---
 title: 四级复习
+prev: false
+next: 
+    link: ./1.md
+    text: 2024/10/9
 ---
 
 ::: tip 注意

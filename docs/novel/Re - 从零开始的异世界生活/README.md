@@ -15,5 +15,5 @@ config:
         -
           theme: brand
           text: 开始阅读
-          link: /novel/Re - 从零开始的异世界生活/第一卷/序章/序章 开始的余韵.md
+          link: /novel/Re - 从零开始的异世界生活/第一卷/序章/02-序章 开始的余韵.md
 ---
