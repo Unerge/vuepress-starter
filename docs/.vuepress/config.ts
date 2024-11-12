@@ -86,7 +86,7 @@ export default defineUserConfig({
           {
             text: 'tech',
             collapsed: false,
-            items: ['1.md','2.md','3.md','4.md','5.md','6.md','7.md','8.md','9.md'],  // 同样这里也可以增加其他子页面
+            items: ['1.md','2.md','3.md','4.md','5.md','6.md','7.md','8.md','9.md','10.md'],  // 同样这里也可以增加其他子页面
           },
         ],
         '/learn/': [
