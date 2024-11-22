@@ -3,7 +3,7 @@ home: true
 config:
   - 
     type: banner
-    banner: '/img/154.jpg'
+    banner: 'https://api.wenturc.com/'
     bannerMask:
       dark: 0.5
       light: 0.3
