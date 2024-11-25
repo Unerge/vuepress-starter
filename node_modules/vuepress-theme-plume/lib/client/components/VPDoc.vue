@@ -1,6 +1,9 @@
 <script setup lang="ts">
 import VPDocAside from '@theme/VPDocAside.vue'
 import VPDocBreadcrumbs from '@theme/VPDocBreadcrumbs.vue'
+import VPDocChangelog from '@theme/VPDocChangelog.vue'
+import VPDocContributor from '@theme/VPDocContributor.vue'
+import VPDocCopyright from '@theme/VPDocCopyright.vue'
 import VPDocFooter from '@theme/VPDocFooter.vue'
 import VPDocMeta from '@theme/VPDocMeta.vue'
 import VPEncryptPage from '@theme/VPEncryptPage.vue'
@@ -120,18 +123,24 @@ watch(
               <VPDocBreadcrumbs />
               <VPDocMeta />
               <VPEncryptPage v-if="!isPageDecrypted" />
-              <Content
+              <div
                 v-else class="vp-doc plume-content"
-                :class="[pageName, enabledExternalLinkIcon && 'external-link-icon-enabled']"
-                vp-content
-              />
+                :class="[pageName, enabledExternalLinkIcon && 'external-link-icon-enabled']" vp-content
+              >
+                <Content />
+                <VPDocContributor />
+                <VPDocChangelog />
+                <VPDocCopyright />
+              </div>
             </main>
             <VPDocFooter v-if="isPageDecrypted">
               <template #doc-footer-before>
                 <slot name="doc-footer-before" />
               </template>
             </VPDocFooter>
-            <CommentService v-if="hasComments" :darkmode="isDark" vp-comment />
+            <template v-if="hasComments">
+              <CommentService :darkmode="isDark" vp-comment />
+            </template>
             <slot name="doc-after" />
           </div>
         </div>
