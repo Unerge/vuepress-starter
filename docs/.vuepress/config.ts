@@ -1,6 +1,6 @@
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defineUserConfig } from 'vuepress'
-import { plumeTheme } from 'vuepress-theme-plume'
+import customTheme from './theme'; // 引入自定义主题
 
 export default defineUserConfig({
   base: '/',
@@ -11,7 +11,7 @@ export default defineUserConfig({
     ['link', { rel: 'icon', href: '/logo.jpg' }], // 增加一个自定义的 favicon(网页标签的图标)
   ],
 
-  theme: plumeTheme({
+  theme: customTheme({
     // 其他主题配置
     logo: '/img/logo1251.jpg',
     hostname: 'https://docs.wenturc.com',
