@@ -1,55 +1,55 @@
 {
-  "hash": "61fcb230",
-  "configHash": "a897e9f8",
-  "lockfileHash": "bc3de8ad",
-  "browserHash": "4f88b2ec",
+  "hash": "a8732b71",
+  "configHash": "a51f9271",
+  "lockfileHash": "344d1e1c",
+  "browserHash": "bd5e4cfa",
   "optimized": {
     "mark.js/src/vanilla.js": {
       "src": "../../../../node_modules/mark.js/src/vanilla.js",
       "file": "mark__js_src_vanilla__js.js",
-      "fileHash": "19582559",
+      "fileHash": "10e2a88b",
       "needsInterop": false
     },
     "@vueuse/integrations/useFocusTrap": {
       "src": "../../../../node_modules/@vueuse/integrations/useFocusTrap.mjs",
       "file": "@vueuse_integrations_useFocusTrap.js",
-      "fileHash": "6264c369",
+      "fileHash": "ddbfad46",
       "needsInterop": false
     },
     "minisearch": {
       "src": "../../../../node_modules/minisearch/dist/es/index.js",
       "file": "minisearch.js",
-      "fileHash": "4f1af007",
+      "fileHash": "999f713f",
       "needsInterop": false
     },
     "@vueuse/core": {
       "src": "../../../../node_modules/@vueuse/core/index.mjs",
       "file": "@vueuse_core.js",
-      "fileHash": "2464f7c0",
+      "fileHash": "4833bd3a",
       "needsInterop": false
     },
     "@vue/devtools-api": {
       "src": "../../../../node_modules/@vue/devtools-api/dist/index.js",
       "file": "@vue_devtools-api.js",
-      "fileHash": "2cc3e8c9",
+      "fileHash": "7b6910d3",
       "needsInterop": false
     },
     "@vuepress/shared": {
       "src": "../../../../node_modules/@vuepress/shared/dist/index.js",
       "file": "@vuepress_shared.js",
-      "fileHash": "5bfdbd04",
+      "fileHash": "e476a511",
       "needsInterop": false
     },
     "vue": {
       "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "92267080",
+      "fileHash": "1ee2c31a",
       "needsInterop": false
     },
     "vue-router": {
       "src": "../../../../node_modules/vue-router/dist/vue-router.esm-bundler.js",
       "file": "vue-router.js",
-      "fileHash": "a523f1da",
+      "fileHash": "0869f594",
       "needsInterop": false
     }
   },
