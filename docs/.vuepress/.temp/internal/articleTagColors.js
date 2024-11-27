@@ -1,5 +1,5 @@
 import './articleTagColors.css'
-export const articleTagColors = {"故事":"eow4","beta":"dwff","技术文档":"iur0","学习":"o32o","小说":"7tx1"}
+export const articleTagColors = {"beta":"i9ie","故事":"jma2","技术文档":"blad","学习":"05am","小说":"pyke"}
 
 if (import.meta.webpackHot) {
   import.meta.webpackHot.accept()

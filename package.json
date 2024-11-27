@@ -9,5 +9,8 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "swiper": "^11.1.15"
   }
 }
