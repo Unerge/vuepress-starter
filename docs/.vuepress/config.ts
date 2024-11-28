@@ -117,7 +117,11 @@ export default defineUserConfig({
                     {
                       text: '四级复习',
                       collapsed: true,
-                      items: ['/learn/英语/CET-4/README.md','/learn/英语/CET-4/1.md']
+                      items: [
+                        '/learn/英语/CET-4/README.md',
+                        '/learn/英语/CET-4/1.md',
+                        '/learn/英语/CET-4/2.md'
+                      ]
                     },
 
                   ],  // 同样这里也可以增加其他子页面
