@@ -119,6 +119,7 @@ export default defineUserConfig({
                       collapsed: true,
                       items: [
                         '/learn/英语/CET-4/README.md',
+                        '/learn/英语/CET-4/0.md',
                         '/learn/英语/CET-4/1.md',
                         '/learn/英语/CET-4/2.md'
                       ]
