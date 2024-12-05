@@ -4,6 +4,7 @@ import VPLink from '@theme/VPLink.vue'
 import { useMediaQuery } from '@vueuse/core'
 import { computed } from 'vue'
 import { useData, useInternalLink, useTagColors } from '../../composables/index.js'
+import { ref, watchEffect } from 'vue'
 
 const props = defineProps<{
   post: PlumeThemeBlogPostItem
@@ -82,12 +83,37 @@ const coverStyles = computed(() => {
 
   return { height: 0, paddingBottom: `${ratio * 100}%` }
 })
+
+// 新增：预加载图片的逻辑
+const isCoverLoaded = ref(false) // 图片是否加载完成
+const loadedImages = new Set<string>() // 缓存已加载的图片 URL
+
+watchEffect(() => {
+  const url = cover.value?.url
+  if (url && !loadedImages.has(url)) {
+    const img = new Image()
+    img.src = url
+    img.onload = () => {
+      loadedImages.add(url)
+      isCoverLoaded.value = true // 图片加载完成
+    }
+  } else if (url) {
+    isCoverLoaded.value = true // 如果图片已加载过，直接标记为已加载
+  }
+})
 </script>
 
 <template>
-  <div class="vp-blog-post-item" data-allow-mismatch :class="{ 'has-cover': cover, [coverLayout]: cover }">
-    <div v-if="cover" class="post-cover" data-allow-mismatch :class="{ compact: coverCompact }" :style="coverStyles">
-      <img :src="cover.url" :alt="post.title" loading="lazy">
+  <a :href="post.path" class="vp-blog-post-item-link">
+    <div class="vp-blog-post-item" data-allow-mismatch :class="{ 'has-cover': cover, [coverLayout]: cover }">
+      <div
+        v-if="cover"
+        class="post-cover"
+        data-allow-mismatch
+        :class="{ compact: coverCompact, 'is-loaded': isCoverLoaded }" 
+        :style="coverStyles"
+      >
+      <img :src="cover.url" :alt="post.title" loading="lazy" :class="{ 'img-visible': isCoverLoaded }">
     </div>
     <div class="blog-post-item-content">
       <h3>
@@ -125,6 +151,7 @@ const coverStyles = computed(() => {
       <div v-if="post.excerpt" class="vp-doc excerpt" v-html="post.excerpt" />
     </div>
   </div>
+</a>
 </template>
 
 <style scoped>
@@ -153,9 +180,14 @@ const coverStyles = computed(() => {
 
 .post-cover {
   position: relative;
-  align-self: center;
   overflow: hidden;
   border-radius: 8px;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.post-cover.is-loaded {
+  opacity: 1;
 }
 
 .vp-blog-post-item.has-cover.left .post-cover.compact {
@@ -186,14 +218,18 @@ const coverStyles = computed(() => {
   left: 0;
   width: 100%;
   height: 100%;
-  transition: transform 0.5s;
-  transform: scale(1);
-
   object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
-.vp-blog-post-item.has-cover:hover .post-cover img {
-  transform: scale(1.02);
+.post-cover img.img-visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.vp-blog-post-item.has-cover:hover .post-cover img.img-visible {
+  transform: scale(1.50);
 }
 
 .vp-blog-post-item.has-cover.left .post-cover.compact {
