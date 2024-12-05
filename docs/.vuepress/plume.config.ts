@@ -8,7 +8,7 @@ export default defineThemeConfig({
     docsDir: 'docs',
 
     profile: {
-        avatar: '/logo.jpg',
+        avatar: '/logo-O2.jpg',
         name: 'WentUrc Docs',
         description: '持续学习大学课程',
     },
@@ -16,6 +16,7 @@ export default defineThemeConfig({
     navbar,
 
     footer: {
+        message: 'Ice Glycoside Crystal',
         copyright: '冰苷晶 © 2024',
     },
 });

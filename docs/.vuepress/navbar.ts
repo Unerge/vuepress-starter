@@ -2,30 +2,16 @@ import { defineNavbarConfig } from 'vuepress-theme-plume'
 
 export default defineNavbarConfig([
   // ...
-    { text: 'beta', 
+    { text: 'Text', 
       link: '/beta/' 
     },
 
-    { text: 'Novel', 
-      items: 
-      [
-        {
-          text:'小说',
-          link: '/novel/',
-        },
-        {
-          text: 'Re - 从零开始的异世界生活',
-          link: '/novel/Re - 从零开始的异世界生活/'
-        },
-      ]
-    }, 
-
-    { text: 'GPTstort', 
-      link: '/GPTstory/',
+    { text: 'Tech-Document', 
+      link: '/tech/',
     },
 
-    { text: 'tech', 
-      link: '/tech/',
+    { text: 'ChatGPT Said', 
+      link: '/GPTstory/',
     },
 
     { text: 'WentUrc Learn', 
@@ -66,5 +52,20 @@ export default defineNavbarConfig([
         },
 
       ]
-    }
+    },
+
+    { text: 'Novel', 
+      items: 
+      [
+        {
+          text:'小说',
+          link: '/novel/',
+        },
+        {
+          text: 'Re - 从零开始的异世界生活',
+          link: '/novel/Re - 从零开始的异世界生活/'
+        },
+      ]
+    }, 
+
 ])
