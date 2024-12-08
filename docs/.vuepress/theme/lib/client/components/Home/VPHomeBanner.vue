@@ -46,15 +46,19 @@ const bannerStyle = computed(() => ({
 // 预加载图片的函数，用于加载图片并返回是否加载成功
 const preloadImage = async (src: string) => {
   return new Promise<boolean>((resolve) => {
-    const img = new Image()
-    img.onload = () => {
-      loaded.value = true // **图片加载完成后保持 loaded 为 true**
-      resolve(true)
+    if (typeof window !== 'undefined') {
+      const img = new Image();
+      img.onload = () => {
+        loaded.value = true; // 图片加载完成后保持 loaded 为 true
+        resolve(true);
+      };
+      img.onerror = () => resolve(false); // 加载失败返回 false
+      img.src = src;
+    } else {
+      resolve(false); // 如果是在服务器端，直接返回 false
     }
-    img.onerror = () => resolve(false) // 加载失败返回 false
-    img.src = src
-  })
-}
+  });
+};
 
 // 监听 banner 变化并预加载图片
 watch(bannerLink, (newLink) => {
