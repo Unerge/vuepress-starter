@@ -1,16 +1,3 @@
 import comp from "C:/Users/27493/Documents/GitHub/vuepress-starter/docs/.vuepress/.temp/pages/GPTstory/1.html.vue"
-const data = JSON.parse("{\"path\":\"/GPTstory/1.html\",\"title\":\"你可以写一个关于\\\"兔兔兔兔热狗好吧吃几节课，我就计划计划赶不上变化\\\"的故事吗？\",\"lang\":\"zh-CN\",\"frontmatter\":{\"tags\":[\"故事\"],\"prev\":{\"link\":\"./README.md\",\"text\":\"前言\"},\"next\":{\"link\":\"./2.md\",\"text\":\"你可以写一个关于\\\"他回复二技能重新设置大哥\\\"的故事吗？\"},\"title\":\"你可以写一个关于\\\"兔兔兔兔热狗好吧吃几节课，我就计划计划赶不上变化\\\"的故事吗？\"},\"headers\":[],\"readingTime\":{\"minutes\":4.08,\"words\":1223},\"filePathRelative\":\"GPTstory/1.md\",\"categoryList\":[{\"id\":\"6ddae0\",\"sort\":10002,\"name\":\"GPTstory\"}],\"bulletin\":false}")
+const data = JSON.parse("{\"path\":\"/GPTstory/1.html\",\"title\":\"你可以写一个关于\\\"兔兔兔兔热狗好吧吃几节课，我就计划计划赶不上变化\\\"的故事吗？\",\"lang\":\"zh-CN\",\"frontmatter\":{\"tags\":[\"故事\"],\"prev\":{\"link\":\"./README.md\",\"text\":\"前言\"},\"next\":{\"link\":\"./2.md\",\"text\":\"你可以写一个关于\\\"他回复二技能重新设置大哥\\\"的故事吗？\"},\"title\":\"你可以写一个关于\\\"兔兔兔兔热狗好吧吃几节课，我就计划计划赶不上变化\\\"的故事吗？\",\"description\":\"你可以写一个关于\\\"兔兔兔兔热狗好吧吃几节课，我就计划计划赶不上变化\\\"的故事吗？字数1000字。 兔兔兔兔是一只活泼可爱的小白兔，生活在森林的深处。她每天都在绿油油的草地上奔跑，与她的朋友们——小鹿、小松鼠和小鸟们一起玩耍。她的生活简单而快乐，但兔兔兔兔有一个与众不同的爱好——她特别喜欢吃热狗。 一天，兔兔兔兔正在和朋友们一起玩捉迷藏，忽然闻到了一股香喷...\",\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://docs.wenturc.com/GPTstory/1.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"WentUrc Docs\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"你可以写一个关于\\\"兔兔兔兔热狗好吧吃几节课，我就计划计划赶不上变化\\\"的故事吗？\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"你可以写一个关于\\\"兔兔兔兔热狗好吧吃几节课，我就计划计划赶不上变化\\\"的故事吗？字数1000字。 兔兔兔兔是一只活泼可爱的小白兔，生活在森林的深处。她每天都在绿油油的草地上奔跑，与她的朋友们——小鹿、小松鼠和小鸟们一起玩耍。她的生活简单而快乐，但兔兔兔兔有一个与众不同的爱好——她特别喜欢吃热狗。 一天，兔兔兔兔正在和朋友们一起玩捉迷藏，忽然闻到了一股香喷...\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"og:updated_time\",\"content\":\"2024-11-04T14:29:09.000Z\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"故事\"}],[\"meta\",{\"property\":\"article:modified_time\",\"content\":\"2024-11-04T14:29:09.000Z\"}],[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"你可以写一个关于\\\\\\\"兔兔兔兔热狗好吧吃几节课，我就计划计划赶不上变化\\\\\\\"的故事吗？\\\",\\\"image\\\":[\\\"\\\"],\\\"dateModified\\\":\\\"2024-11-04T14:29:09.000Z\\\",\\\"author\\\":[]}\"]]},\"headers\":[],\"readingTime\":{\"minutes\":4.08,\"words\":1223},\"git\":{\"createdTime\":1727188073000,\"updatedTime\":1730730549000,\"contributors\":[{\"name\":\"冰苷晶\",\"email\":\"2749332490@qq.com\",\"commits\":1,\"url\":\"https://github.com/冰苷晶\"},{\"name\":\"Larch4\",\"email\":\"114554982+Larch4@users.noreply.github.com\",\"commits\":1,\"url\":\"https://github.com/Larch4\"}]},\"autoDesc\":true,\"filePathRelative\":\"GPTstory/1.md\",\"categoryList\":[{\"id\":\"6ddae0\",\"sort\":10002,\"name\":\"GPTstory\"}],\"bulletin\":false}")
 export { comp, data }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}

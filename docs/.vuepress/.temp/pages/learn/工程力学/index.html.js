@@ -1,16 +1,3 @@
 import comp from "C:/Users/27493/Documents/GitHub/vuepress-starter/docs/.vuepress/.temp/pages/learn/工程力学/index.html.vue"
-const data = JSON.parse("{\"path\":\"/learn/%E5%B7%A5%E7%A8%8B%E5%8A%9B%E5%AD%A6/\",\"title\":\"工程力学\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"工程力学\",\"prev\":false,\"next\":{\"link\":\"./复习资料1.md\",\"text\":\"静力学基础\"}},\"headers\":[],\"readingTime\":{\"minutes\":0.16,\"words\":49},\"filePathRelative\":\"learn/工程力学/README.md\",\"categoryList\":[{\"id\":\"339d8d\",\"sort\":10001,\"name\":\"learn\"},{\"id\":\"bae597\",\"sort\":10006,\"name\":\"工程力学\"}],\"bulletin\":false}")
+const data = JSON.parse("{\"path\":\"/learn/%E5%B7%A5%E7%A8%8B%E5%8A%9B%E5%AD%A6/\",\"title\":\"工程力学\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"工程力学\",\"prev\":false,\"next\":{\"link\":\"./复习资料1.md\",\"text\":\"静力学基础\"},\"description\":\"注意 （移动设备）点击左上角的≡以显示侧边栏. 来自工程力学教材\",\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://docs.wenturc.com/learn/%E5%B7%A5%E7%A8%8B%E5%8A%9B%E5%AD%A6/\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"WentUrc Docs\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"工程力学\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"注意 （移动设备）点击左上角的≡以显示侧边栏. 来自工程力学教材\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"og:updated_time\",\"content\":\"2024-11-04T14:29:09.000Z\"}],[\"meta\",{\"property\":\"article:modified_time\",\"content\":\"2024-11-04T14:29:09.000Z\"}],[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"工程力学\\\",\\\"image\\\":[\\\"\\\"],\\\"dateModified\\\":\\\"2024-11-04T14:29:09.000Z\\\",\\\"author\\\":[]}\"]]},\"headers\":[],\"readingTime\":{\"minutes\":0.16,\"words\":49},\"git\":{\"createdTime\":1727188073000,\"updatedTime\":1730730549000,\"contributors\":[{\"name\":\"冰苷晶\",\"email\":\"2749332490@qq.com\",\"commits\":1,\"url\":\"https://github.com/冰苷晶\"},{\"name\":\"Larch4\",\"email\":\"114554982+Larch4@users.noreply.github.com\",\"commits\":3,\"url\":\"https://github.com/Larch4\"},{\"name\":\"Larch2352\",\"email\":\"114554982+Larch4@users.noreply.github.com\",\"commits\":5,\"url\":\"https://github.com/Larch2352\"}]},\"autoDesc\":true,\"filePathRelative\":\"learn/工程力学/README.md\",\"categoryList\":[{\"id\":\"339d8d\",\"sort\":10001,\"name\":\"learn\"},{\"id\":\"bae597\",\"sort\":10016,\"name\":\"工程力学\"}],\"bulletin\":false}")
 export { comp, data }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}

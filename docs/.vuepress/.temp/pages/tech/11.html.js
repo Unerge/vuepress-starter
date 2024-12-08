@@ -1,16 +1,3 @@
 import comp from "C:/Users/27493/Documents/GitHub/vuepress-starter/docs/.vuepress/.temp/pages/tech/11.html.vue"
-const data = JSON.parse("{\"path\":\"/tech/11.html\",\"title\":\"创新创业作业\",\"lang\":\"zh-CN\",\"frontmatter\":{\"tags\":[\"技术文档\"],\"cover\":\"https://api.wenturc.com/\",\"prev\":{\"link\":\"./10.md\",\"text\":\"在宝塔面板中 Docker 环境安装 Tailchat\"},\"next\":false,\"title\":\"创新创业作业\"},\"headers\":[{\"level\":3,\"title\":\"expi 编程语言项目构想总结\",\"slug\":\"expi-编程语言项目构想总结\",\"link\":\"#expi-编程语言项目构想总结\",\"children\":[]}],\"readingTime\":{\"minutes\":3.56,\"words\":1068},\"filePathRelative\":\"tech/11.md\",\"categoryList\":[{\"id\":\"d9f913\",\"sort\":10004,\"name\":\"tech\"}],\"bulletin\":false}")
+const data = JSON.parse("{\"path\":\"/tech/11.html\",\"title\":\"创新创业作业\",\"lang\":\"zh-CN\",\"frontmatter\":{\"tags\":[\"技术文档\"],\"cover\":\"https://api.wenturc.com/\",\"prev\":{\"link\":\"./10.md\",\"text\":\"在宝塔面板中 Docker 环境安装 Tailchat\"},\"next\":false,\"title\":\"创新创业作业\",\"description\":\"Expi 新概念编程语言产品\",\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://docs.wenturc.com/tech/11.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"WentUrc Docs\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"创新创业作业\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"Expi 新概念编程语言产品\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:image\",\"content\":\"https://api.wenturc.com/\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"og:updated_time\",\"content\":\"2024-12-05T15:34:46.000Z\"}],[\"meta\",{\"name\":\"twitter:card\",\"content\":\"summary_large_image\"}],[\"meta\",{\"name\":\"twitter:image:src\",\"content\":\"https://api.wenturc.com/\"}],[\"meta\",{\"name\":\"twitter:image:alt\",\"content\":\"创新创业作业\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"技术文档\"}],[\"meta\",{\"property\":\"article:modified_time\",\"content\":\"2024-12-05T15:34:46.000Z\"}],[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"创新创业作业\\\",\\\"image\\\":[\\\"https://api.wenturc.com/\\\"],\\\"dateModified\\\":\\\"2024-12-05T15:34:46.000Z\\\",\\\"author\\\":[]}\"]]},\"headers\":[{\"level\":3,\"title\":\"expi 编程语言项目构想总结\",\"slug\":\"expi-编程语言项目构想总结\",\"link\":\"#expi-编程语言项目构想总结\",\"children\":[]}],\"readingTime\":{\"minutes\":3.56,\"words\":1068},\"git\":{\"createdTime\":1732680377000,\"updatedTime\":1733412886000,\"contributors\":[{\"name\":\"冰苷晶\",\"email\":\"2749332490@qq.com\",\"commits\":5,\"url\":\"https://github.com/冰苷晶\"}]},\"autoDesc\":true,\"filePathRelative\":\"tech/11.md\",\"categoryList\":[{\"id\":\"d9f913\",\"sort\":10000,\"name\":\"tech\"}],\"bulletin\":false}")
 export { comp, data }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}
