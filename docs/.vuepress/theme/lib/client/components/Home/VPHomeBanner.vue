@@ -1,47 +1,59 @@
 <script setup lang="ts">
-import type { PlumeThemeHomeBanner } from '../../../shared/index.js'
-import VPButton from '@theme/VPButton.vue'
-import { computed, ref, watch } from 'vue'
-import { withBase } from 'vuepress/client'
-import { isLinkHttp } from 'vuepress/shared'
-import { useData } from '../../composables/index.js'
+import type { PlumeThemeHomeBanner } from '../../../shared/index.js' // 引入类型定义，用于约束组件的 props 类型
+import VPButton from '@theme/VPButton.vue' // 引入主题按钮组件
+import { computed, ref, watch, onMounted } from 'vue' // 引入 Vue 的核心函数
+import { withBase } from 'vuepress/client' // 用于解析本地相对路径为完整路径
+import { isLinkHttp } from 'vuepress/shared' // 判断链接是否是 HTTP 链接
+import { useData } from '../../composables/index.js' // 获取页面数据
+import { usePageData } from '@vuepress/client'
 
+// 定义组件接收的 props 类型
 const props = defineProps<PlumeThemeHomeBanner>()
 
+// 默认的 banner 地址
 const DEFAULT_BANNER = 'https://api.pengzhanbo.cn/wallpaper/bing'
 
+// 从页面数据中获取 isDark 和 frontmatter（自定义字段）
 const { isDark, frontmatter: matter } = useData<'home'>()
 
-// 控制背景图片加载状态
+// 获取当前路由信息
+const pageData = usePageData()
+const isHomePage = computed(() => pageData.value.path === '/')
+
+// 用于控制背景图片是否加载完成的状态
 const loaded = ref(false)
 
-// banner URL 计算
+// 计算当前的 banner 链接，优先使用 props，其次使用 frontmatter，最后使用默认链接
 const bannerLink = computed(() => {
   const banner = props.banner ?? matter.value.banner
   return banner ? (isLinkHttp(banner) ? banner : withBase(banner)) : DEFAULT_BANNER
 })
 
-// mask 不透明度计算
+// 计算遮罩层的不透明度，根据页面模式（暗/亮）和配置进行调整
 const maskOpacity = computed(() => {
   const mask = props.bannerMask ?? matter.value.bannerMask
   if (typeof mask !== 'object') return mask || 0
   return isDark.value ? mask.dark || 0 : mask.light || 0
 })
 
-// 背景样式
+// 计算背景样式，包括背景图片、透明度以及过渡效果
 const bannerStyle = computed(() => ({
   'background-image': `url(${bannerLink.value})`,
-  opacity: loaded.value ? 1 : 0, // 图片加载时过渡透明度
+  opacity: loaded.value ? 1 : 0, // 根据加载状态动态调整透明度
   transition: 'opacity 1s ease', // 添加平滑过渡
 }))
 
-// 预加载图片
-const preloadImage = (src: string) => {
-  const img = new Image()
-  img.onload = () => {
-    loaded.value = true
-  }
-  img.src = src
+// 预加载图片的函数，用于加载图片并返回是否加载成功
+const preloadImage = async (src: string) => {
+  return new Promise<boolean>((resolve) => {
+    const img = new Image()
+    img.onload = () => {
+      loaded.value = true // **图片加载完成后保持 loaded 为 true**
+      resolve(true)
+    }
+    img.onerror = () => resolve(false) // 加载失败返回 false
+    img.src = src
+  })
 }
 
 // 监听 banner 变化并预加载图片
@@ -49,7 +61,24 @@ watch(bannerLink, (newLink) => {
   preloadImage(newLink)
 }, { immediate: true })
 
-// Hero 数据
+// 监听路由变化，重新请求图片并平滑过渡
+watch(isHomePage, async (newVal) => {
+  if (newVal) {
+    loaded.value = false
+    await preloadImage(bannerLink.value)
+  }
+})
+
+// 确保 Home 页面切换时重新加载图片
+onMounted(async () => {
+  if (isHomePage.value) {
+    // 强制重新加载当前图片
+    loaded.value = false
+    await preloadImage(bannerLink.value)
+  }
+})
+
+// 定义 hero 区域的文本数据，优先使用 props，其次使用 frontmatter，最后使用默认值
 const name = computed(() => props.hero?.name ?? matter.value.hero?.name ?? 'Plume')
 const tagline = computed(() => props.hero?.tagline ?? matter.value.hero?.tagline ?? 'A VuePress Theme')
 const text = computed(() => props.hero?.text ?? matter.value.hero?.text)
