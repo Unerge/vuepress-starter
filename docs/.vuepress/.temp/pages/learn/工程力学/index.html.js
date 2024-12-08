@@ -1,5 +1,5 @@
 import comp from "C:/Users/27493/Documents/GitHub/vuepress-starter/docs/.vuepress/.temp/pages/learn/工程力学/index.html.vue"
-const data = JSON.parse("{\"path\":\"/learn/%E5%B7%A5%E7%A8%8B%E5%8A%9B%E5%AD%A6/\",\"title\":\"工程力学\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"工程力学\",\"prev\":false,\"next\":{\"link\":\"./复习资料1.md\",\"text\":\"静力学基础\"}},\"headers\":[],\"readingTime\":{\"minutes\":0.16,\"words\":49},\"filePathRelative\":\"learn/工程力学/README.md\",\"categoryList\":[{\"id\":\"339d8d\",\"sort\":10002,\"name\":\"learn\"},{\"id\":\"bae597\",\"sort\":10004,\"name\":\"工程力学\"}],\"bulletin\":false}")
+const data = JSON.parse("{\"path\":\"/learn/%E5%B7%A5%E7%A8%8B%E5%8A%9B%E5%AD%A6/\",\"title\":\"工程力学\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"工程力学\",\"prev\":false,\"next\":{\"link\":\"./复习资料1.md\",\"text\":\"静力学基础\"}},\"headers\":[],\"readingTime\":{\"minutes\":0.16,\"words\":49},\"filePathRelative\":\"learn/工程力学/README.md\",\"categoryList\":[{\"id\":\"339d8d\",\"sort\":10001,\"name\":\"learn\"},{\"id\":\"bae597\",\"sort\":10006,\"name\":\"工程力学\"}],\"bulletin\":false}")
 export { comp, data }
 
 if (import.meta.webpackHot) {
