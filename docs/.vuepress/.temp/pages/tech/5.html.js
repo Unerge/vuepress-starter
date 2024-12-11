@@ -1,3 +1,16 @@
 import comp from "C:/Users/27493/Documents/GitHub/vuepress-starter/docs/.vuepress/.temp/pages/tech/5.html.vue"
-const data = JSON.parse("{\"path\":\"/tech/5.html\",\"title\":\"爬取Bing每日背景图\",\"lang\":\"zh-CN\",\"frontmatter\":{\"tags\":[\"技术文档\"],\"cover\":\"https://api.wenturc.com/\",\"prev\":{\"link\":\"./4.md\",\"text\":\"在Windows中，可以通过多种方法修改文件的创建日期\"},\"next\":{\"link\":\"./6.md\",\"text\":\"仿制哔哩哔哩站点样式\"},\"title\":\"爬取Bing每日背景图\",\"description\":\"爬取Bing每日背景图 爬取 Bing 每日背景图可以通过解析 Bing 的主页来获取背景图 URL。以下是一个简单的 Python 爬虫示例，使用 requests 和 BeautifulSoup 库： 安装必要的库： 编写爬虫脚本： 这段代码会请求 Bing 的主页，解析页面中的背景图 URL 并打印出来。 注意事项： Bing 的页面结构可能会随...\",\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://docs.wenturc.com/tech/5.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"WentUrc Docs\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"爬取Bing每日背景图\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"爬取Bing每日背景图 爬取 Bing 每日背景图可以通过解析 Bing 的主页来获取背景图 URL。以下是一个简单的 Python 爬虫示例，使用 requests 和 BeautifulSoup 库： 安装必要的库： 编写爬虫脚本： 这段代码会请求 Bing 的主页，解析页面中的背景图 URL 并打印出来。 注意事项： Bing 的页面结构可能会随...\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:image\",\"content\":\"https://api.wenturc.com/\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"og:updated_time\",\"content\":\"2024-12-05T15:34:46.000Z\"}],[\"meta\",{\"name\":\"twitter:card\",\"content\":\"summary_large_image\"}],[\"meta\",{\"name\":\"twitter:image:src\",\"content\":\"https://api.wenturc.com/\"}],[\"meta\",{\"name\":\"twitter:image:alt\",\"content\":\"爬取Bing每日背景图\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"技术文档\"}],[\"meta\",{\"property\":\"article:modified_time\",\"content\":\"2024-12-05T15:34:46.000Z\"}],[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"爬取Bing每日背景图\\\",\\\"image\\\":[\\\"https://api.wenturc.com/\\\"],\\\"dateModified\\\":\\\"2024-12-05T15:34:46.000Z\\\",\\\"author\\\":[]}\"]]},\"headers\":[],\"readingTime\":{\"minutes\":2.7,\"words\":810},\"git\":{\"createdTime\":1727188073000,\"updatedTime\":1733412886000,\"contributors\":[{\"name\":\"冰苷晶\",\"email\":\"2749332490@qq.com\",\"commits\":2,\"url\":\"https://github.com/冰苷晶\"},{\"name\":\"Larch4\",\"email\":\"114554982+Larch4@users.noreply.github.com\",\"commits\":1,\"url\":\"https://github.com/Larch4\"}]},\"autoDesc\":true,\"filePathRelative\":\"tech/5.md\",\"categoryList\":[{\"id\":\"d9f913\",\"sort\":10000,\"name\":\"tech\"}],\"bulletin\":false}")
+const data = JSON.parse("{\"path\":\"/tech/5.html\",\"title\":\"爬取Bing每日背景图\",\"lang\":\"zh-CN\",\"frontmatter\":{\"tags\":[\"技术文档\"],\"cover\":\"https://api.wenturc.com/\",\"prev\":{\"link\":\"./4.md\",\"text\":\"在Windows中，可以通过多种方法修改文件的创建日期\"},\"next\":{\"link\":\"./6.md\",\"text\":\"仿制哔哩哔哩站点样式\"},\"title\":\"爬取Bing每日背景图\"},\"headers\":[],\"readingTime\":{\"minutes\":2.7,\"words\":810},\"filePathRelative\":\"tech/5.md\",\"categoryList\":[{\"id\":\"d9f913\",\"sort\":10004,\"name\":\"tech\"}],\"bulletin\":false}")
 export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

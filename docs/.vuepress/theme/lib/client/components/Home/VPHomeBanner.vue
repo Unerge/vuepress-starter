@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { PlumeThemeHomeBanner } from '../../../shared/index.js' // 引入类型定义，用于约束组件的 props 类型
 import VPButton from '@theme/VPButton.vue' // 引入主题按钮组件
-import { computed, ref, watch, onMounted } from 'vue' // 引入 Vue 的核心函数
+import { computed, ref, watch, } from 'vue' // 引入 Vue 的核心函数
 import { withBase } from 'vuepress/client' // 用于解析本地相对路径为完整路径
 import { isLinkHttp } from 'vuepress/shared' // 判断链接是否是 HTTP 链接
 import { useData } from '../../composables/index.js' // 获取页面数据
@@ -39,25 +39,77 @@ const maskOpacity = computed(() => {
 // 计算背景样式，包括背景图片、透明度以及过渡效果
 const bannerStyle = computed(() => ({
   'background-image': `url(${bannerLink.value})`,
-  opacity: loaded.value ? 1 : 0, // 根据加载状态动态调整透明度
-  transition: 'opacity 1s ease', // 添加平滑过渡
-}))
+  opacity: loaded.value ? 1 : 0,
+  transition: loaded.value ? 'opacity 0.7s ease-in-out' : 'none', // 显示时平滑过渡
+}));
 
 // 预加载图片的函数，用于加载图片并返回是否加载成功
 const preloadImage = async (src: string) => {
-  return new Promise<boolean>((resolve) => {
-    if (typeof window !== 'undefined') {
+  if (typeof window !== 'undefined') {
+    return new Promise<boolean>((resolve) => {
       const img = new Image();
       img.onload = () => {
-        loaded.value = true; // 图片加载完成后保持 loaded 为 true
+        loaded.value = true;
         resolve(true);
       };
-      img.onerror = () => resolve(false); // 加载失败返回 false
+      img.onerror = () => resolve(false);
       img.src = src;
-    } else {
-      resolve(false); // 如果是在服务器端，直接返回 false
-    }
-  });
+
+      // 使用 requestIdleCallback 来预加载
+      if ('requestIdleCallback' in window) {
+        requestIdleCallback(() => img.src = src);
+      } else {
+        img.src = src;  // 默认方式
+      }
+    });
+  }
+  return false;
+};
+
+// 设置缓存大小限制
+const CACHE_SIZE = 3 // 最多缓存 3 张图片
+
+// 使用 Map 存储图片缓存，键为图片 URL，值为 true 表示已加载
+const loadedImages = new Map<string, boolean>()
+
+// 添加图片到缓存并维护大小限制
+const addToCache = (url: string) => {
+  if (loadedImages.has(url)) {
+    // 如果图片已存在于缓存中，先删除再重新插入（更新为最近使用）
+    loadedImages.delete(url)
+  } else if (loadedImages.size >= CACHE_SIZE) {
+    // 如果缓存已满，移除最早插入的图片（FIFO）
+    const oldestKey = loadedImages.keys().next().value
+    loadedImages.delete(oldestKey);
+  }
+  // 插入新图片
+  loadedImages.set(url, true)
+};
+
+// 检查图片是否在缓存中
+const isCached = (url: string) => loadedImages.has(url)
+
+// 动态获取图片 URL（替代固定的 bannerLink）
+const getCurrentBannerUrl = () => {
+  const banner = props.banner ?? matter.value.banner
+  return banner ? (isLinkHttp(banner) ? banner : withBase(banner)) : DEFAULT_BANNER
+}
+
+// 动态获取重定向后的 URL
+const fetchFinalRedirectUrl = async (url: string) => {
+  try {
+    const response = await fetch(url, {
+      method: 'HEAD', // 使用 HEAD 方法，仅获取响应头
+      redirect: 'follow',
+    });
+
+    // 优先从响应头中提取图片路径
+    const imageUrl = response.headers.get('X-Image-Url') || response.url;
+    return imageUrl;
+  } catch (error) {
+    console.error('Failed to fetch banner URL:', error);
+    return '/img/154.jpg'; // 如果请求失败，返回默认图片
+  }
 };
 
 // 监听 banner 变化并预加载图片
@@ -65,22 +117,39 @@ watch(bannerLink, (newLink) => {
   preloadImage(newLink)
 }, { immediate: true })
 
-// 监听路由变化，重新请求图片并平滑过渡
-watch(isHomePage, async (newVal) => {
-  if (newVal) {
-    loaded.value = false
-    await preloadImage(bannerLink.value)
+// 修改路由监听逻辑
+watch(() => pageData.value.path, async () => {
+  // 强制重新加载当前图片
+  loaded.value = false;  // 暂时隐藏图片
+  const finalBannerLink = await fetchFinalRedirectUrl(bannerLink.value);
+  const success = await preloadImage(finalBannerLink);  // 重新加载图片
+  if (success) {
+    addToCache(finalBannerLink);
+    bannerLink.value = finalBannerLink;
+    loaded.value = true;  // 图片加载完成后显示
   }
-})
+});
 
-// 确保 Home 页面切换时重新加载图片
-onMounted(async () => {
-  if (isHomePage.value) {
-    // 强制重新加载当前图片
-    loaded.value = false
-    await preloadImage(bannerLink.value)
-  }
-})
+let debounceTimeout: NodeJS.Timeout | null = null;
+
+watch(() => pageData.value.path, () => {
+  if (debounceTimeout) clearTimeout(debounceTimeout);
+
+  debounceTimeout = setTimeout(async () => {
+    const finalBannerLink = await fetchFinalRedirectUrl(bannerLink.value);
+    if (!isCached(finalBannerLink)) {
+      loaded.value = false;
+      const success = await preloadImage(finalBannerLink);
+      if (success) {
+        addToCache(finalBannerLink);
+        bannerLink.value = finalBannerLink;
+        loaded.value = true;
+      }
+    } else {
+      bannerLink.value = finalBannerLink;
+    }
+  }, 300);  // 根据需要调整间隔时间
+});
 
 // 定义 hero 区域的文本数据，优先使用 props，其次使用 frontmatter，最后使用默认值
 const name = computed(() => props.hero?.name ?? matter.value.hero?.name ?? 'Plume')
@@ -149,7 +218,7 @@ const actions = computed(() => props.hero?.actions ?? matter.value.hero?.actions
   background-position: center;
   background-size: cover;
   opacity: 0; /* 初始透明度 */
-  transition: opacity 1s ease; /* 过渡动画 */
+  transition: opacity 0.5s ease; /* 过渡动画 */
   z-index: 0;
 }
 
