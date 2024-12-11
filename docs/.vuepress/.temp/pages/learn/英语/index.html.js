@@ -1,3 +1,16 @@
 import comp from "C:/Users/27493/Documents/GitHub/vuepress-starter/docs/.vuepress/.temp/pages/learn/英语/index.html.vue"
-const data = JSON.parse("{\"path\":\"/learn/%E8%8B%B1%E8%AF%AD/\",\"title\":\"英语\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"英语\",\"prev\":false,\"next\":{\"link\":\"./期末资料 .md\",\"text\":\"期末资料\"},\"description\":\"注意 （移动设备）点击左上角的≡以显示侧边栏. 用于英语复习资料\",\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://docs.wenturc.com/learn/%E8%8B%B1%E8%AF%AD/\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"WentUrc Docs\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"英语\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"注意 （移动设备）点击左上角的≡以显示侧边栏. 用于英语复习资料\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"og:updated_time\",\"content\":\"2024-11-04T14:29:09.000Z\"}],[\"meta\",{\"property\":\"article:modified_time\",\"content\":\"2024-11-04T14:29:09.000Z\"}],[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"英语\\\",\\\"image\\\":[\\\"\\\"],\\\"dateModified\\\":\\\"2024-11-04T14:29:09.000Z\\\",\\\"author\\\":[]}\"]]},\"headers\":[],\"readingTime\":{\"minutes\":0.15,\"words\":46},\"git\":{\"createdTime\":1727188073000,\"updatedTime\":1730730549000,\"contributors\":[{\"name\":\"冰苷晶\",\"email\":\"2749332490@qq.com\",\"commits\":1,\"url\":\"https://github.com/冰苷晶\"},{\"name\":\"Larch4\",\"email\":\"114554982+Larch4@users.noreply.github.com\",\"commits\":3,\"url\":\"https://github.com/Larch4\"}]},\"autoDesc\":true,\"filePathRelative\":\"learn/英语/README.md\",\"categoryList\":[{\"id\":\"339d8d\",\"sort\":10001,\"name\":\"learn\"},{\"id\":\"c44fc1\",\"sort\":10008,\"name\":\"英语\"}],\"bulletin\":false}")
+const data = JSON.parse("{\"path\":\"/learn/%E8%8B%B1%E8%AF%AD/\",\"title\":\"英语\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"英语\",\"prev\":false,\"next\":{\"link\":\"./期末资料 .md\",\"text\":\"期末资料\"}},\"headers\":[],\"readingTime\":{\"minutes\":0.15,\"words\":46},\"filePathRelative\":\"learn/英语/README.md\",\"categoryList\":[{\"id\":\"339d8d\",\"sort\":10002,\"name\":\"learn\"},{\"id\":\"c44fc1\",\"sort\":10010,\"name\":\"英语\"}],\"bulletin\":false}")
 export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

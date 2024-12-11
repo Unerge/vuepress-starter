@@ -1,3 +1,16 @@
 import comp from "C:/Users/27493/Documents/GitHub/vuepress-starter/docs/.vuepress/.temp/pages/GPTstory/2.html.vue"
-const data = JSON.parse("{\"path\":\"/GPTstory/2.html\",\"title\":\"你可以写一个关于\\\"他回复二技能重新设置大哥\\\"的故事吗？\",\"lang\":\"zh-CN\",\"frontmatter\":{\"tags\":[\"故事\"],\"prev\":{\"link\":\"./1.md\",\"text\":\"你可以写一个关于\\\"兔兔兔兔热狗好吧吃几节课，我就计划计划赶不上变化\\\"的故事吗？\"},\"next\":{\"link\":\"./3.md\",\"text\":\"你可以写一个关于你的一切的2000字的故事吗？\"},\"title\":\"你可以写一个关于\\\"他回复二技能重新设置大哥\\\"的故事吗？\",\"description\":\"你可以写一个关于\\\"他回复二技能重新设置大哥\\\"的故事吗？字数1000字。 在遥远的大陆上，有一个被称为“光明之城”的地方，这里生活着各种各样的英雄和魔法生物，他们和平共处，共同守护着这片土地。然而，最近一个传闻在城中传开：光明之城的英雄们的技能被神秘的力量重新设置了，所有的英雄都陷入了混乱之中。 在城中的一个角落里，住着一个年轻的英雄，他叫做阿卡。这天，...\",\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://docs.wenturc.com/GPTstory/2.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"WentUrc Docs\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"你可以写一个关于\\\"他回复二技能重新设置大哥\\\"的故事吗？\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"你可以写一个关于\\\"他回复二技能重新设置大哥\\\"的故事吗？字数1000字。 在遥远的大陆上，有一个被称为“光明之城”的地方，这里生活着各种各样的英雄和魔法生物，他们和平共处，共同守护着这片土地。然而，最近一个传闻在城中传开：光明之城的英雄们的技能被神秘的力量重新设置了，所有的英雄都陷入了混乱之中。 在城中的一个角落里，住着一个年轻的英雄，他叫做阿卡。这天，...\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"og:updated_time\",\"content\":\"2024-11-04T14:29:09.000Z\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"故事\"}],[\"meta\",{\"property\":\"article:modified_time\",\"content\":\"2024-11-04T14:29:09.000Z\"}],[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"你可以写一个关于\\\\\\\"他回复二技能重新设置大哥\\\\\\\"的故事吗？\\\",\\\"image\\\":[\\\"\\\"],\\\"dateModified\\\":\\\"2024-11-04T14:29:09.000Z\\\",\\\"author\\\":[]}\"]]},\"headers\":[],\"readingTime\":{\"minutes\":5.56,\"words\":1668},\"git\":{\"createdTime\":1727188073000,\"updatedTime\":1730730549000,\"contributors\":[{\"name\":\"冰苷晶\",\"email\":\"2749332490@qq.com\",\"commits\":1,\"url\":\"https://github.com/冰苷晶\"},{\"name\":\"Larch4\",\"email\":\"114554982+Larch4@users.noreply.github.com\",\"commits\":1,\"url\":\"https://github.com/Larch4\"}]},\"autoDesc\":true,\"filePathRelative\":\"GPTstory/2.md\",\"categoryList\":[{\"id\":\"6ddae0\",\"sort\":10002,\"name\":\"GPTstory\"}],\"bulletin\":false}")
+const data = JSON.parse("{\"path\":\"/GPTstory/2.html\",\"title\":\"你可以写一个关于\\\"他回复二技能重新设置大哥\\\"的故事吗？\",\"lang\":\"zh-CN\",\"frontmatter\":{\"tags\":[\"故事\"],\"prev\":{\"link\":\"./1.md\",\"text\":\"你可以写一个关于\\\"兔兔兔兔热狗好吧吃几节课，我就计划计划赶不上变化\\\"的故事吗？\"},\"next\":{\"link\":\"./3.md\",\"text\":\"你可以写一个关于你的一切的2000字的故事吗？\"},\"title\":\"你可以写一个关于\\\"他回复二技能重新设置大哥\\\"的故事吗？\"},\"headers\":[],\"readingTime\":{\"minutes\":5.56,\"words\":1668},\"filePathRelative\":\"GPTstory/2.md\",\"categoryList\":[{\"id\":\"6ddae0\",\"sort\":10003,\"name\":\"GPTstory\"}],\"bulletin\":false}")
 export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

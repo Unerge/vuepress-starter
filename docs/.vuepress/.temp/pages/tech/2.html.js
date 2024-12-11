@@ -1,3 +1,16 @@
 import comp from "C:/Users/27493/Documents/GitHub/vuepress-starter/docs/.vuepress/.temp/pages/tech/2.html.vue"
-const data = JSON.parse("{\"path\":\"/tech/2.html\",\"title\":\"Hyper-V虚拟交换机无法显示交换机列表\",\"lang\":\"zh-CN\",\"frontmatter\":{\"tags\":[\"技术文档\"],\"cover\":\"https://api.wenturc.com/\",\"prev\":{\"link\":\"./1.md\",\"text\":\"原神伤害公式\"},\"next\":{\"link\":\"./3.md\",\"text\":\"不同风格的博客站导航栏样式\"},\"title\":\"Hyper-V虚拟交换机无法显示交换机列表\",\"description\":\"Hyper-V虚拟交换机无法显示交换机列表 Hyper-V虚拟交换机无法显示交换机列表的问题可能由多种原因引起。以下是一些常见的解决方法： 检查Hyper-V服务状态： 确保Hyper-V的相关服务正在运行。你可以打开“服务”（services.msc），检查以下服务是否启动： Hyper-V Virtual Machine Management (v...\",\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://docs.wenturc.com/tech/2.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"WentUrc Docs\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"Hyper-V虚拟交换机无法显示交换机列表\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"Hyper-V虚拟交换机无法显示交换机列表 Hyper-V虚拟交换机无法显示交换机列表的问题可能由多种原因引起。以下是一些常见的解决方法： 检查Hyper-V服务状态： 确保Hyper-V的相关服务正在运行。你可以打开“服务”（services.msc），检查以下服务是否启动： Hyper-V Virtual Machine Management (v...\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:image\",\"content\":\"https://api.wenturc.com/\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"og:updated_time\",\"content\":\"2024-12-05T15:34:46.000Z\"}],[\"meta\",{\"name\":\"twitter:card\",\"content\":\"summary_large_image\"}],[\"meta\",{\"name\":\"twitter:image:src\",\"content\":\"https://api.wenturc.com/\"}],[\"meta\",{\"name\":\"twitter:image:alt\",\"content\":\"Hyper-V虚拟交换机无法显示交换机列表\"}],[\"meta\",{\"property\":\"article:tag\",\"content\":\"技术文档\"}],[\"meta\",{\"property\":\"article:modified_time\",\"content\":\"2024-12-05T15:34:46.000Z\"}],[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"Hyper-V虚拟交换机无法显示交换机列表\\\",\\\"image\\\":[\\\"https://api.wenturc.com/\\\"],\\\"dateModified\\\":\\\"2024-12-05T15:34:46.000Z\\\",\\\"author\\\":[]}\"]]},\"headers\":[],\"readingTime\":{\"minutes\":2.11,\"words\":634},\"git\":{\"createdTime\":1727188073000,\"updatedTime\":1733412886000,\"contributors\":[{\"name\":\"冰苷晶\",\"email\":\"2749332490@qq.com\",\"commits\":2,\"url\":\"https://github.com/冰苷晶\"},{\"name\":\"Larch4\",\"email\":\"114554982+Larch4@users.noreply.github.com\",\"commits\":1,\"url\":\"https://github.com/Larch4\"}]},\"autoDesc\":true,\"filePathRelative\":\"tech/2.md\",\"categoryList\":[{\"id\":\"d9f913\",\"sort\":10000,\"name\":\"tech\"}],\"bulletin\":false}")
+const data = JSON.parse("{\"path\":\"/tech/2.html\",\"title\":\"Hyper-V虚拟交换机无法显示交换机列表\",\"lang\":\"zh-CN\",\"frontmatter\":{\"tags\":[\"技术文档\"],\"cover\":\"https://api.wenturc.com/\",\"prev\":{\"link\":\"./1.md\",\"text\":\"原神伤害公式\"},\"next\":{\"link\":\"./3.md\",\"text\":\"不同风格的博客站导航栏样式\"},\"title\":\"Hyper-V虚拟交换机无法显示交换机列表\"},\"headers\":[],\"readingTime\":{\"minutes\":2.11,\"words\":634},\"filePathRelative\":\"tech/2.md\",\"categoryList\":[{\"id\":\"d9f913\",\"sort\":10004,\"name\":\"tech\"}],\"bulletin\":false}")
 export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

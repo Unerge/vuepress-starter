@@ -1,3 +1,16 @@
 import comp from "C:/Users/27493/Documents/GitHub/vuepress-starter/docs/.vuepress/.temp/pages/tech/index.html.vue"
-const data = JSON.parse("{\"path\":\"/tech/\",\"title\":\"专门用于存放技术文档\",\"lang\":\"zh-CN\",\"frontmatter\":{\"prev\":false,\"next\":{\"link\":\"./1.md\",\"text\":\"原神伤害公式\"},\"description\":\"专门用于存放技术文档\",\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://docs.wenturc.com/tech/\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"WentUrc Docs\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"专门用于存放技术文档\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"专门用于存放技术文档\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"og:updated_time\",\"content\":\"2024-11-04T14:29:09.000Z\"}],[\"meta\",{\"property\":\"article:modified_time\",\"content\":\"2024-11-04T14:29:09.000Z\"}],[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"专门用于存放技术文档\\\",\\\"image\\\":[\\\"\\\"],\\\"dateModified\\\":\\\"2024-11-04T14:29:09.000Z\\\",\\\"author\\\":[]}\"]]},\"headers\":[],\"readingTime\":{\"minutes\":0.07,\"words\":22},\"git\":{\"createdTime\":1727188073000,\"updatedTime\":1730730549000,\"contributors\":[{\"name\":\"冰苷晶\",\"email\":\"2749332490@qq.com\",\"commits\":1,\"url\":\"https://github.com/冰苷晶\"},{\"name\":\"Larch4\",\"email\":\"114554982+Larch4@users.noreply.github.com\",\"commits\":1,\"url\":\"https://github.com/Larch4\"}]},\"autoDesc\":true,\"filePathRelative\":\"tech/README.md\",\"categoryList\":[{\"id\":\"d9f913\",\"sort\":10000,\"name\":\"tech\"}],\"bulletin\":false}")
+const data = JSON.parse("{\"path\":\"/tech/\",\"title\":\"专门用于存放技术文档\",\"lang\":\"zh-CN\",\"frontmatter\":{\"prev\":false,\"next\":{\"link\":\"./1.md\",\"text\":\"原神伤害公式\"}},\"headers\":[],\"readingTime\":{\"minutes\":0.07,\"words\":22},\"filePathRelative\":\"tech/README.md\",\"categoryList\":[{\"id\":\"d9f913\",\"sort\":10004,\"name\":\"tech\"}],\"bulletin\":false}")
 export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}
