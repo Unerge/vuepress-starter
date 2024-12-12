@@ -18,7 +18,6 @@ const { isDark, frontmatter: matter } = useData<'home'>()
 
 // 获取当前路由信息
 const pageData = usePageData()
-const isHomePage = computed(() => pageData.value.path === '/')
 
 // 用于控制背景图片是否加载完成的状态
 const loaded = ref(false)
