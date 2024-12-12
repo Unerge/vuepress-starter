@@ -2,7 +2,7 @@ import { defineThemeConfig } from 'vuepress-theme-plume';
 import navbar from './navbar';
 
 export default defineThemeConfig({
-    logo: '/logo.jpg',
+    logo: '/logo.png',
     docsRepo: 'https://github.com/Unerge/vuepress-starter',
     docsBranch:'docs',
     docsDir: 'docs',
