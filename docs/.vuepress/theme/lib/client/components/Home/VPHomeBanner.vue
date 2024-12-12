@@ -89,12 +89,6 @@ const addToCache = (url: string) => {
 // 检查图片是否在缓存中
 const isCached = (url: string) => loadedImages.has(url)
 
-// 动态获取图片 URL（替代固定的 bannerLink）
-const getCurrentBannerUrl = () => {
-  const banner = props.banner ?? matter.value.banner
-  return banner ? (isLinkHttp(banner) ? banner : withBase(banner)) : DEFAULT_BANNER
-}
-
 // 动态获取重定向后的 URL
 const fetchFinalRedirectUrl = async (url: string) => {
   try {
@@ -112,6 +106,8 @@ const fetchFinalRedirectUrl = async (url: string) => {
   }
 };
 
+const customBannerLink = ref(bannerLink.value)
+
 // 监听 banner 变化并预加载图片
 watch(bannerLink, (newLink) => {
   preloadImage(newLink)
@@ -125,7 +121,7 @@ watch(() => pageData.value.path, async () => {
   const success = await preloadImage(finalBannerLink);  // 重新加载图片
   if (success) {
     addToCache(finalBannerLink);
-    bannerLink.value = finalBannerLink;
+    customBannerLink.value = finalBannerLink
     loaded.value = true;  // 图片加载完成后显示
   }
 });
@@ -142,11 +138,11 @@ watch(() => pageData.value.path, () => {
       const success = await preloadImage(finalBannerLink);
       if (success) {
         addToCache(finalBannerLink);
-        bannerLink.value = finalBannerLink;
+        customBannerLink.value = finalBannerLink
         loaded.value = true;
       }
     } else {
-      bannerLink.value = finalBannerLink;
+      customBannerLink.value = finalBannerLink
     }
   }, 300);  // 根据需要调整间隔时间
 });
