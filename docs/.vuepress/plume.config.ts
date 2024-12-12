@@ -10,7 +10,7 @@ export default defineThemeConfig({
     profile: {
         avatar: '/logo-O2.jpg',
         name: 'WentUrc Docs',
-        description: '持续学习大学课程',
+        description: '兰花草，梅花桩',
     },
 
     navbar,
