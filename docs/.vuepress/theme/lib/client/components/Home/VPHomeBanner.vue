@@ -101,7 +101,7 @@ const fetchFinalRedirectUrl = async (url: string) => {
     return imageUrl;
   } catch (error) {
     console.error('Failed to fetch banner URL:', error);
-    return '/img/154.jpg'; // 如果请求失败，返回默认图片
+    return false; // 如果请求失败，返回默认图片
   }
 };
 
