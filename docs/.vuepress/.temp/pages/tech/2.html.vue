@@ -1,5 +1,4 @@
-<template><div><h1 id="hyper-v虚拟交换机无法显示交换机列表" tabindex="-1"><a class="header-anchor" href="#hyper-v虚拟交换机无法显示交换机列表"><span>Hyper-V虚拟交换机无法显示交换机列表</span></a></h1>
-<p>Hyper-V虚拟交换机无法显示交换机列表的问题可能由多种原因引起。以下是一些常见的解决方法：</p>
+<template><div><p>Hyper-V虚拟交换机无法显示交换机列表的问题可能由多种原因引起。以下是一些常见的解决方法：</p>
 <ol>
 <li>
 <p><strong>检查Hyper-V服务状态</strong>：</p>

@@ -1,5 +1,4 @@
-<template><div><h1 id="vuepress自定义主题配置" tabindex="-1"><a class="header-anchor" href="#vuepress自定义主题配置"><span>Vuepress自定义主题配置</span></a></h1>
-<p>在 VuePress 中，自定义主题配置可以帮助你打造一个更符合你需求和风格的文档站。以下是一些常见的自定义主题配置建议，供你参考：</p>
+<template><div><p>在 VuePress 中，自定义主题配置可以帮助你打造一个更符合你需求和风格的文档站。以下是一些常见的自定义主题配置建议，供你参考：</p>
 <h3 id="_1-导航栏-navbar" tabindex="-1"><a class="header-anchor" href="#_1-导航栏-navbar"><span>1. <strong>导航栏（Navbar）</strong></span></a></h3>
 <p>你可以自定义导航栏，以便用户可以轻松访问重要的文档部分或外部链接。</p>
 <div class="language-javascript line-numbers-mode" data-ext="javascript" data-title="javascript"><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#59873A;--shiki-dark:#80A665">theme</span><span style="--shiki-light:#999999;--shiki-dark:#666666">:</span><span style="--shiki-light:#59873A;--shiki-dark:#80A665"> defaultTheme</span><span style="--shiki-light:#999999;--shiki-dark:#666666">({</span></span>

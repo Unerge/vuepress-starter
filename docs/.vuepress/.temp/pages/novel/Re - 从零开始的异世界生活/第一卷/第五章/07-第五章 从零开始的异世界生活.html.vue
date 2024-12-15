@@ -1,6 +1,4 @@
-<template><div><h1 id="第五章『从零开始的异世界生活』" tabindex="-1"><a class="header-anchor" href="#第五章『从零开始的异世界生活』"><span>第五章『从零开始的异世界生活』</span></a></h1>
-<hr>
-<h3 id="_1" tabindex="-1"><a class="header-anchor" href="#_1"><span>1</span></a></h3>
+<template><div><h3 id="_1" tabindex="-1"><a class="header-anchor" href="#_1"><span>1</span></a></h3>
 <p>  「太好了，你在这。这次不会再让你逃走了。」</p>
 <p>  踏进来的少女——假莎缇拉令菲鲁特说不出话，只能后退。</p>
 <p>  菲鲁特的表情很恼火，气愤得扭曲嘴唇。</p>

@@ -1,5 +1,4 @@
-<template><div><h1 id="第二章-管理理论的历史演变" tabindex="-1"><a class="header-anchor" href="#第二章-管理理论的历史演变"><span>第二章 管理理论的历史演变</span></a></h1>
-<h2 id="第一节-古典管理理论" tabindex="-1"><a class="header-anchor" href="#第一节-古典管理理论"><span>第一节 古典管理理论</span></a></h2>
+<template><div><h2 id="第一节-古典管理理论" tabindex="-1"><a class="header-anchor" href="#第一节-古典管理理论"><span>第一节 古典管理理论</span></a></h2>
 <h3 id="一、科学管理研究" tabindex="-1"><a class="header-anchor" href="#一、科学管理研究"><span>一、科学管理研究</span></a></h3>
 <h3 id="二、一般管理研究" tabindex="-1"><a class="header-anchor" href="#二、一般管理研究"><span>二、一般管理研究</span></a></h3>
 <h4 id="_1-管理要素" tabindex="-1"><a class="header-anchor" href="#_1-管理要素"><span>1. 管理要素</span></a></h4>

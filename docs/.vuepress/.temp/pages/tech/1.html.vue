@@ -1,5 +1,4 @@
-<template><div><h1 id="原神伤害公式" tabindex="-1"><a class="header-anchor" href="#原神伤害公式"><span>原神伤害公式</span></a></h1>
-<p>在《原神》中，伤害计算的公式确实存在，且相对复杂，涉及多种因素。基本伤害公式如下：</p>
+<template><div><p>在《原神》中，伤害计算的公式确实存在，且相对复杂，涉及多种因素。基本伤害公式如下：</p>
 <p>[ \text{总伤害} = \left( \text{技能伤害} \times \text{攻击力} \times (1 + \text{伤害加成}) \times \text{暴击倍率} \times (1 - \text{抗性倍率}) \times \text{敌人减伤倍率} \right) ]</p>
 <p>下面是对每个部分的详细解释：</p>
 <ol>

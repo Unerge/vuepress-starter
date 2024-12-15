@@ -1,5 +1,4 @@
-<template><div><h1 id="第一章-毛泽东思想及其历史地位" tabindex="-1"><a class="header-anchor" href="#第一章-毛泽东思想及其历史地位"><span>第一章 毛泽东思想及其历史地位</span></a></h1>
-<h2 id="第一节-毛泽东思想的形成和发展" tabindex="-1"><a class="header-anchor" href="#第一节-毛泽东思想的形成和发展"><span>第一节 毛泽东思想的形成和发展</span></a></h2>
+<template><div><h2 id="第一节-毛泽东思想的形成和发展" tabindex="-1"><a class="header-anchor" href="#第一节-毛泽东思想的形成和发展"><span>第一节 毛泽东思想的形成和发展</span></a></h2>
 <h3 id="一、毛泽东思想形成发展的历史条件" tabindex="-1"><a class="header-anchor" href="#一、毛泽东思想形成发展的历史条件"><span>一、毛泽东思想形成发展的历史条件</span></a></h3>
 <h3 id="二、毛泽东思想形成发展的过程" tabindex="-1"><a class="header-anchor" href="#二、毛泽东思想形成发展的过程"><span>二、毛泽东思想形成发展的过程</span></a></h3>
 <h4 id="_1-毛泽东思想的形成" tabindex="-1"><a class="header-anchor" href="#_1-毛泽东思想的形成"><span>1. 毛泽东思想的形成</span></a></h4>

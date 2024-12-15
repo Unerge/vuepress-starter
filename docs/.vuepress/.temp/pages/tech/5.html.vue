@@ -1,5 +1,4 @@
-<template><div><h1 id="爬取bing每日背景图" tabindex="-1"><a class="header-anchor" href="#爬取bing每日背景图"><span>爬取Bing每日背景图</span></a></h1>
-<p>爬取 Bing 每日背景图可以通过解析 Bing 的主页来获取背景图 URL。以下是一个简单的 Python 爬虫示例，使用 <code v-pre>requests</code> 和 <code v-pre>BeautifulSoup</code> 库：</p>
+<template><div><p>爬取 Bing 每日背景图可以通过解析 Bing 的主页来获取背景图 URL。以下是一个简单的 Python 爬虫示例，使用 <code v-pre>requests</code> 和 <code v-pre>BeautifulSoup</code> 库：</p>
 <ol>
 <li>
 <p><strong>安装必要的库</strong>：</p>

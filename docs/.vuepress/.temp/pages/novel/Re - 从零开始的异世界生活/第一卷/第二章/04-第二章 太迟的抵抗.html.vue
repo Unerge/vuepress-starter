@@ -1,6 +1,4 @@
-<template><div><h1 id="第二章-『太迟的抵抗』" tabindex="-1"><a class="header-anchor" href="#第二章-『太迟的抵抗』"><span>第二章 『太迟的抵抗』</span></a></h1>
-<hr>
-<h3 id="_1" tabindex="-1"><a class="header-anchor" href="#_1"><span>1</span></a></h3>
+<template><div><h3 id="_1" tabindex="-1"><a class="header-anchor" href="#_1"><span>1</span></a></h3>
 <p>  「——你是怎么了，小哥。突然一脸呆样。」</p>
 <p>  「嗄——？」</p>
 <p>  被长相严厉、有着显眼白色刀疤的男子呼唤，他忍不住发出了呆楞的声音。</p>
