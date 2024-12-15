@@ -12,6 +12,7 @@
     "docs:build": "vuepress build docs"
   },
   "dependencies": {
+    "all": "^0.0.0",
     "swiper": "^11.1.15"
   },
   "config": {

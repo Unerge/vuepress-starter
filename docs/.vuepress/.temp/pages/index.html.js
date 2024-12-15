@@ -1,4 +1,4 @@
-import comp from "C:/Users/27493/Documents/GitHub/vuepress-starter/docs/.vuepress/.temp/pages/index.html.vue"
+import comp from "C:/Users/Cedar/Documents/GitHub/vuepress-starter/docs/.vuepress/.temp/pages/index.html.vue"
 const data = JSON.parse("{\"path\":\"/\",\"title\":\"\",\"lang\":\"zh-CN\",\"frontmatter\":{\"config\":[{\"type\":\"banner\",\"banner\":\"https://api.wenturc.com\",\"bannerMask\":{\"dark\":0.5,\"light\":0.3},\"hero\":{\"name\":\"WentUrc Docs\",\"tagline\":\"为什么昨晚的清醒与今日的倦意遥相呼应\",\"text\":\"话说这个 text 必须要写吗\",\"actions\":[{\"text\":\"快速开始\",\"link\":\"/learn/\",\"theme\":\"brand\"},{\"text\":\"Github\",\"link\":\"https://github.com/Unerge/vuepress-starter\",\"theme\":\"alt\"},{\"text\":\"WentUrc\",\"link\":\"https://wenturc.com\",\"theme\":\"alt\"}]}}],\"pageLayout\":\"home\"},\"headers\":[],\"readingTime\":{\"minutes\":0.24,\"words\":72},\"filePathRelative\":\"README.md\",\"categoryList\":[],\"bulletin\":false}")
 export { comp, data }
 
