@@ -1,5 +1,4 @@
-<template><div><h1 id="静力学基础" tabindex="-1"><a class="header-anchor" href="#静力学基础"><span>静力学基础</span></a></h1>
-<h2 id="静力学公理" tabindex="-1"><a class="header-anchor" href="#静力学公理"><span>静力学公理</span></a></h2>
+<template><div><h2 id="静力学公理" tabindex="-1"><a class="header-anchor" href="#静力学公理"><span>静力学公理</span></a></h2>
 <h3 id="_1-作用力与反作用力" tabindex="-1"><a class="header-anchor" href="#_1-作用力与反作用力"><span>1. 作用力与反作用力</span></a></h3>
 <h3 id="_2-力的平行四边形法则" tabindex="-1"><a class="header-anchor" href="#_2-力的平行四边形法则"><span>2. 力的平行四边形法则</span></a></h3>
 <h3 id="_3-二力平衡公理" tabindex="-1"><a class="header-anchor" href="#_3-二力平衡公理"><span>3. 二力平衡公理</span></a></h3>

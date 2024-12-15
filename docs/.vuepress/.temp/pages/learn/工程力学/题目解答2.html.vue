@@ -1,5 +1,4 @@
-<template><div><h1 id="弯矩图与剪力图" tabindex="-1"><a class="header-anchor" href="#弯矩图与剪力图"><span>弯矩图与剪力图</span></a></h1>
-<p>为了绘制外伸梁的内力图（弯矩图和剪力图），我们需要先进行受力分析，计算支座反力，然后基于这些反力来绘制弯矩和剪力图。</p>
+<template><div><p>为了绘制外伸梁的内力图（弯矩图和剪力图），我们需要先进行受力分析，计算支座反力，然后基于这些反力来绘制弯矩和剪力图。</p>
 <h3 id="梁的受力分析" tabindex="-1"><a class="header-anchor" href="#梁的受力分析"><span>梁的受力分析</span></a></h3>
 <ol>
 <li>

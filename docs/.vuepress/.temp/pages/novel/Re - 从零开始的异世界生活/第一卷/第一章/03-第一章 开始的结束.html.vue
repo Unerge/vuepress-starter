@@ -1,6 +1,4 @@
-<template><div><h1 id="第一章『开始的结束』" tabindex="-1"><a class="header-anchor" href="#第一章『开始的结束』"><span>第一章『开始的结束』</span></a></h1>
-<hr>
-<h3 id="_1" tabindex="-1"><a class="header-anchor" href="#_1"><span>1</span></a></h3>
+<template><div><h3 id="_1" tabindex="-1"><a class="header-anchor" href="#_1"><span>1</span></a></h3>
 <p>  ——这下真的很糟糕。</p>
 <p>  身无分文又走投无路，他的心中被类似的字眼给埋没。</p>
 <p>  正确来说，不算是身无分文。口袋里的钱包装了他所有的财产，照理来说还是可以买一些东西。尽管如此，眼前的状况依旧只能用「身无分文」来形容。</p>

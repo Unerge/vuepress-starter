@@ -1,5 +1,4 @@
-<template><div><h1 id="绪论" tabindex="-1"><a class="header-anchor" href="#绪论"><span>绪论</span></a></h1>
-<h3 id="一-管理学的基本原理" tabindex="-1"><a class="header-anchor" href="#一-管理学的基本原理"><span>一. 管理学的基本原理</span></a></h3>
+<template><div><h3 id="一-管理学的基本原理" tabindex="-1"><a class="header-anchor" href="#一-管理学的基本原理"><span>一. 管理学的基本原理</span></a></h3>
 <p>&quot;决策&quot;&quot;组织&quot;&quot;领导&quot;&quot;控制&quot;&quot;创新&quot;</p>
 <h3 id="二-管理学的产生与发展" tabindex="-1"><a class="header-anchor" href="#二-管理学的产生与发展"><span>二. 管理学的产生与发展</span></a></h3>
 <h4 id="_1-中国古代管理思想" tabindex="-1"><a class="header-anchor" href="#_1-中国古代管理思想"><span>(1) 中国古代管理思想</span></a></h4>

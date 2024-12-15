@@ -1,6 +1,4 @@
-<template><div><h1 id="第四章『第四次的正直』" tabindex="-1"><a class="header-anchor" href="#第四章『第四次的正直』"><span>第四章『第四次的正直』</span></a></h1>
-<hr>
-<h3 id="_1" tabindex="-1"><a class="header-anchor" href="#_1"><span>1</span></a></h3>
+<template><div><h3 id="_1" tabindex="-1"><a class="header-anchor" href="#_1"><span>1</span></a></h3>
 <p>  「钱包，在。手机，在。零食和杯面也没问题，运动服和运动鞋都没有破洞。还有……」</p>
 <p>  掀起运动服，他探头往后检查背部。</p>
 <p>  正面的腹部还有后腰部分，每个地方都没看到伤痕，当然也没发生刀子长在上头的异常事态。</p>

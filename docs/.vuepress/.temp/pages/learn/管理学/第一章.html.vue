@@ -1,5 +1,4 @@
-<template><div><h1 id="第一章-管理导论" tabindex="-1"><a class="header-anchor" href="#第一章-管理导论"><span>第一章 管理导论</span></a></h1>
-<h2 id="第一节-管理的内涵与本质" tabindex="-1"><a class="header-anchor" href="#第一节-管理的内涵与本质"><span>第一节 管理的内涵与本质</span></a></h2>
+<template><div><h2 id="第一节-管理的内涵与本质" tabindex="-1"><a class="header-anchor" href="#第一节-管理的内涵与本质"><span>第一节 管理的内涵与本质</span></a></h2>
 <h3 id="一、组织与管理" tabindex="-1"><a class="header-anchor" href="#一、组织与管理"><span>一、组织与管理</span></a></h3>
 <h4 id="_1-组织的概念" tabindex="-1"><a class="header-anchor" href="#_1-组织的概念"><span>1. 组织的概念</span></a></h4>
 <p>   组织作为动词, 是管理的一种职能, 甚至是管理的代名词. 作为名词, &quot;组织&quot;是指一群人的一种相对稳定的集合.</p>

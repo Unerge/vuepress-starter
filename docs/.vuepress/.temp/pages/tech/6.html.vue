@@ -1,5 +1,4 @@
-<template><div><h1 id="仿制哔哩哔哩站点样式" tabindex="-1"><a class="header-anchor" href="#仿制哔哩哔哩站点样式"><span>仿制哔哩哔哩站点样式</span></a></h1>
-<p>下面是一个仿照B站（哔哩哔哩）视频展示样式的简单示例。这个示例包括HTML和CSS部分，用于创建一个类似B站的视频展示页面。需要注意的是，这只是一个静态页面的示例，不包括后端逻辑和实际的视频播放功能。</p>
+<template><div><p>下面是一个仿照B站（哔哩哔哩）视频展示样式的简单示例。这个示例包括HTML和CSS部分，用于创建一个类似B站的视频展示页面。需要注意的是，这只是一个静态页面的示例，不包括后端逻辑和实际的视频播放功能。</p>
 <p>视频卡片可以带有图片。在之前的代码示例中已经包含了图片部分，但为了更清晰地展示如何加载和显示图片，我将代码稍作改进。以下是包含图片的完整代码示例：</p>
 <h3 id="html部分" tabindex="-1"><a class="header-anchor" href="#html部分"><span>HTML部分</span></a></h3>
 <div class="language-html line-numbers-mode" data-ext="html" data-title="html"><button class="copy" title="复制代码" data-copied="已复制"></button><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code><span class="line"><span style="--shiki-light:#999999;--shiki-dark:#666666">&#x3C;!</span><span style="--shiki-light:#1E754F;--shiki-dark:#4D9375">DOCTYPE</span><span style="--shiki-light:#B07D48;--shiki-dark:#BD976A"> html</span><span style="--shiki-light:#999999;--shiki-dark:#666666">></span></span>

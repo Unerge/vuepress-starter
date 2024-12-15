@@ -1,6 +1,4 @@
-<template><div><h1 id="插图" tabindex="-1"><a class="header-anchor" href="#插图"><span>插图</span></a></h1>
-<hr>
-<p>  台版 转自 轻之国度</p>
+<template><div><p>  台版 转自 轻之国度</p>
 <p>  作者：长月达平</p>
 <p>  插画：大冢真一郎</p>
 <p>  译者：黄盈琪</p>

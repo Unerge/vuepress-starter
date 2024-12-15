@@ -89,6 +89,7 @@ export default defineUserConfig({
               '3.md',
               '4.md',
               '5.md',
+              '6.md',
             ],  // 这里也可以根据需要增加其他子页面
           },
         ],

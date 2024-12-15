@@ -1,5 +1,4 @@
-<template><div><h1 id="在-github-上显示数学公式" tabindex="-1"><a class="header-anchor" href="#在-github-上显示数学公式"><span>在 Github 上显示数学公式</span></a></h1>
-<p>要在 GitHub 上显示数学公式和格式化的文本，你可以使用 Markdown 语法，同时确保数学公式使用单个美元符号 <code v-pre>$</code> 来包裹行内公式，或者使用三重反引号 <code v-pre>```</code> 和 <code v-pre>math</code> 来包裹块级公式。</p>
+<template><div><p>要在 GitHub 上显示数学公式和格式化的文本，你可以使用 Markdown 语法，同时确保数学公式使用单个美元符号 <code v-pre>$</code> 来包裹行内公式，或者使用三重反引号 <code v-pre>```</code> 和 <code v-pre>math</code> 来包裹块级公式。</p>
 <p>以下是将内容转换为 GitHub 可显示格式的示例：</p>
 <hr>
 <h3 id="要绘制竖柱ab的轴力图-我们需要分析柱子受到的荷载和其产生的轴力分布。" tabindex="-1"><a class="header-anchor" href="#要绘制竖柱ab的轴力图-我们需要分析柱子受到的荷载和其产生的轴力分布。"><span>要绘制竖柱AB的轴力图，我们需要分析柱子受到的荷载和其产生的轴力分布。</span></a></h3>

@@ -1,5 +1,4 @@
-<template><div><h1 id="第二章-新民主主义革命理论" tabindex="-1"><a class="header-anchor" href="#第二章-新民主主义革命理论"><span>第二章 新民主主义革命理论</span></a></h1>
-<h2 id="第一节-新民主主义革命理论形成的依据" tabindex="-1"><a class="header-anchor" href="#第一节-新民主主义革命理论形成的依据"><span>第一节 新民主主义革命理论形成的依据</span></a></h2>
+<template><div><h2 id="第一节-新民主主义革命理论形成的依据" tabindex="-1"><a class="header-anchor" href="#第一节-新民主主义革命理论形成的依据"><span>第一节 新民主主义革命理论形成的依据</span></a></h2>
 <h3 id="一、近代中国国情和中国革命的时代特征" tabindex="-1"><a class="header-anchor" href="#一、近代中国国情和中国革命的时代特征"><span>一、近代中国国情和中国革命的时代特征</span></a></h3>
 <h4 id="_1-近代中国国情" tabindex="-1"><a class="header-anchor" href="#_1-近代中国国情"><span>1. 近代中国国情</span></a></h4>
 <h4 id="_2-近代中国革命的时代特征" tabindex="-1"><a class="header-anchor" href="#_2-近代中国革命的时代特征"><span>2. 近代中国革命的时代特征</span></a></h4>

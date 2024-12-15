@@ -1,6 +1,4 @@
-<template><div><h1 id="第三章『结束的开始』" tabindex="-1"><a class="header-anchor" href="#第三章『结束的开始』"><span>第三章『结束的开始』</span></a></h1>
-<hr>
-<h3 id="_1" tabindex="-1"><a class="header-anchor" href="#_1"><span>1</span></a></h3>
+<template><div><h3 id="_1" tabindex="-1"><a class="header-anchor" href="#_1"><span>1</span></a></h3>
 <p>  「——小哥，不要发呆啦，你到底要不要吃凛果？」</p>
 <p>  意识醒觉的瞬间，昴的面前是红艳艳的成熟果实。</p>
 <p>  看着形似苹果的果实，智慧之果这个单字突然掠过昴的脑海。</p>

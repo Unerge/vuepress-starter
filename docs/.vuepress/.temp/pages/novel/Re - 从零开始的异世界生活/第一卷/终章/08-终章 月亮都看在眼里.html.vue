@@ -1,6 +1,4 @@
-<template><div><h1 id="终章『月亮都看在眼里』" tabindex="-1"><a class="header-anchor" href="#终章『月亮都看在眼里』"><span>终章『月亮都看在眼里』</span></a></h1>
-<hr>
-<h3 id="_1" tabindex="-1"><a class="header-anchor" href="#_1"><span>1</span></a></h3>
+<template><div><h3 id="_1" tabindex="-1"><a class="header-anchor" href="#_1"><span>1</span></a></h3>
 <p>  远望淡淡的蓝色光芒——掌管治愈的水之波动，莱因哈鲁特的叹气轻到周围的人都无法察觉。</p>
 <p>  端正的侧面浮现忧虑，战斗的痕迹还微微残留在衣着上。若将他伫立在废墟前的姿态撷取下来，光是这样就足以成为一幅名画。</p>
 <p>  但是，他本人却是用尽言语也不够表达内心的遗憾。</p>

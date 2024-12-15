@@ -1,5 +1,4 @@
-<template><div><h1 id="存在于自我探索" tabindex="-1"><a class="header-anchor" href="#存在于自我探索"><span>存在于自我探索</span></a></h1>
-<h2 id="me" tabindex="-1"><a class="header-anchor" href="#me"><span>ME</span></a></h2>
+<template><div><h2 id="me" tabindex="-1"><a class="header-anchor" href="#me"><span>ME</span></a></h2>
 <blockquote>
 <p>我要怎么知道我所获的知识是正确的?我怎么知道你我是真实存在的?即便我的确是存在于这世上，但这世间的一切是命中注定的吗？我不知道怎么办，我感觉我在这些不起眼的意义上花了太多的时间。我真的是令所有人都讨厌的吗？是不是这世界少一个这样的&quot;我&quot;，这世界就会变得清静吗？我该何去何从?</p>
 </blockquote>
