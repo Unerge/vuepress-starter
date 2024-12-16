@@ -24,23 +24,23 @@ footer: {
         </span>
     `,
     copyright: `
-        <div style="
-            display: flex; 
+        <span style="
+            display: inline-flex; 
             align-items: center; 
             justify-content: center;
             gap: 8px;">
-            <a aria-label="Homepage" title="WentUrc Documents" href="https://docs.wenturc.com">
+            <a aria-label="Homepage" title="WentUrc Documents" href="https://docs.wenturc.com" style="display: inline-flex;">
                 <img src="logo.svg" width="20" height="20" />
             </a>
-            <span>© 2024 - present
+            <span>© 2024 - present 
                 <span style="
                     background: linear-gradient(to right, #4facfe, #00f2fe);
                     -webkit-background-clip: text;
                     -webkit-text-fill-color: transparent;">
-                        冰苷晶 Cabinina
+                    冰苷晶 Cabinina
                 </span>
             </span>
-        </div>
+        </span>
     `,
 },
 });
