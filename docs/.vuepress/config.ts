@@ -149,6 +149,14 @@ export default defineUserConfig({
                         '/learn/英语/CET-4/2.md'
                       ]
                     },
+                    {
+                      text: '六级复习',
+                      collapsed: true,
+                      items: [
+                        '/learn/英语/CET-6/README.md',
+                        '/learn/英语/CET-6/1.md',
+                      ]
+                    },
 
                   ],  // 同样这里也可以增加其他子页面
               },
