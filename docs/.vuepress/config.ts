@@ -111,6 +111,7 @@ export default defineUserConfig({
               '11.md',
               '12.md',
               '13.md',
+              '14.md',
             ],  // 同样这里也可以增加其他子页面
           },
         ],
