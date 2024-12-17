@@ -18,7 +18,7 @@ config:
           theme: brand
         -
           text: Github
-          link: https://github.com/Unerge/vuepress-starter
+          link: https://github.com/WentUrc/vuepress-starter
           theme: alt
         -
           text: WentUrc
