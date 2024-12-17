@@ -113,15 +113,19 @@ watch(bannerLink, (newLink) => {
 }, { immediate: true })
 
 // 修改路由监听逻辑
-watch(() => pageData.value.path, async () => {
-  // 强制重新加载当前图片
-  loaded.value = false;  // 暂时隐藏图片
-  const finalBannerLink = await fetchFinalRedirectUrl(bannerLink.value);
-  const success = await preloadImage(finalBannerLink);  // 重新加载图片
-  if (success) {
-    addToCache(finalBannerLink);
-    customBannerLink.value = finalBannerLink
-    loaded.value = true;  // 图片加载完成后显示
+watch(() => pageData.value.path, async () => { 
+  // 强制重新加载当前图片 
+  loaded.value = false; // 暂时隐藏图片 
+  const finalBannerLink = await fetchFinalRedirectUrl(bannerLink.value); 
+  if (!finalBannerLink) {
+    console.error('Failed to fetch final banner link.');
+    return; // 退出，避免传递 `false` 类型到 preloadImage
+  }
+  const success = await preloadImage(finalBannerLink); // 重新加载图片 
+  if (success) { 
+    addToCache(finalBannerLink); 
+    customBannerLink.value = finalBannerLink; 
+    loaded.value = true; // 图片加载完成后显示 
   }
 });
 
@@ -132,16 +136,21 @@ watch(() => pageData.value.path, () => {
 
   debounceTimeout = setTimeout(async () => {
     const finalBannerLink = await fetchFinalRedirectUrl(bannerLink.value);
-    if (!isCached(finalBannerLink)) {
-      loaded.value = false;
-      const success = await preloadImage(finalBannerLink);
-      if (success) {
-        addToCache(finalBannerLink);
-        customBannerLink.value = finalBannerLink
-        loaded.value = true;
+    
+    if (typeof finalBannerLink === 'string') {  // 确保 finalBannerLink 是 string 类型
+      if (!isCached(finalBannerLink)) {
+        loaded.value = false;
+        const success = await preloadImage(finalBannerLink);
+        if (success) {
+          addToCache(finalBannerLink);
+          customBannerLink.value = finalBannerLink;
+          loaded.value = true;
+        }
+      } else {
+        customBannerLink.value = finalBannerLink;
       }
     } else {
-      customBannerLink.value = finalBannerLink
+      console.error('Invalid banner link received:', finalBannerLink);
     }
   }, 300);  // 根据需要调整间隔时间
 });
