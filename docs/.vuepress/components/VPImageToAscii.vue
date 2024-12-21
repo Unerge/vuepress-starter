@@ -1,6 +1,7 @@
 <template>
   <div class="image-to-ascii">
     <h2>图片转 ASCII 字符画</h2>
+    <br>
 
     <!-- 图片上传表单 -->
     <form class="ascii-form" @submit.prevent="handleSubmit">
@@ -23,7 +24,7 @@
       </div>
 
       <div class="form-row">
-        <label for="width">目标宽度</label>
+        <label for="width">目标宽度 (10~500)</label>
         <input
           type="number"
           id="width"
@@ -34,19 +35,22 @@
         />
       </div>
 
+      <hr class="custom-hr">
+
       <div class="form-row checkbox-row">
-        <label for="color">是否生成彩色字符画</label>
-          <div class="checkbox-row">
-            <label class="checkbox-label">
-              <input
-                type="checkbox"
-                id="color"
-                v-model="isColor"
-                class="custom-checkbox"
-              />
-              <span class="checkmark"></span>
-            </label>
-          </div>
+        <!-- 左侧的标签文字 -->
+        <span class="checkbox-text">是否生成彩色字符画</span>
+        
+        <!-- 右侧的复选框 -->
+        <label class="checkbox-label">
+          <input
+            type="checkbox"
+            id="color"
+            v-model="isColor"
+            class="custom-checkbox"
+          />
+          <span class="checkmark"></span>
+        </label>
       </div>
 
       <!-- 生成字符画按钮 -->
@@ -141,7 +145,7 @@ export default {
 <style scoped>
 /* 容器整体样式 */
 .image-to-ascii {
-  max-width: 600px;
+  max-width: 400px;
   margin: 20px auto;
   padding: 20px;
   font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
@@ -150,6 +154,7 @@ export default {
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
+/* 标题样式 */
 .image-to-ascii h2 {
   margin-bottom: 20px;
   text-align: center;
@@ -167,18 +172,15 @@ export default {
 .form-row {
   display: flex;
   align-items: center;
-  margin-left: 10px;
+  flex-wrap: wrap; /* 允许换行 */
   gap: 10px;
+  justify-content: space-between; /* 左右对齐 */
 }
 
-/* 让标签的宽度更统一，便于对齐 */
+/* 统一标签宽度 */
 .form-row label {
-  min-width: 120px;
-  text-align: left;
-}
-
-.checkbox-row {
-  gap: 5px;
+  min-width: 90px;
+  flex: 1 1 100px; /* 允许标签和输入框在小屏幕上占据适当空间 */
 }
 
 /* 隐藏原生 input[type="file"] */
@@ -186,152 +188,53 @@ export default {
   display: none;
 }
 
+/* 显示文件名 */
 .file-name {
   display: inline-block;
   padding: 4px 8px;
-  background-color: var(--vp-c-bg-alt);
+  background-color: var(--vp-c-green-soft);
   color: var(--vp-c-brand-3);
   overflow: hidden;        /* 溢出隐藏 */
   white-space: nowrap;
   text-overflow: ellipsis;
-  width: 200;
-  max-width: 200px; 
+  max-width: 50%; /* 确保不超过父容器的一半 */
   font-size: 1rem;
   border-radius: 6px;
-  margin-left: 50px;
+  margin-left: auto; /* 将元素推到右边 */
 }
 
 /* 自定义“选择图片”按钮 */
 .choose-file-btn {
   background-color: var(--vp-c-brand-3);
   color: #fff;
-  padding: 8px 8px;
+  padding: 8px 12px; /* 调整 padding 适应小屏幕 */
   border-radius: 6px;
+  max-width: 50px;
   cursor: pointer;
   border: none;
   transition: background-color 0.3s;
-
-  /* 关键：让文本在水平方向和垂直方向都居中 */
-  display: inline-flex;         /* 或者 inline-block + text-align: center;  */
+  
+  display: inline-flex; /* 让文字在垂直、水平都居中 */
   align-items: center;
   justify-content: center;
-
-  /* 如果想让它有固定宽度，方便更明显的居中，可以加上：
-  min-width: 100px; 
-  */
+  
+  flex: 0 0 auto; /* 防止按钮被拉伸 */
 }
 
+/* 按钮悬停效果 */
 .choose-file-btn:hover {
   background-color: var(--vp-c-brand-2);
 }
 
-/* 生成字符画按钮 */
-.submit-btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-
-  width: 120px;
-  /* 去掉或改成 flex-start */
-  /* align-self: center; */
-
-  margin-top: 10px;
-  padding: 8px 12px;
-  font-size: 16px;
-  background-color: var(--vp-c-brand-3);
-  border: none;
-  border-radius: 6px;
-  color: #ffffff;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.submit-btn:hover:not(:disabled) {
-  background-color: var(--vp-c-brand-2);
-}
-
-.submit-btn:disabled {
-  background-color: var(--vp-c-brand-1);
-  cursor: not-allowed;
-}
-
 /* 输入框样式 */
 input[type="number"] {
-  width: 100px;
+  width: 100%;
+  max-width: 100px;
   padding: 5px;
   font-size: 1rem;
   border: 1px solid var(--vp-c-brand-3);
   border-radius: 6px;
   text-align: center;
-}
-
-.width-input {
-  margin-left: 50px;
-}
-
-/* checkbox样式 */
-
-/* 父容器可根据需要布局 */
-.checkbox-row {
-  display: flex;
-  align-items: center;
-  gap: 10px; 
-}
-
-/* 隐藏原生checkbox，但保留可访问性 */
-.custom-checkbox {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-}
-
-/* 伪元素或额外span实现视觉外观 */
-.checkbox-label {
-  position: relative;
-  padding-left: 30px;  /* 给“框”和文字之间留位置 */
-  cursor: pointer;     /* 鼠标变小手 */
-  user-select: none;   /* 防止选中文字 */
-}
-
-/* 用一个 span 来画“方框” */
-.checkmark {
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  height: 18px;
-  width: 18px;
-  background-color: var(--vp-c-bg);
-  border: 2px solid var(--vp-c-brand-3);
-  border-radius: 4px;  /* 如果想要圆角的方框 */
-  box-sizing: border-box;
-  transition: all 0.2s ease;
-  margin-left: 25px;
-}
-
-/* 当checkbox被选中时 .checkmark 改变外观 */
-.custom-checkbox:checked + .checkmark {
-  background-color: var(--vp-c-brand-3); /* 选中后，框内填充色 */
-  border-color: var(--vp-c-brand-3);     /* 边框变为同样的色 */
-}
-
-/* 画对勾：可以用伪元素，也可用background图标，这里举伪元素示例 */
-.checkmark::after {
-  content: "";
-  position: absolute;
-  display: none;   /* 默认隐藏 */
-  left: 6px;
-  top: 3px;
-  width: 4px;
-  height: 8px;
-  border: solid #fff;
-  border-width: 0 2px 2px 0;
-  transform: rotate(45deg);
-}
-
-/* 当checkbox被选中后，显示对勾 */
-.custom-checkbox:checked + .checkmark::after {
-  display: block;
 }
 
 /* 加载中样式：转圈圈 */
@@ -340,6 +243,14 @@ input[type="number"] {
   flex-direction: column;
   align-items: center;
   margin: 20px 0;
+}
+
+/* 分隔线 */
+.custom-hr {
+  border: none; /* 移除默认边框 */
+  height: 2px; /* 设置高度 */
+  background-color: #ccc; /* 设置颜色 */
+  margin: 20px 0; /* 设置上下外边距 */
 }
 
 .spinner {
@@ -389,5 +300,151 @@ input[type="number"] {
 .fade-enter-from,
 .fade-leave-to {
   opacity: 0;
+}
+
+/* 自定义复选框样式 */
+.custom-checkbox {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* 复选框行 */
+.checkbox-row {
+  flex: 1 1 100%; /* 让复选框行占据整行 */
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* 左右对齐 */
+}
+
+/* 左侧的标签文字 */
+.checkbox-text {
+  font-size: 1rem;
+  color: var(--vp-c-brand-3);
+  flex: 0 0 auto;
+}
+
+/* 伪元素或额外span实现视觉外观 */
+.checkbox-label {
+  position: relative;
+  cursor: pointer;     /* 鼠标变小手 */
+  user-select: none;   /* 防止选中文字 */
+  display: flex;
+  align-items: center;
+}
+
+/* 用一个 span 来画“方框” */
+.checkmark {
+  position: relative;
+  left: 0;
+  top: 50%;
+  transform: translateY(0%);
+  height: 18px;
+  width: 18px;
+  background-color: var(--vp-c-bg);
+  border: 1px solid var(--vp-c-brand-3);
+  border-radius: 4px;  /* 如果想要圆角的方框 */
+  box-sizing: border-box;
+  transition: all 0.2s ease;
+  margin-left: 10%;
+}
+
+/* 当checkbox被选中时 .checkmark 改变外观 */
+.custom-checkbox:checked + .checkmark {
+  background-color: var(--vp-c-brand-3); /* 选中后，框内填充色 */
+  border-color: var(--vp-c-brand-3);     /* 边框变为同样的色 */
+}
+
+/* 画对勾：可以用伪元素，也可用background图标，这里举伪元素示例 */
+.checkmark::after {
+  content: "";
+  position: absolute;
+  display: none;   /* 默认隐藏 */
+  left: 6px;
+  top: 3px;
+  width: 4px;
+  height: 8px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+/* 当checkbox被选中后，显示对勾 */
+.custom-checkbox:checked + .checkmark::after {
+  display: block;
+}
+
+/* 生成字符画按钮 */
+.submit-btn {
+  width: 100%; /* 让按钮在小屏幕上占满整行 */
+  max-width: 100px; /* 设置最大宽度 */
+  margin-right: auto; /* 靠右对齐并添加上边距 */
+  padding: 8px 8px;
+  font-size: 16px;
+  background-color: var(--vp-c-brand-3);
+  border: none;
+  border-radius: 6px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 按钮悬停效果 */
+.submit-btn:hover:not(:disabled) {
+  background-color: var(--vp-c-brand-2);
+}
+
+/* 按钮禁用状态 */
+.submit-btn:disabled {
+  background-color: var(--vp-c-brand-1);
+  cursor: not-allowed;
+}
+
+/* 媒体查询：针对小屏幕优化 */
+@media (max-width: 480px) {
+  .image-to-ascii {
+    padding: 10px;
+  }
+
+  .form-row {
+    gap: 8px;
+    justify-content: space-between; /* 确保在小屏幕下也左右对齐 */
+  }
+
+  .submit-btn {
+    max-width: 100%;
+    max-width: 100px;
+    font-size: 16px;
+    padding: 8px 8px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .file-name {
+    font-size: 0.9rem;
+    margin-left: auto; /* 确保在小屏幕下也靠右 */
+  }
+
+  .checkbox-label {
+    padding-left: 25px;
+  }
+
+  .checkmark {
+    height: 16px;
+    width: 16px;
+  }
+
+  .checkmark::after {
+    left: 5px;
+    top: 2px;
+    width: 3px;
+    height: 6px;
+  }
 }
 </style>
