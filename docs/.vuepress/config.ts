@@ -1,6 +1,7 @@
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defineUserConfig } from 'vuepress'
 import customTheme from './theme'; // 引入自定义vuepress-theme-plume主题，以后就要从此处编辑主题了
+import path from 'path';
 
 export default defineUserConfig({
   base: '/',
@@ -33,10 +34,12 @@ export default defineUserConfig({
       comment: {
         provider: 'Giscus',
         comment: true,
-        repo: 'unerge/vuepress-starter',
+        repo: 'wenturc/vuepress-starter',
         repoId: 'R_kgDOM13P7A',
         category: 'Ideas',
         categoryId: 'DIC_kwDOM13P7M4Cj96G',
+        darkTheme: 'dark_protanopia',
+        lightTheme: 'light_protanopia',
       }
     },
 
@@ -47,6 +50,7 @@ export default defineUserConfig({
             collapsed: false, // VuePress 2.x 中的 `collapsable` 替换为 `collapsed`
             items: [
               '/beta/',  // README.md 对应路径
+              '/beta/1.md',
             ],
           },
         ],

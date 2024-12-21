@@ -1,7 +1,9 @@
 ---
 tags: [beta]
 prev: false
-next: false
+next: 
+    link: ./1.md
+    text: 字符画图片生成器
 created: '2024-06-11'
 title: '2024-06-11T14:41_欧拉公式'
 ---
